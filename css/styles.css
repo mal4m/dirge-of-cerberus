@@ -1,0 +1,294 @@
+@font-face {
+  font-family: "fell";
+  src: url("fell-400-normal.woff") format('woff');
+}
+@font-face {
+  font-family: "charter";
+  src: url("charter-400-normal.woff") format('woff');
+}
+@font-face {
+  font-family: "charter";
+  src: url("charter-700-normal.woff") format('woff');
+  font-weight: bold;
+}
+@font-face {
+  font-family: "sohne";
+  src: url("sohne-400-normal.woff") format('woff');
+}
+@font-face {
+  font-family: "sohne";
+  src: url("sohne-700-normal.woff") format('woff');
+  font-weight: bold;
+}
+body{
+  background-color: #f8f9fa;
+  font-family: "charter", Georgia, Cambria, "Times New Roman", Times, serif;
+  font-size: 21px;
+  line-height: 32px;
+  letter-spacing: -0.003em;
+  font-weight: 400;
+}
+p{
+  font-family: "sohne", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: justify;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0em;
+  color: rgb(41, 41, 41);
+}
+/*#dialog {
+  display: block;
+  background-color: #f8f9fa;
+  padding: 5px 70px;
+  font-weight: 400;
+  color: #343a40;
+  border-bottom: 1px solid #dee2e6;
+  border-top: none;
+} */
+#header{
+  font-family: fell, Georgia, Cambria, "Times New Roman", Times, serif;
+  font-size: 30px;
+  font-style: normal;
+  color: white;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  line-height: .5em;
+  width: auto;
+  background: linear-gradient(90deg, rgba(102, 7, 8, 1) 10%, rgba(102, 7, 8, .8) 100%);
+  padding: 20px;
+  margin-top: 0em;
+  margin-bottom: 1em;
+  position: sticky;
+  top: 0;
+}
+hr {
+color: white;
+}
+h2{
+    margin-top: 3em;
+    margin-left: 40px;
+}
+h3{
+  font-family: "charter", Georgia, Cambria, "Times New Roman", Times, serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .03em;
+  display: block;
+  background-color: #f8f9fa;
+  margin-bottom: -0.5em;
+  margin-top: 30px;
+  padding-left: 30px;
+  border-top: 1px solid #dee2e6;
+}
+/* h4{
+  font-family: "charter", Georgia, Cambria, "Times New Roman", Times, serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .03em;
+  display: block;
+  background-color: #f8f9fa;
+  margin-bottom: -0.5em;
+  margin-top: 30px;
+  padding-left: 30px;
+  border-top: 1px solid #dee2e6;
+  border-bottom: none;
+} */
+h4::before {
+  counter-increment: custom-counter+1;
+  content: counter(custom-counter)"";
+  position: absolute;
+  display: inline-block;
+  width: 2em;
+  color: #ced4da;
+  font-size: 12px;
+  font-family: DejaVu Sans Mono, monospace;
+  font-weight: 400;
+  font-style: normal;
+  text-align: right;
+  margin-right: 10px;
+  margin-left: -60px;
+  vertical-align: top;
+
+}
+ul li{
+  list-style-type: square;
+  margin-bottom: 10px;
+  margin-left: 50px;
+}
+
+.footer {
+  font-family: "sohne", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  display: block;
+  width: auto;
+  margin-top: -100px;
+  width: 100%;
+  color: #adb5bd;
+  text-align: center;
+}
+.imgpad{
+  padding: 10px 10px 10px;
+}
+.content {
+  counter-reset: custom-counter;
+}
+#page {
+    width: 900px;
+    margin: auto;
+}
+#chapter-container {
+  background-color: #fff;
+  border-bottom: .4em solid #6c757d;
+  margin: auto;
+  margin-bottom: 5em;
+  margin-top: 0em;
+  width: 800px;
+  border-radius: 5px;
+  outline-width: 1px;
+  outline-style: solid;
+  outline-color: #dee2e6;
+
+}
+#nar {
+  display: block;
+  background-color: #fff;
+  padding: 5px 10px;
+  font-family: "charter", Georgia, Cambria, "Times New Roman", Times, serif;
+  font-weight: 500;
+  font-style: italic;
+  color: #343a40;
+  margin-left: 70px;
+  margin-right: 70px;
+  border: 0px solid #dee2e6;
+
+}
+#basic {
+  display: block;
+  background-color: #fff;
+  padding: 5px 10px;
+  font-family: "charter", Georgia, Cambria, "Times New Roman", Times, serif;
+  font-weight: 500;
+  font-style: normal;
+  color: #343a40;
+  margin-left: 40px;
+  margin-right: 40px;
+  outline-width: 0px;
+  border: 0px solid #dee2e6;
+
+}
+#report {
+  display: block;
+  background: linear-gradient(0deg, #561010 10%, rgba(20, 23, 26, 1) 100%);
+  padding: 15px 15px;
+  font-family: "sohne", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  letter-spacing: normal;
+  text-shadow: 1px 2px 0 #000;
+  line-height: 25px;
+  text-align: justify;
+  color: white;
+  margin: 1.5em 70px;
+  outline-width: 1px;
+  outline-style: solid;
+  outline-color: #ced4da;
+  border-radius: 3px;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+#reporthead {
+  background-color: white;
+  border: none;
+}
+div.speech {
+  width: auto;
+  background-color: #f8f9fa;
+  border-top: 1px solid #dee2e6;
+  border-bottom: 1px solid #dee2e6;
+  padding: 0px;
+  margin: 30px 0px;
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: 150px;
+}
+h4 {
+  font-family: "charter", Georgia, Cambria, "Times New Roman", Times, serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .03em;
+  margin: 0px 30px;
+  margin-bottom: -0.5em;
+}
+#dialog {
+  display: block;
+  padding: 5px 70px;
+  font-weight: 400;
+  color: #343a40;
+  margin-bottom: 0;
+}
+div.yuffie {
+  color: #588157;
+  background-image: url("art/yuffie.jpg");
+}
+div.vincent {
+  color: #b72423;
+  background-image: url("art/vincent.jpg");
+}
+div.lucrecia {
+  color: #660348;
+  background-image: url("art/lucrecia.jpg");
+}
+div.azul {
+  color: #5e60ce;
+  background-image: url("art/azul.jpg");
+}
+div.shelke {
+  color: #014f86;
+  background-image: url("art/shelke.jpg");
+}
+div.reeve {
+  color: #065a60;
+  background-image: url("art/reeve.jpg");
+}
+div.cait {
+  color: #006466;
+  background-image: url("art/cait.jpg");
+}
+div.rosso {
+  color: #800f2f;
+  background-image: url("art/rosso.jpg");
+}
+div.shalua {
+  color: #f3722c;
+    background-image: url("art/shalua.jpg");
+}
+div.nero {
+  color: #161a1d;
+  background-image: url("art/nero.jpg");
+}
+div.weiss {
+  color: #0077b6;
+  background-image: url("art/weiss.jpg");
+}
+div.wro {
+    background-image: url("art/wro.jpg");
+}
+div.hojo {
+    background-image: url("art/hojo.jpg");
+}
+div.cid {
+    background-image: url("art/cid.jpg");
+}
+div.cloud {
+    background-image: url("art/cloud.jpg");
+}
+div.tifa {
+    background-image: url("art/tifa.jpg");
+}
+div.barret {
+    background-image: url("art/barret.jpg");
+}
+div.gen {
+    color: #0077b6;
+    background-image: url("art/genesis.jpg");
+}
