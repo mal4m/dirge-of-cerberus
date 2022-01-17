@@ -1,0 +1,422 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Dirge of Cerberus - Script</title>
+  <meta name="description" content="Dirge of Cerberus - Script">
+  <meta name="author" content="SitePoint">
+  <meta property="og:title" content="Dirge of Cerberus - Script">
+  <meta property="og:type" content="website">
+  <meta property="og:description" content="Dirge of Cerberus - Script">
+  <meta property="og:image" content="image.png">
+  <link rel="icon" href="/favicon.ico">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
+</head>
+<body>
+  <script>
+  $(document).ready(function() {
+  		$('a[href*=#]').bind('click', function(e) {
+  				e.preventDefault(); // prevent hard jump, the default behavior
+
+  				var target = $(this).attr("href"); // Set the target as variable
+
+  				// perform animated scrolling by getting top-position of target-element and set it as scroll target
+  				$('html, body').stop().animate({
+  						scrollTop: $(target).offset().top
+  				}, 600, function() {
+  						location.hash = target; //attach the hash (#jumptarget) to the pageurl
+  				});
+
+  				return false;
+  		});
+  });
+
+  $(window).scroll(function() {
+  		var scrollDistance = $(window).scrollTop();
+
+  		// Show/hide menu on scroll
+  		//if (scrollDistance >= 850) {
+  		//		$('nav').fadeIn("fast");
+  		//} else {
+  		//		$('nav').fadeOut("fast");
+  		//}
+
+  		// Assign active class to nav links while scolling
+  		$('.page-section').each(function(i) {
+  				if ($(this).position().top <= scrollDistance) {
+  						$('.navigation a.active').removeClass('active');
+  						$('.navigation a').eq(i).addClass('active');
+  				}
+  		});
+  }).scroll();
+  </script>
+<div class="nav">
+    <a href="index.html">Prologue</a>
+    <a href="01.html">Chapter 1</a>
+    <a href="02.html">Chapter 2</a>
+    <a href="03.html">Chapter 3</a>
+    <a href="04.html">Chapter 4</a>
+    <a href="05.html">Chapter 5</a>
+    <a href="06.html">Chapter 6</a>
+    <a href="07.html">Chapter 7</a>
+    <a href="08.html">Chapter 8</a>
+    <a href="09.html">Chapter 9</a>
+    <a href="10.html">Chapter 10</a>
+    <a href="11.html">Chapter 11</a>
+    <a href="12.html">Chapter 12</a>
+    <a href="reports.html">Reports</a>
+  </div>
+  <div class= "target" id="prologue" style="margin-top: -100px; padding-top:100px;"></div>
+<div class="page" id="">
+
+<!-- Chapter 11 -->
+<div class= "target" id="11" style="margin-top: -100px; padding-top:100px;"></div>
+<div class="chapter-container content">
+    <div class="header"><h1>Chapter 11: Beginnings</h1></div>
+    <p class="nar">Vincent makes his way closer to the reactor; another group of Gargoyles attack him. As he continues on, it becomes increasingly apparent that Vincent is in the same area that Cait Sith originally ventured into many chapters ago.</p>
+    <p class="nar">Vincent eventually gets to the bridge leading into the reactor. Before he can enter, though... a helicopter comes into view, with numerous Gargoyles sitting on it. Boss fight vs. Dragonfly PT. Easily defeated, like always.</p>
+    <p class="nar">Vincent walks makes his way through the reactor. He walks into one room, and...</p>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">Yuffie.</div>
+    <p class="nar">Yuffie jumps down from above.</p>
+    <div class="speech yuffie"><h4>Yuffie:</h4><p id="dialog">You don't look too roughed up.</div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">Neither do you.</div>
+    <p class="nar">They both look ahead.</p>
+    <div class="speech yuffie"><h4>Yuffie:</h4><p id="dialog">In there, huh?</div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">Yeah. Come on.</div>
+    <p class="nar">Vincent leads the way; Yuffie follows. They arrive at the centre of the reactor, and they both gasp.</p>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">This is Weiss?</div>
+    <p class="nar">Weiss is sitting on a throne amidst a sea of energy. He's slouched over.</p>
+    <div class="speech yuffie"><h4>Yuffie:</h4><p id="dialog">It's--he's--it's dead?</div>
+    <div class="speech nero"><h4>Nero:</h4><p id="dialog">But not for long.</div>
+    <p class="nar">Nero approaches them from the rear.</p>
+    <div class="speech yuffie"><h4>Yuffie:</h4><p id="dialog">Not for long?</div>
+    <div class="speech nero"><h4>Nero:</h4><p id="dialog">A new life breathes inside him. Just as one does in you, Valentine.</div>
+    <p class="nar">Yuffie goes "Huh?"; Vincent looks at Weiss, then back at Nero.</p>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">That's what you're doing.</div>
+    <div class="speech yuffie"><h4>Yuffie:</h4><p id="dialog">What's he doing? What's he doing? What's going on? I don't get it.</div>
+    <div class="speech nero"><h4>Nero:</h4><p id="dialog">Soon, my dear brother will awaken.</div>
+    <div class="speech nero"><h4>Nero:</h4><p id="dialog">It seems like an eternity since I was granted the knowledge of rebirth.</div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">Granted?</div>
+    <div class="speech yuffie"><h4>Yuffie:</h4><p id="dialog">By who?</div>
+    <p class="nar">Nero looks straight ahead; the ground begins to shake, as the energy around Weiss becomes brighter, more intense.</p>
+    <div style="text-align: center"><img src="http://www.ffwa.eu/ff7/images/script-shots/63.jpg" alt="" border="0" height="177" width="250" class="imgpad"><img src="http://www.ffwa.eu/ff7/images/script-shots/64.jpg" alt="" border="0" height="177" width="250" class="imgpad"></div>
+    <p class="nar">We see that, outside the reactor, the pool of mako energy is also becoming brighter. Back inside with the trio...</p>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">What!?</div>
+    <div class="speech yuffie"><h4>Yuffie:</h4><p id="dialog">Omega!?</div>
+    <p class="nar">Yuffie raises her shuriken, and Vincent his gun, both aiming at Weiss... and turning their backs to Nero.</p>
+    <div class="speech nero"><h4>Nero:</h4><p id="dialog">Stay away from my brother!</div>
+    <p class="nar">Fires a beam of darkness that envelops the duo. Yuffie floats around in it for a moment, then grabs her head and screams.</p>
+    <div class="speech yuffie"><h4>Yuffie:</h4><p id="dialog">No!</div>
+    <div style="text-align: center"><img src="http://www.ffwa.eu/ff7/images/script-shots/65.jpg" alt="" border="0" height="177" width="250" class="imgpad"></div>
+    <p class="nar">A light shines in the darkness, and out comes Vincent! He grabs her, and jumps out of the darkness, back into the reactor - the room before the one where they encountered Weiss.</p>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">You alright?</div>
+    <div class="speech yuffie"><h4>Yuffie:</h4><p id="dialog">What the heck was that?</div>
+    <p class="nar">The darkness vanishes, and Nero is standing there.</p>
+    <div class="speech nero"><h4>Nero:</h4><p id="dialog">Oblivion perhaps. My darkness-- it can absorb as well as extract almost anything.</div>
+    <div class="speech nero"><h4>Nero:</h4><p id="dialog">However, some things remain--things as black as the heart of a daemon.</div>
+    <div class="speech nero"><h4>Nero:</h4><p id="dialog">The essence of death. Its ululations are like a lullaby.</div>
+    <div class="speech yuffie"><h4>Yuffie:</h4><p id="dialog">How can you...</div>
+    <p class="nar">Vincent turns around to face Nero.</p>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">Yuffie, stay here.</div>
+    <div class="speech nero"><h4>Nero:</h4><p id="dialog">Ah yes, you were invulnerable to the darkness.</div>
+    <p class="nar">Nero stretches out his arms; the entire room plunges into darkness.</p>
+    <div class="speech nero"><h4>Nero:</h4><p id="dialog">No one will take my brother away from me again.</div>
+    <div style="text-align: center"><img src="http://www.ffwa.eu/ff7/images/script-shots/66.jpg" alt="" border="0" height="177" width="250" class="imgpad"><img src="http://www.ffwa.eu/ff7/images/script-shots/67.jpg" alt="" border="0" height="177" width="250" class="imgpad"></div>
+    <p class="nar">Vincent is transported to some bizarre realm, for a boss battle vs. Arachnero (Nero's adopted the form of a spider, kind of.) At the end of the battle, he plunges into a swirling lava pit below.... a stream of darkness shoots out, and Nero is back in his regular human form. Boss battle vs. Gorgonero; he gets defeated again.</p>
+    <p class="nar">We're back in the room in the reactor. Nero clutches his stomach with one hand, and stumbles down the hallway to the room with Weiss.</p>
+    <div class="speech nero"><h4>Nero:</h4><p id="dialog">Weiss.</div>
+    <p class="nar">Vincent follows him down the hallway; upon re-entering the room Weiss was in, he is now standing!</p>
+    <div class="speech nero"><h4>Nero:</h4><p id="dialog">Weiss. My beloved brother. It is time.</div>
+    <p class="nar">Weiss stands around for a moment, then laughs heartily.</p>
+    <div class="speech nero"><h4>Nero:</h4><p id="dialog">Together at last. I won't leave you again. Never... Weiss...</div>
+    <div style="text-align: center"><img src="http://www.ffwa.eu/ff7/images/script-shots/68.jpg" alt="" border="0" height="177" width="250" class="imgpad"><img src="http://www.ffwa.eu/ff7/images/script-shots/69.jpg" alt="" border="0" height="177" width="250" class="imgpad"></div>
+    <p class="nar">Weiss looks at him, and then jabs his hand through Nero's stomach!</p>
+    <div class="speech nero"><h4>Nero:</h4><p id="dialog">Weiss?</div>
+    <div class="speech weiss"><h4>Weiss:</h4><p id="dialog">I'm finished with you.</div>
+    <p class="nar">Weiss launches him across the room; he lands near where Vincent's standing; Weiss laughs again, and jumps forward; Vincent begins firing at him, but they bounce right off Weiss' body.</p>
+    <div class="speech weiss"><h4>Weiss:</h4><p id="dialog">Your weapons are useless.</div>
+    <div class="speech weiss"><h4>Weiss:</h4><p id="dialog">My body is one with Omega. Just as yours is with Chaos.</div>
+    <div class="speech weiss"><h4>Weiss:</h4><p id="dialog">The difference being, Chaos is nothing more than a pawn whereas Omega is the ultimate Weapon that will lead this planet's soul to the stars.</div>
+    <div class="speech weiss"><h4>Weiss:</h4><p id="dialog">There is nothing that can destroy me. Nothing.</div>
+    <p class="nar">He laughs... not as much as before though.</p>
+    <div class="speech weiss"><h4>Weiss:</h4><p id="dialog">Vincent Valentine. And so we meet again.</div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">What?</div>
+    <div class="speech weiss"><h4>Weiss:</h4><p id="dialog">Still in the dark?</div>
+    <div class="speech weiss"><h4>Weiss:</h4><p id="dialog">Three years ago, while I was still running about looking for Sephiroth, I took it upon myself to distribute my data-- <em>[points to his head]</em> my mind, my knowledge, my inner being, across the worldwide network.</div>
+    <div class="speech weiss"><h4>Weiss:</h4><p id="dialog">And even though my body had died, and the world had been left in ruin, I survived in a virtual reality.</div>
+    <div class="speech weiss"><h4>Weiss:</h4><p id="dialog">When the network was restored, the scattered data regrouped and I was reborn.</div>
+    <div class="speech weiss"><h4>Weiss:</h4><p id="dialog">A neo-Reunion, you could say.</div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">You...</div>
+    <p class="nar">Weiss laughs, but his voice begins to morph to someone else's entirely.</p>
+    <div class="speech weiss"><h4>Weiss:</h4><p id="dialog">That's right, boy. It's me.</div>
+    <div class="speech weiss"><h4>Weiss:</h4><p id="dialog">Hojo!</div>
+    <p class="nar">An image of Hojo appears beside Weiss, moving as he does. We hear Weiss and Hojo speaking in unison.</p>
+    <div class="speech weiss"><h4>Weiss:</h4><p id="dialog">I'm sorry. I'm sorry. Let us do this right.</div>
+    <div class="speech weiss"><h4>Weiss:</h4><p id="dialog">Hello, Vincent. How long has it been? Three years?</div>
+    <div class="speech hojo"><h4>Hojo:</h4><p id="dialog">You know, when I first read it, I thought that woman's thesis was utter nonsense.</div>
+    <div class="speech hojo"><h4>Hojo:</h4><p id="dialog">I couldn't believe some fabled beast from legend past had anything to do with your survival.</div>
+    <div class="speech hojo"><h4>Hojo:</h4><p id="dialog">However, three years ago when you transformed into Chaos right before my eyes, I must say I was shocked.</div>
+    <div class="speech hojo"><h4>Hojo:</h4><p id="dialog">Who would have thought her theory was actually valid?</div>
+    <div class="speech hojo"><h4>Hojo:</h4><p id="dialog">And so I began thinking. If Chaos exists, then so too must Omega.</div>
+    <div class="speech hojo"><h4>Hojo:</h4><p id="dialog">And if you could become one, then maybe I could become the other to traverse the cosmos in a blaze of glory!</div>
+    <div class="speech hojo"><h4>Hojo:</h4><p id="dialog">It was the chance of a lifetime.</div>
+    <div class="speech hojo"><h4>Hojo:</h4><p id="dialog">But there was a problem. Only a strong shell could hold back Omega's might.</div>
+    <div class="speech hojo"><h4>Hojo:</h4><p id="dialog">And it could not be just anyone.</div>
+    <div class="speech hojo"><h4>Hojo:</h4><p id="dialog">You see boy, the reason you were able to play such a perfect host for Chaos was because my experiments had endowed you with a nearly indestructible body.</div>
+    <div class="speech hojo"><h4>Hojo:</h4><p id="dialog">Thanks to me, you are standing here today.</div>
+    <div style="text-align: center"><img src="http://www.ffwa.eu/ff7/images/script-shots/70.jpg" alt="" border="0" height="177" width="250" class="imgpad"></div>
+    <p class="nar">Hojo laughs.</p>
+    <div class="speech hojo"><h4>Hojo:</h4><p id="dialog">Now, where was I?</div>
+    <div class="speech hojo"><h4>Hojo:</h4><p id="dialog">I attempted to perfect my body for Omega by injecting myself with Jenova's cells. However, that didn't go as I had planned.</div>
+    <div class="speech hojo"><h4>Hojo:</h4><p id="dialog">I failed to consider the fact that the cells might try to take over my mind and eat away at my soul.</div>
+    <div class="speech hojo"><h4>Hojo:</h4><p id="dialog">And so, as a safety measure, I came up with a brilliant plan to transmit my neurodata across the worldwide network.</div>
+    <div class="speech hojo"><h4>Hojo:</h4><p id="dialog">However, after completing this, I realized I still required a durable body. And that's when I remembered Deepground--home to the most powerful beings on this planet.</div>
+    <div class="speech hojo"><h4>Hojo:</h4><p id="dialog">I even found a willing assistant in the lad Nero here to help carry out my so-called rebirth.</div>
+    <p class="nar">We see Nero's lying on the ground, dead.</p>
+    <div class="speech hojo"><h4>Hojo:</h4><p id="dialog">Though never did he expect I would take control of his "beloved" brother's mind.</div>
+    <p class="nar">Hojo superimposes his image onto Weiss' body, and emits another maniacal laugh.</p>
+    <div class="speech hojo"><h4>Hojo:</h4><p id="dialog">And thus, with a new body, I began my final experiment.</div>
+    <div class="speech hojo"><h4>Hojo:</h4><p id="dialog">If the Chaos within you was born of a tainted Lifestream, then the almighty Omega would be born of a pure one.</div>
+    <p class="nar">The camera cuts out to the pool of mako below the reactor.</p>
+    <div class="speech hojo"><h4>Hojo:</h4><p id="dialog">So I had my minions gather up the "uncontaminated" to create a stream of refined mako, thus awakening Omega inside me.</div>
+    <div class="speech hojo"><h4>Hojo:</h4><p id="dialog">Genius, I tell you. Pure genius. Pure genius.</div>
+    <p class="nar">Back inside the reactor.</p>
+    <div class="speech hojo"><h4>Hojo:</h4><p id="dialog">Only a scientist of my caliber is worthy to become one with Omega and leave this planet for the stars!</div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">Hojo, I've heard enough.</div>
+    <p class="nar">Vincent points his gun at him and fires; the image of Hojo disappears; we see 3 bullets fired from Cerberus approaching Weiss; he pulls out his two swords which had been strapped to his back, and deflects them away. Vincent continues to fire and Weiss deflects some more. When Vincent goes to reload his gun, Weiss lowers one sword - there's a gun barrel on the inside edge of the sword, which he fires a bullet at Vincent, who dodges out of the way. Eventually he gets close enough to Vincent and kicks him down.</p>
+    <div style="text-align: center"><img src="http://www.ffwa.eu/ff7/images/script-shots/71.jpg" alt="" border="0" height="177" width="250" class="imgpad"><img src="http://www.ffwa.eu/ff7/images/script-shots/72.jpg" alt="" border="0" height="177" width="250" class="imgpad"></div>
+    <div class="speech hojo"><h4>Hojo:</h4><p id="dialog">You're getting old, Vincent Valentine.</div>
+    <p class="nar">Hojo/Weiss laugh.</p>
+    <div class="speech hojo"><h4>Hojo:</h4><p id="dialog">You just can't leave me alone, can you? Now, sit right there. I want you to see this.</div>
+    <p class="nar">Weiss turns around.</p>
+    <div class="speech weiss"><h4>Weiss:</h4><p id="dialog">And once I have absorbed the Lifestream...</div>
+    <p class="nar">The mako energy glows.</p>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">Wait.</div>
+    <p class="nar">Vincent stands up.</p>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">This isn't over.</div>
+    <div class="speech hojo"><h4>Hojo:</h4><p id="dialog">So eager to die, are we?</div>
+    <div class="speech hojo"><h4>Hojo:</h4><p id="dialog">Very well. I wanted to test out this body before I began my journey, anyway.</div>
+    <p class="nar">Boss battle vs. Weiss the Immaculate. Unlike all the bosses before this, Vincent gets his ASS KICKED. We next see Weiss standing over Vincent's body.</p>
+    <div class="speech weiss"><h4>Weiss:</h4><p id="dialog">That wasn't much of a test.</div>
+    <p class="nar">Vincent begins to glow.</p>
+    <div class="speech weiss"><h4>Weiss:</h4><p id="dialog">Chaos.</div>
+    <p class="nar">Vincent jumps forward; Weiss, standing perfectly still, punches him & sends him flying back.</p>
+    <div class="speech weiss"><h4>Weiss:</h4><p id="dialog">You already tried that, Vincent.</div>
+    <p class="nar">Camera cuts to Shelke inside her regenerative tube.</p>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">Vincent.</div>
+    <p class="nar">Back in the reactor, Vincent is on the ground, glowing sporadically. He stands up. Vincent and Weiss look at him; an image of Lucrecia also appears near Vincent; Shelke speaks through her, but we also hear Lucrecia's voice overlapping.</p>
+    <div style="text-align: center"><img src="http://www.ffwa.eu/ff7/images/script-shots/73.jpg" alt="" border="0" height="177" width="250" class="imgpad"></div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">Vincent. You cannot defeat this enemy by simply trying to overpower him.</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">Take control. Don't let Chaos rule you.</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">You must rule Chaos.</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">You can do it!</div>
+    <div class="speech hojo"><h4>Hojo:</h4><p id="dialog">Enough of this charade!</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">Please, Vincent.</div>
+    <p class="nar">She disappears.</p>
+    <div class="speech hojo"><h4>Hojo:</h4><p id="dialog">It looks like our Dr. Crescent has a friend.</div>
+    <div class="speech hojo"><h4>Hojo:</h4><p id="dialog">But she won't help you now, Vincent Valentine.</div>
+    <p class="nar">Weiss fires an energy beam at Vincent; he deflects it with his hand, and begins to glow red. Hojo is shocked.</p>
+    <div class="speech hojo"><h4>Hojo:</h4><p id="dialog">Why you!</div>
+    <p class="nar">A demi-sphere of energy appears around Vincent and Weiss/Hojo.</p>
+    <div class="speech hojo"><h4>Hojo:</h4><p id="dialog">Utilizing the Protomateria to draw forth Chaos while maintaining your human form!?</div>
+    <div style="text-align: center"><img src="http://www.ffwa.eu/ff7/images/script-shots/74.jpg" alt="" border="0" height="177" width="250" class="imgpad"><img src="http://www.ffwa.eu/ff7/images/script-shots/75.jpg" alt="" border="0" height="177" width="250" class="imgpad"></div>
+    <p class="nar">Weiss runs forward, the barrier is gone.</p>
+    <div class="speech weiss"><h4>Weiss:</h4><p id="dialog">Interesting. Let's see what you are capable of.</div>
+    <p class="nar">Weiss attempts to slash & stab Vincent repeatedly, who gracefully dodges all his blows, while continuing to glow red. Eventually Vincent jumps backwards.</p>
+    <div class="speech weiss"><h4>Weiss:</h4><p id="dialog">But even with the power of Chaos, you won't be able to stop me--stop Omega.</div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">Hojo.</div>
+    <p class="nar">Hojo goes "Huh?"</p>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">I said I've heard enough.</div>
+    <div class="speech hojo"><h4>Hojo:</h4><p id="dialog">What!?</div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">It's time to end this. Right here. Right now.</div>
+    <div class="speech hojo"><h4>Hojo:</h4><p id="dialog">You insignificant fool!</div>
+    <p class="nar">Boss battle vs. Weiss Empowered. This time it's for real - and this time, Vincent wins. Weiss is sent flying into a wall. Weiss is easy unconscious or dead; Hojo's image appears.</p>
+    <div class="speech hojo"><h4>Hojo:</h4><p id="dialog">Why!? Why is Omega's power fading? Why?</div>
+    Voice: Weiss.
+    <div class="speech hojo"><h4>Hojo:</h4><p id="dialog">What is going on?</div>
+    <p class="nar">Nero ascends from a hole of darkness in the ground. He's got more darkness floating around him than before.</p>
+    <div class="speech nero"><h4>Nero:</h4><p id="dialog">Weiss.</div>
+    <div class="speech hojo"><h4>Hojo:</h4><p id="dialog">Impossible!</div>
+    <p class="nar">We're shown a clip of Weiss/Hojo killing Nero - or so we thought.</p>
+    <div class="speech hojo"><h4>Hojo:</h4><p id="dialog">Get out of me!</div>
+    <div class="speech hojo"><h4>Hojo:</h4><p id="dialog">Omega's host must be pure!</div>
+    <div class="speech hojo"><h4>Hojo:</h4><p id="dialog">Why do you think I had you create mako untainted by Jenova!?</div>
+    <div class="speech hojo"><h4>Hojo:</h4><p id="dialog">If a filthy being like you infected it...</div>
+    <div class="speech nero"><h4>Nero:</h4><p id="dialog">Silence.</div>
+    <div class="speech hojo"><h4>Hojo:</h4><p id="dialog">What?</div>
+    <div class="speech nero"><h4>Nero:</h4><p id="dialog">Silence! I'm speaking with my brother.</div>
+    <div class="speech hojo"><h4>Hojo:</h4><p id="dialog">You're what?</div>
+    <div class="speech nero"><h4>Nero:</h4><p id="dialog">Dear Weiss...</div>
+    <div class="speech weiss"><h4>Weiss:</h4><p id="dialog">Nero.</div>
+    <div class="speech hojo"><h4>Hojo:</h4><p id="dialog">No!</div>
+    <p class="nar">Nero crouches, and puts his hands on Weiss' shoulders.</p>
+    <div style="text-align: center"><img src="http://www.ffwa.eu/ff7/images/script-shots/76.jpg" alt="" border="0" height="177" width="250" class="imgpad"><img src="http://www.ffwa.eu/ff7/images/script-shots/77.jpg" alt="" border="0" height="177" width="250" class="imgpad"></div>
+    <div class="speech nero"><h4>Nero:</h4><p id="dialog">Let us become one. Let us come together, so that none may ever tear us apart.</div>
+    <p class="nar">Nero hugs him.</p>
+    <div class="speech weiss"><h4>Weiss:</h4><p id="dialog">Yes. Let us... Let us go join him.</div>
+    <div class="speech nero"><h4>Nero:</h4><p id="dialog">Weiss...</div>
+    <p class="nar">Nero begins to disappear.</p>
+    <div class="speech weiss"><h4>Weiss:</h4><p id="dialog">Nero...</div>
+    <div class="speech hojo"><h4>Hojo:</h4><p id="dialog">No! Stop it! You can't! This is my body now!</div>
+    <p class="nar">Hojo disappears; Weiss stands up and begins to walk towards his throne.</p>
+    <div class="speech hojo"><h4>Hojo:</h4><p id="dialog">No!</div>
+    <p class="nar">Vincent is just standing around.</p>
+    <div class="speech"><h4>Girl:</h4><p id="dialog">Vincent!</div>
+    <p class="nar">He turns around, in runs Yuffie.</p>
+    <div class="speech yuffie"><h4>Yuffie:</h4><p id="dialog">We did it!</div>
+    <p class="nar">The mako energy surrounding Weiss' altar blasts up; a stray blast heads towards Yuffie and Vincent; he pushes her out of the way, and it hits him.</p>
+    <div class="speech yuffie"><h4>Yuffie:</h4><p id="dialog">Vincent!</div>
+    <p class="nar">FMV: Outside Midgar, the war has lessened. Suddenly, the mako reactors spring to life. Far above Shinra Tower, three strands of mako energy coalesce, forming a large green ball. Eight smaller energy tentacles eject themselves from the ball, stabbing into the eight reactors. An object begins to form and take shape... it's Omega!</p>
+    <div style="text-align: center"><img src="http://www.ffwa.eu/ff7/images/script-shots/78.jpg" alt="" border="0" height="177" width="250" class="imgpad"><img src="http://www.ffwa.eu/ff7/images/script-shots/79.jpg" alt="" border="0" height="177" width="250" class="imgpad"></div>
+    <p class="nar">The strands  of energy are still attached to him. Inside his body, Vincent transforms to Chaos, and breaks through Omega, flying high into the air. He dives down to attack him, but is prevented from doing so by some sort of invisible energy forcefield.</p>
+    <div style="text-align: center"><img src="http://www.ffwa.eu/ff7/images/script-shots/80.jpg" alt="" border="0" height="177" width="250" class="imgpad"></div>
+    <p class="nar">Shelke is outside of her tube in the depths of the Deepground complex.</p>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">Omega has awoken.</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">And Chaos has been drawn out of the shadows to serve as a counterbalance.</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">Or so it would seem.</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">However...</div>
+    <p class="nar">Shelke walks over to a chair and sits in it. A machine above her moves into place.</p>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">In theory, the souls that exist inside Omega should act as a type of virtual network.</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">It wouldn't be impossible, but maybe I could...</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">Vincent, be grateful that I not only uploaded Lucrecia's thoughts, but her wishes and dreams as well.</div>
+    <p class="nar">Her eyes shines orange.</p>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">Uplink successful. Now commencing SND.</div>
+    <p class="nar">FMV: An image of Shelke appears in the air above Midgar, and dives into Omega. Strands of black energy hold her in place; she reaches forward.</p>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">Just a little more...</div>
+    <div style="text-align: center"><img src="http://www.ffwa.eu/ff7/images/script-shots/81.jpg" alt="" border="0" height="177" width="250" class="imgpad"><img src="http://www.ffwa.eu/ff7/images/script-shots/82.jpg" alt="" border="0" height="177" width="250" class="imgpad"></div>
+    <p class="nar">She stops struggling. In front of her is a woman robed in white; the bright glow prevents us from seeing who it is. The strands of black energy disappear.</p>
+    <div class="speech"><h4>Girl:</h4><p id="dialog">Here...[is holding a materia.</div>
+    <p class="nar">Back outside Omega now; a ball of energy bursts forth from the top of Omega's head. Black strands of energy reach it and attempt to hold it, but it breaks free. At the centre of the energy ball, we see Shelke; the energy reaches & goes through Chaos; except for Shelke, who pushes the materia into Chaos' chest.</p>
+    <div style="text-align: center"><img src="http://www.ffwa.eu/ff7/images/script-shots/83.jpg" alt="" border="0" height="177" width="250" class="imgpad"><img src="http://www.ffwa.eu/ff7/images/script-shots/84.jpg" alt="" border="0" height="177" width="250" class="imgpad"></div>
+    <div class="speech"><h4>Girl:</h4><p id="dialog">Take this...</div>
+    <div class="speech"><h4>Girl:</h4><p id="dialog">Vincent.</div>
+    <p class="nar">He sees her; Shelke now has the appearance of Lucrecia, looking absolutely stunning & robed in white; the black strand from Omega grabs her and pulls her back in, and the top of his head reforms itself. Chaos lets out a mighty roar.</p>
+    <div style="text-align: center"><img src="http://www.ffwa.eu/ff7/images/script-shots/85.jpg" alt="" border="0" height="177" width="250" class="imgpad"><img src="http://www.ffwa.eu/ff7/images/script-shots/86.jpg" alt="" border="0" height="177" width="250" class="imgpad"></div>
+    <p class="nar">Flashback. Vincent, as a Turk, is in the regenerative tube in Shinra Manor.</p>
+    <div class="speech lucrecia"><h4>Lucrecia:</h4><p id="dialog">No. It's still not enough. I have to hurry or the tissue will continue to decay.</div>
+    <p class="nar">Scene change; Hojo is now in the room.</p>
+    <div class="speech hojo"><h4>Hojo:</h4><p id="dialog">I see. Another experiment?</div>
+    <div class="speech hojo"><h4>Hojo:</h4><p id="dialog">You're using this fine specimen to...</div>
+    <div class="speech lucrecia"><h4>Lucrecia:</h4><p id="dialog">No!</div>
+    <div class="speech lucrecia"><h4>Lucrecia:</h4><p id="dialog">You're wrong! You're wrong! You're wrong!</div>
+    <div class="speech lucrecia"><h4>Lucrecia:</h4><p id="dialog">I...!</div>
+    <div class="speech lucrecia"><h4>Lucrecia:</h4><p id="dialog">Experiment?</div>
+    <p class="nar">Random words appear quickly on a black screen. The last phrase shown is "Never Again."</p>
+    <div style="text-align: center"><img src="http://www.ffwa.eu/ff7/images/script-shots/87.jpg" alt="" border="0" height="177" width="250" class="imgpad"></div>
+    <p class="nar">Another scene change. Hojo is standing over Vincent's body, holding a gun in his hand; Lucrecia walks into the room with her hand on her stomach. Hojo continues to laugh maniacally.</p>
+    <div class="speech lucrecia"><h4>Lucrecia:</h4><p id="dialog">Hojo. What have you...?</div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">Lucrecia.</div>
+    <p class="nar">He looks at Lucrecia; she puts her hands over her mouth. The screen goes black.</p>
+    <div class="speech lucrecia"><h4>Lucrecia:</h4><p id="dialog">You had his eyes.</div>
+    <div class="speech lucrecia"><h4>Lucrecia:</h4><p id="dialog">I didn't...</div>
+    <div class="speech lucrecia"><h4>Lucrecia:</h4><p id="dialog">I didn't want to remember.</div>
+    <div class="speech lucrecia"><h4>Lucrecia:</h4><p id="dialog">I pushed you away, but...</div>
+    <div class="speech lucrecia"><h4>Lucrecia:</h4><p id="dialog">Now I realize... I never wanted to lose you.</div>
+    <p class="nar">Lucrecia in on her knees, tears dripping from her eyes.</p>
+    <div class="speech lucrecia"><h4>Lucrecia:</h4><p id="dialog">Not again.</div>
+    <div class="speech lucrecia"><h4>Lucrecia:</h4><p id="dialog">Not today.</div>
+    <p class="nar">She manages to stand up, and looks at Vincent inside the regenerative tube.</p>
+    <div class="speech lucrecia"><h4>Lucrecia:</h4><p id="dialog">Vincent, did you know that your eyes are exactly like your father's?</div>
+    <p class="nar">Screen fades to black.</p>
+    <div class="speech lucrecia"><h4>Lucrecia:</h4><p id="dialog">I've done it.</div>
+    <div class="speech lucrecia"><h4>Lucrecia:</h4><p id="dialog">Born of the Lifestream. Bringing all together. Stopping the imminent decay of tissue.</div>
+    <div class="speech lucrecia"><h4>Lucrecia:</h4><p id="dialog">But instead...</div>
+    <p class="nar">Shot of Chaos raging inside the tube.</p>
+    <div class="speech lucrecia"><h4>Lucrecia:</h4><p id="dialog">born was... the chaos that took him... away from me.</div>
+    <p class="nar">Chaos is slamming against the tube. Lucrecia is scared.</p>
+    <div style="text-align: center"><img src="http://www.ffwa.eu/ff7/images/script-shots/88.jpg" alt="" border="0" height="177" width="250" class="imgpad"></div>
+    <br/ >
+    <div class="speech lucrecia"><h4>Lucrecia:</h4><p id="dialog">Stop...</div>
+    <div class="speech lucrecia"><h4>Lucrecia:</h4><p id="dialog">Stop!</div>
+    <p class="nar">A bright light shines from the ground. She looks at Chaos, then the ground: a materia is lying there, glowing. Screen fades to black.</p>
+    <div class="speech lucrecia"><h4>Lucrecia:</h4><p id="dialog">This... The materia...</div>
+    <div class="speech lucrecia"><h4>Lucrecia:</h4><p id="dialog">I found... We found together.</div>
+    <p class="nar">Lucrecia is shown furiously typing at her computer. The screen flashes red once, then again a few moments later.</p>
+    <div class="speech lucrecia"><h4>Lucrecia:</h4><p id="dialog">No!</div>
+    <p class="nar">She turns around; only Vincent's there. She falls to her knees.</p>
+    <div class="speech lucrecia"><h4>Lucrecia:</h4><p id="dialog">What am I doing?</div>
+    <p class="nar">We see the following scene from Vincent's viewpoint, inside his tube. Lucrecia is grabbing Hojo by his shoulders and shaking him.</p>
+    <div class="speech lucrecia"><h4>Lucrecia:</h4><p id="dialog">Give him back!</div>
+    <div class="speech lucrecia"><h4>Lucrecia:</h4><p id="dialog">Give my son back!</div>
+    <p class="nar">She backs away.</p>
+    <div class="speech hojo"><h4>Hojo:</h4><p id="dialog">And how is your experiment proceeding?</div>
+    <div class="speech lucrecia"><h4>Lucrecia:</h4><p id="dialog">I don't know! I don't care!</div>
+    <p class="nar">She cries, screen fades to black.</p>
+    <div class="speech lucrecia"><h4>Lucrecia:</h4><p id="dialog">Let me see him! Just once!</div>
+    <p class="nar">Brief pause, and then...</p>
+    <div class="speech lucrecia"><h4>Lucrecia:</h4><p id="dialog">I'm so sorry.</div>
+    <div class="speech lucrecia"><h4>Lucrecia:</h4><p id="dialog">I can't...</div>
+    <p class="nar">We now see Lucrecia is sitting on the ground, back against a console outside of Vincent's tube.</p>
+    <div class="speech lucrecia"><h4>Lucrecia:</h4><p id="dialog">I'm sorry.</div>
+    <div class="speech lucrecia"><h4>Lucrecia:</h4><p id="dialog">I can't take it anymore.</div>
+    <div class="speech lucrecia"><h4>Lucrecia:</h4><p id="dialog">My body... My mind...</div>
+    <p class="nar">Screen fades to black.</p>
+    <div class="speech lucrecia"><h4>Lucrecia:</h4><p id="dialog">Before I go...</div>
+    <p class="nar">The following phrases flash on screen, one at a time.</p>
+    <div class="speech lucrecia"><h4>Lucrecia:</h4><p id="dialog">Jenova's cells... Vincent... Stored as data... Must leave... Thought... I loved... Record.. Memory copy... For him... It was wrong... Wait... Disperse... ...so sorry... Apply... ...but I... For... Fragment... Survive... Hope... who...?</div>
+    <p class="nar">Scene changes back to the Manor; Vincent is all alone in his tube; a door behind him opens, but we don't see who stepped out (or in)</p>
+    <p class="nar">Another flashback; Shelke is standing around in a room in the Deepground complex. Nero is in front of her.</p>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">Who is she?</div>
+    <div class="speech nero"><h4>Nero:</h4><p id="dialog">Dr. Lucrecia Crescent.</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">So I am to collect the data files-- the fragments she left within the network?</div>
+    <div class="speech nero"><h4>Nero:</h4><p id="dialog">Correct. Then you are to use that data to find the Protomateria.</div>
+    <div class="speech nero"><h4>Nero:</h4><p id="dialog">That is where he requires your assistance.</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">He...?</div>
+    <p class="nar">Screen fades to black.</p>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">That information is unnecessary.</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">Connect with her, Vincent. Connect with her heart.</div>
+    <p class="nar">Dream/hallucination time: Vincent is sitting in her cave. An image of her descends and approaches him.</p>
+    <div class="speech lucrecia"><h4>Lucrecia:</h4><p id="dialog">Hello Vincent.</div>
+    <div class="speech lucrecia"><h4>Lucrecia:</h4><p id="dialog">Something's wrong...</div>
+    <div class="speech lucrecia"><h4>Lucrecia:</h4><p id="dialog">You see, this is me, but only in a sense.</div>
+    <div class="speech lucrecia"><h4>Lucrecia:</h4><p id="dialog">It is merely a reflection created with my remaining data.</div>
+    <div class="speech lucrecia"><h4>Lucrecia:</h4><p id="dialog">The real me crumbled away long ago.</div>
+    <div class="speech lucrecia"><h4>Lucrecia:</h4><p id="dialog">Vincent. Do you remember our place? Under that tree?</div>
+    <p class="nar">Scene changes; they're under the tree. Vincent's sitting in the same position as he was in the cave.</p>
+    <div class="speech lucrecia"><h4>Lucrecia:</h4><p id="dialog">The warm breeze on our skin...</div>
+    <div class="speech lucrecia"><h4>Lucrecia:</h4><p id="dialog">I know that it no longer exists.</div>
+    <div class="speech lucrecia"><h4>Lucrecia:</h4><p id="dialog">Things fade with time, as do many things in this world.</div>
+    <div class="speech lucrecia"><h4>Lucrecia:</h4><p id="dialog">But there are some things that we cannot let disappear.</div>
+    <p class="nar">She turns and faces him.</p>
+    <div class="speech lucrecia"><h4>Lucrecia:</h4><p id="dialog">I finally...</div>
+    <div class="speech lucrecia"><h4>Lucrecia:</h4><p id="dialog">I finally realized my true feelings.</div>
+    <div class="speech lucrecia"><h4>Lucrecia:</h4><p id="dialog">Even if you may never understand them.</div>
+    <p class="nar">Vincent continues to sit there, looking down. He's been pretty much motionless the entire time. Lucrecia smiles and turns back around.</p>
+    <div class="speech lucrecia"><h4>Lucrecia:</h4><p id="dialog">Not that I mind, though.</div>
+    <div class="speech lucrecia"><h4>Lucrecia:</h4><p id="dialog">But...</div>
+    <div class="speech lucrecia"><h4>Lucrecia:</h4><p id="dialog">This isn't how it was supposed to be.</div>
+    <div class="speech lucrecia"><h4>Lucrecia:</h4><p id="dialog">I've made too many mistakes.</div>
+    <div class="speech lucrecia"><h4>Lucrecia:</h4><p id="dialog">And I've hurt you so, so much.</div>
+    <div class="speech lucrecia"><h4>Lucrecia:</h4><p id="dialog">Why did I do what I did?</div>
+    <div class="speech lucrecia"><h4>Lucrecia:</h4><p id="dialog">I'm so sorry.</div>
+    <p class="nar">Screen fades to black.</p>
+    <div class="speech lucrecia"><h4>Lucrecia:</h4><p id="dialog">But I'm so happy you survived.</div>
+    <p class="nar">Fade back in on the tree; Vincent is now standing up.</p>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">Lucrecia!!!</div>
+    <p class="nar">He closes his eyes. When he reopens them, he's flying in the air as Chaos; he dives to the ground. In the next scene, we see he's holding Shelke in his arms; apparently he went underground, got her, and brought her back to the surface. While he appears to be Chaos, he speaks like Vincent, though his voice is slightly distorted.</p>
+    <div style="text-align: center"><img src="http://www.ffwa.eu/ff7/images/script-shots/89.jpg" alt="" border="0" height="177" width="250" class="imgpad"><img src="http://www.ffwa.eu/ff7/images/script-shots/90.jpg" alt="" border="0" height="177" width="250" class="imgpad"></div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">You're late.</div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">Sorry about that.</div>
+    <p class="nar">An image of Lucrecia appears above Shelke.</p>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">Not that I mind, though.</div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">She... She was always like that.</div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">Only believing what she wanted to.</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">So Vincent, why don't you try telling her that yourself?</div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">Maybe I will.</div>
+    <p class="nar">He reaches out with his right arm. A gun materializes out of thin air.</p>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">But before that, I have a story to end.</div>
+    <p class="nar">He flies up.</p>
+<p class="end">End of Chapter</p>
+<div class="prevnext">
+  <a href="12.html">Chapter 12: A Chaotic Finale</a>
+</div>
+</div>
+
+<!-- Footer -->
+<div class="footer">Script sourced from Martin on FINAL FANTASY Worlds Apart</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,187 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Dirge of Cerberus - Script</title>
+  <meta name="description" content="Dirge of Cerberus - Script">
+  <meta name="author" content="SitePoint">
+  <meta property="og:title" content="Dirge of Cerberus - Script">
+  <meta property="og:type" content="website">
+  <meta property="og:description" content="Dirge of Cerberus - Script">
+  <meta property="og:image" content="image.png">
+  <link rel="icon" href="/favicon.ico">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
+</head>
+<body>
+  <script>
+  $(document).ready(function() {
+  		$('a[href*=#]').bind('click', function(e) {
+  				e.preventDefault(); // prevent hard jump, the default behavior
+
+  				var target = $(this).attr("href"); // Set the target as variable
+
+  				// perform animated scrolling by getting top-position of target-element and set it as scroll target
+  				$('html, body').stop().animate({
+  						scrollTop: $(target).offset().top
+  				}, 600, function() {
+  						location.hash = target; //attach the hash (#jumptarget) to the pageurl
+  				});
+
+  				return false;
+  		});
+  });
+
+  $(window).scroll(function() {
+  		var scrollDistance = $(window).scrollTop();
+
+  		// Show/hide menu on scroll
+  		//if (scrollDistance >= 850) {
+  		//		$('nav').fadeIn("fast");
+  		//} else {
+  		//		$('nav').fadeOut("fast");
+  		//}
+
+  		// Assign active class to nav links while scolling
+  		$('.page-section').each(function(i) {
+  				if ($(this).position().top <= scrollDistance) {
+  						$('.navigation a.active').removeClass('active');
+  						$('.navigation a').eq(i).addClass('active');
+  				}
+  		});
+  }).scroll();
+  </script>
+<div class="nav">
+    <a href="index.html">Prologue</a>
+    <a href="01.html">Chapter 1</a>
+    <a href="02.html">Chapter 2</a>
+    <a href="03.html">Chapter 3</a>
+    <a href="04.html">Chapter 4</a>
+    <a href="05.html">Chapter 5</a>
+    <a href="06.html">Chapter 6</a>
+    <a href="07.html">Chapter 7</a>
+    <a href="08.html">Chapter 8</a>
+    <a href="09.html">Chapter 9</a>
+    <a href="10.html">Chapter 10</a>
+    <a href="11.html">Chapter 11</a>
+    <a href="12.html">Chapter 12</a>
+    <a href="reports.html">Reports</a>
+  </div>
+  <div class= "target" id="prologue" style="margin-top: -100px; padding-top:100px;"></div>
+<div class="page" id="">
+
+<!-- Omega Reports -->
+<div class= "target" id="reports" style="margin-top: -100px; padding-top:100px;"></div>
+<div class="chapter-container content">
+    <div class="header"><h1>Omega Reports and G Reports</h1></div>
+    <p id="basic">There are 8 Omega Reports; the first 4 are found in Shinra Manor, with the last 4 spread out in the DG complex and on Omega itself. The first few appear to be written by Dr. Grimoire Valentine, with the latter few by Lucrecia herself.</p>
+    <h4 id="reporthead">Discovery</h4>
+        <div id="report"><center>- Ancient Table Discovered -
+        <br/>
+        <br/>Soul wrought of terra corrupt,
+        <br/>Quelling impurity,
+        <br/>Purging the stream.
+        <br/>To beckon forth an ultimate fate.
+        <br/>Behold mighty Chaos,
+        <br/>Omega's squire to the lofty heavens.</center>
+        <br/>
+        <br/>After further study of the table by our research team, it has been determined that this passage was written by the Cetra over two thousand years ago.
+        </div>
+    <h4 id="reporthead">No New Findings</h4>
+        <div id="report"><center>-Memo-</center>
+        Could "Omega" be a place and "Chaos" a person? While our search of the site has continued, we have been unable to locate any new artifacts that may help us to answer our many questions.
+        <br/><br/><center>-Promised Land-</center>
+        Quite a few of my colleagues have come to the conclusion that Omega may be the fabled "promised land" to which legend states the Cetra are to lead us. However, I still have my doubts. If Omega were an actual location, then how could Chaos be its "squire to the lofty heavens"?
+        <br/><br/>Next month, administration will finally be sending me the assistant I have been asking for. Rumor has it she graduated at the top of her university class.
+        </div>
+    <h4 id="reporthead">Alternate Theories</h4>
+        <div id="report"><center>-Memo-</center>
+        Review of several dated reports on our world's Lifestream have shed new light on my theories about the Cetra inscription. Just as we are born from the flowing matter below our feet, I now believe that Chaos and Omega may also be sentient life forms that the planet creates at its own will.
+        <br/><br/>If we were able to discover the exact location where these two beings are to be born, the scientific repercussions would be enormous.
+        <br/><br/>I was informed by a fellow paleontologist this morning that the company had discovered another Cetra artifact, and a new large-scale research project was scheduled to begin. She also said that my assistant had been offered a place on the team.
+        </div>
+    <h4 id="reporthead">The Terrasystem</h4>
+        <div id="report"><center>-Memo-</center>
+        The more I learn of this wondrous planet's inner-workings, the more I am in awe of that which lies before me.
+        <br/><br/>Omega... Part of a system created by our world to preserve the constant circulation of life. And therein lies the key to solving this mystery... For many years it has been documented that local legends not only speak of this phenomenon in terms of a planetary scale, but also suggest that the entire cosmos may follow the same rules.
+        <br/><br/>I must say, I am quite pleased with the work of my fine assistant. Her ardent approach to the tasks before her will most certainly lead us to the many answers which continue to elude our team.
+      </div>
+    <h4 id="reporthead">Omega and Chaos</h4>
+        <div id="report">
+        The two names which appear on the tablet...
+        <br/><br/>If Omega is to act as the ark which guides all life to the boundless sea of stars...then what of Chaos?
+        <br/><br/>The ancient inscription implies that his duty is to "beckon forth an ultimate fate." Perhaps it is he who is destined to lead us to Omega.
+        <br/><br/>Soul wrought of terra corrupt...
+        <br/> What message lurks behind these ominous words?
+      </div>
+    <h4 id="reporthead">Impurities</h4>
+        <div id="report"><center>-Impurities in the Lifestream-</center>
+        <br/>The spring that Dr. Valentine discovered is amazing! I am certain that it is some sort of reservoir for the "terra corrupt" mentioned on the Cetra tablet.
+        <br/><br/>The doctor believes the crystalline spring contains contaminated deposits of bioplasma that have overflown from the pure Lifestream. In fact, all of our readings indicate a strange type of energy radiating from the site. Could this grotto be the location where the legendary Chaos is destined to be born?
+        </div>
+    <h4 id="reporthead">Chaos</h4>
+        <div id="report">  My conscience tells me that I must leave some sort of record documenting all that I have attempted.
+          <br/>That which slumbers within him...
+          <br/>The antithesis of Omega... Chaos.
+          <br/><br/>Soul wrought of terra corrupt...
+          <br/>Before Omega begins his journey to the sea of stars, Chaos will scourge the world of all things living, sending them back to the Lifestream...
+          <br/><br/>Only to be left with the burden of bearing the discarded remnants of a dying world.
+          <br/><br/>And it was I who...
+          <br/>I am so sorry...
+        </div>
+    <h4 id="reporthead">Protomateria</h4>
+        <div id="report"><center>-Protomateria-</center>
+        <br/>I have determined the materia found by Dr. Valentine at the fountain of Chaos to be a type of refined anti-matter formed within the grotto over the past several millennia.
+        <br/><br/>I believe the planet created this instrument out of necessity as a means to control Chaos and prolong its own inevitable fate.
+        <br/><br/>By controlling Chaos, the planet also succeeds in preventing the advent of Omega. If Chaos is allowed to fulfill his destiny of destruction, Omega's awakening cannot be far behind.
+        <br/><br/>That is why I...
+        </div>
+
+    <h2>G REPORTS</h2>
+    <p id="basic">Who, or what, is G? His character is modeled after Japanese pop sensation Gackt, and Gackt did the voice acting for G in the Japanese release of the game (Robin Atkins Downes covered this role for the US release.) He is first mentioned by a member of the Shera, in a conversation you can easily miss (as it's entirely optional). The individual says the following:
+    Deepground.
+    <br/><br/>It used to be a medical facility for injured SOLDIER troops.
+    <br/><br/>Military personnel would be sent there for care and rehabilitation.
+    <br/><br/>However, over time, it evolved into a laboratory for madmen content on ignoring all laws of man and nature.
+    <br/><br/>And supposedly, this evolution took place because of the existence of one rogue soldier--a man known only as "G."
+    <br/><br/>The following are the three G Reports in the entirety, and some final thoughts on what they mean, and what we can expect from the man called G. The double line break in the 3rd report is as it appeared in the game - to emphasize the writer's claim that it is his final entry.</p>
+    <h4 id="reporthead">Taboo</h4>
+        <div id="report">The Shinra Company is feared across the globe for its ruthless army, SOLDIER.
+        <br/><br/>However, there are two members of this legion of whom few have the courage to speak.
+        <br/><br/>While one is well known: the infamous "S"
+        <br/>--a symbol of strength and destruction--
+        <br/>the other remains shrouded in an eldritch veil of shadows. All records of this man's existence have been deleted: the only remnant of his legacy being the lone letter "G".
+        </div>
+    <h4 id="reporthead">A Single Record</h4>
+        <div id="report">"G"...
+        We can only begin to imagine who this enigmatic warrior might be.
+        <br/><br/>There are rumors that he was a biochemically constructed prototype for the soldier who would become "S". However, there are no documents to support these claims. In fact, there is so little information on "G" that his existence may be nothing but a fabrication.
+        <br/><br/>The only thing that may give insight into this mystery is a lone personnel record which indicates that several years ago, a soldier 1st class was assigned a top-secret mission to pursue a target referred to only as "G". Unfortunately, any further data on this mission has been lost or destroyed...
+      </div>
+    <h4 id="reporthead">Below Midgar</h4>
+        <div id="report">"G" slumbers below Midgar...
+        <br/>Silently abiding his awakening...
+        <br/><br/>Or so tell the stories of the vagrants who dwell in the slums of the mephitic metropolis. However, could there exist some truth behind these rumors?
+        <br/><br/>Being one of the few who was involved in their construction, I know all too well of the vast caverns that sprawl deep beneath our city's streets.
+        This will more than likely be my final entry. The last fragment of data I have uncovered reads as follows:
+        <br/><br/>Soldiers branded with epithets of color...
+        <br/>These are the hellspawn of "G".
+        </div>
+    <h2>Final thoughts:</h2>
+    <p id="basic"><ul>
+        <li>The Tsviets were the "hellspawn" of G (being Cerulean, Crimson, Sable and... Translucent.) It is most likely G who granted Nero the "knowledge of rebirth" (see: Chapter 11), and if that's the case, it could very well lead to Weiss' rebirth, judging by what occurs in the secret ending.</li>
+        <li>It is worth noting that, in all appearances of Sephiroth (either as Safer Sephiroth, at the end of Advent Children, or in the Kingdom Hearts games) his wing appears on the right side of his body; G's wing is on his left side, insinuating a further connection between the two.</li>
+        <li>"A Single Record" is a story that will almost surely be told in detail in Crisis Core, the next game in the Compilation of FFVII. The question is, whether the soldier 1st class will be Sephiroth, Zack, or Andeal (a new character, who apparently serves as Zack's mentor/superior)</li>
+        <li>Apparently, according to online missions from the Japanese game, Hojo, Gast and Grimoire were behind the birth of G. Additionally, an online mission apparently reveals that the black substance which struck Grimoire (see: Chapter 10) was known as "G-substance". What is this substance, and what are its properties?</li>
+        <li>Word on the street is that his name is Genesis (which would make sense, considering what he represents); of course, having not played the Japanese version of the game or the online missions myself, any references I've made to them should be treated as rumours or hearsay until verified!</li>
+        <li>If G does get defeated in Crisis Core by the soldier 1st class, then how did he return? A being who could return from the Lifestream at will would be an eternal foe. Unless he didn't return to the Lifestream when he died, which would raise even more questions...</li>
+      </ul>
+    <p id="basic">All these unanswered questions allow some intriguing possibilities for a sequel to Dirge of Cerberus, or even a true sequel to FFVII, namely FFVII-2. G certainly seems to be a powerful enough, being the archetype of Sephiroth. But I suppose we'll find out in due time... that's enough speculation for now. Hope you enjoyed the script!</p>
+</div>
+<!-- Footer -->
+<div class="footer">Script sourced from Martin on FINAL FANTASY Worlds Apart</div>
+</div>
+</body>
+</html>

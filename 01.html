@@ -1,0 +1,169 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Dirge of Cerberus - Script</title>
+  <meta name="description" content="Dirge of Cerberus - Script">
+  <meta name="author" content="SitePoint">
+  <meta property="og:title" content="Dirge of Cerberus - Script">
+  <meta property="og:type" content="website">
+  <meta property="og:description" content="Dirge of Cerberus - Script">
+  <meta property="og:image" content="image.png">
+  <link rel="icon" href="/favicon.ico">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
+</head>
+<body>
+  <script>
+  $(document).ready(function() {
+  		$('a[href*=#]').bind('click', function(e) {
+  				e.preventDefault(); // prevent hard jump, the default behavior
+
+  				var target = $(this).attr("href"); // Set the target as variable
+
+  				// perform animated scrolling by getting top-position of target-element and set it as scroll target
+  				$('html, body').stop().animate({
+  						scrollTop: $(target).offset().top
+  				}, 600, function() {
+  						location.hash = target; //attach the hash (#jumptarget) to the pageurl
+  				});
+
+  				return false;
+  		});
+  });
+
+  $(window).scroll(function() {
+  		var scrollDistance = $(window).scrollTop();
+
+  		// Show/hide menu on scroll
+  		//if (scrollDistance >= 850) {
+  		//		$('nav').fadeIn("fast");
+  		//} else {
+  		//		$('nav').fadeOut("fast");
+  		//}
+
+  		// Assign active class to nav links while scolling
+  		$('.page-section').each(function(i) {
+  				if ($(this).position().top <= scrollDistance) {
+  						$('.navigation a.active').removeClass('active');
+  						$('.navigation a').eq(i).addClass('active');
+  				}
+  		});
+  }).scroll();
+  </script>
+<div class="nav">
+    <a href="index.html">Prologue</a>
+    <a href="01.html">Chapter 1</a>
+    <a href="02.html">Chapter 2</a>
+    <a href="03.html">Chapter 3</a>
+    <a href="04.html">Chapter 4</a>
+    <a href="05.html">Chapter 5</a>
+    <a href="06.html">Chapter 6</a>
+    <a href="07.html">Chapter 7</a>
+    <a href="08.html">Chapter 8</a>
+    <a href="09.html">Chapter 9</a>
+    <a href="10.html">Chapter 10</a>
+    <a href="11.html">Chapter 11</a>
+    <a href="12.html">Chapter 12</a>
+    <a href="reports.html">Reports</a>
+  </div>
+  <div class= "target" id="prologue" style="margin-top: -100px; padding-top:100px;"></div>
+<div class="page" id="">
+
+<!-- Chapter 1 -->
+<div class= "target" id="1" style="margin-top: -100px; padding-top:100px;"></div>
+<div class="chapter-container content">
+    <div class="header"><h1>Chapter 1: Sea of Flames</h1></div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">What's going on?</div>
+    <p class="nar">A trio of soldiers approach on the rooftop behind Vincent. From their line of vision we see a sort of computer screen with the words "Vincent Valentine", "Gender: Male", "Blood Type: A" at the top left of the screen. We cut to a scene of a girl with an elaborate device covering the top half of her head.</p>
+    <div class="speech shelke"><h4>Girl:</h4><p id="dialog">Found you.</div>
+    <p class="nar">The camera pans out as we see she's plugged into a collection of wires. Back to the soldiers, whose screen notifies that Vincent is wanted Dead or Alive. They spring to action, but Vincent is faster and shoots them all down.</p>
+    <p class="nar">The gameplay begins; Vincent traverses several rooftops, killing many of these soldiers, eventually reaching the ground.</p>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">Now where am I supposed to meet Reeve?</div>
+    <p class="nar">Vincent continues through the streets, saving civilians when he can, with dialogue that's unimportant to this script. We see a scene of a helicopter carrying away a container filled with people. Vincent goes about his business. We see a scene of a mother and daughter running away from a horde of dog-creatures; we see a similar screen as the guards who saw Vincent Valentine saw. The girl has a green tint with the word "Clean" beside her. The mother has a red tint with the words "Geostigma detected" beside her. One dog creature pins down the mother while another dog drags the girl away, and takes her inside a container. Vincent finds the container and frees her; the girl runs away crying "Mommy!", to which the mother replies "Rio!"</p>
+    <p class="nar">Vincent continues through the town, saving civilians and generally killing a lot of bad guys. Eventually he gets to the town square.... and a helicopter faces him. Boss battle vs. Dragonfly. At the end of the battle the Dragonfly fires off a few missiles before crashing - Vincent dives into a nearby house via its open doorway to avoid them.</p>
+    <p class="nar">Cut back to the girl with the strange headgear. She takes off the helmet.</p>
+    <div class="speech shelke"><h4>Girl:</h4><p id="dialog">Vincent Valentine.</div>
+    <p class="nar">A closeup of her face reveals her eyes are bright orange.</p>
+    <div class="speech shelke"><h4>Girl:</h4><p id="dialog">We've found you.</div>
+    <p class="nar">Her eyes return to a blue colour. A rather large brute approaches her from behind.</p>
+    <div class="speech azul"><h4>Guy:</h4><p id="dialog">Is this the one?</div>
+    <div class="speech shelke"><h4>Girl:</h4><p id="dialog">Yes.</div>
+    <p class="nar">Back to Vincent, who makes his way through the house. On the 2nd floor, a loud crashing is heard; there's a big hole in the wall, and in walks the large brute from before. He's muscular, has blue hair and almost appears more beastly than human. The girl accompanies him.</p>
+    <div style="text-align: center"><img src="http://www.ffwa.eu/ff7/images/script-shots/09.jpg" alt="" border="0" height="177" width="250" class="imgpad"><img src="http://www.ffwa.eu/ff7/images/script-shots/10.jpg" alt="" border="0" height="177" width="250" class="imgpad"></div>
+    <div class="speech shelke"><h4>Girl:</h4><p id="dialog">The Protomateria.</div>
+    <p class="nar">Her eyes turn orange.</p>
+    <div class="speech shelke"><h4>Girl:</h4><p id="dialog">Tell us where it is.</div>
+    <p class="nar">Vincent just looks at them.</p>
+    <div class="speech azul"><h4>Guy:</h4><p id="dialog">Hail Weiss.</div>
+    <p class="nar">Several soldiers in the room also shout "Heil Weiss!"</p>
+    <p class="nar">Gameplay: Vincent kills them all. Back to the large brute.</p>
+    <div class="speech shelke"><h4>Guy:</h4><p id="dialog">Challenge accepted.</div>
+    <p class="nar">The girl suddenly faints. He looks at her. A random voice off-screen says "This way!"</p>
+    <div class="speech azul"><h4>Guy:</h4><p id="dialog">Luck is on your side.</div>
+    <p class="nar">He picks up the girl and walks away.</p>
+    <div class="speech shelke"><h4>Girl:</h4><p id="dialog">I'm sorry.</div>
+    <p class="nar">The brute turns around.</p>
+    <div class="speech azul"><h4>Azul:</h4><p id="dialog">I am Azul. We will meet again.</div>
+    <p class="nar">The voice from before enters the room.</p>
+    <div class="speech"><h4>Guy:</h4><p id="dialog">What happened here!?</div>
+    <p class="nar">In runs Reeve and a guy in a white uniform.</p>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">Vincent Valentine! Are you alright?</div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">Reeve, nice to see you again. Not a very interesting outfit, though.</div>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog"><em>[laughs]</em> It took me a while to decide which costume I'd put on for today.</div>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">But enough of the small talk. Who were those soldiers that just left?</div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">I don't know. The large one called himself Azul.</div>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">Azul the Cerulean?</div>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">Of the Tsviets!?</div>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">Then that could only mean...</div>
+    <div class="speech wro"><h4>WRO Member:</h4><p id="dialog">Commissioner!</div>
+    <p class="nar">Reeve turns around, and we see several enemy soldiers entering the ground floor of the house.</p>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">We'll discuss this later. WRO troops have arrived and commenced rescue operations. We could use your help, Vincent.</div>
+    <p class="nar">Reeve begins to walk away.</p>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">Reeve.</div>
+    <p class="nar">Reeve stops and partially turns around.</p>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">I don't know what you are up to, but I want absolutely no part of it.</div>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">But... You fought alongside us three years ago! We need your help once mor--</div>
+    <p class="nar">A hail of gunfire bursts through Reeve's stomach; Vincent shoots down the enemy soldier, before running to Reeve's side.</p>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">Reeve!</div>
+    <p class="nar">He goes to pick up "Reeve", who falls apart into several pieces. Out pops Cait Sith.</p>
+    <div class="speech cait"><h4>Cait Sith:</h4><p id="dialog">That was a close one! Never was good at fighting. Luckily, I came out wearing "Reeve."</div>
+    <div class="speech cait"><h4>Cait Sith:</h4><p id="dialog">You're really not a bad bloke, are you, Vincent? You pretend not to care, but you always come through in the end.</div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog"><em>[sighs]</em> Alright, what do you want me to do?</div>
+    <div class="speech cait"><h4>Cait Sith:</h4><p id="dialog">Let's run those lads outta town. I'll leave the method up to you. When you've tidied things up, meet me at the square in front of the east church.</div>
+    <p class="nar">Vincent departs the house and continues to go around Kalm, assisting the WRO and killing enemy units. To give you some insight as to who the WRO is, I'll include some optional dialogue Vincent can have with one WRO member.</p>
+    <div class="speech wro"><h4>WRO Member:</h4><p id="dialog">Sir!</div>
+    <div class="speech wro"><h4>WRO Member:</h4><p id="dialog">The WRO was originally established three years ago after Meteorfall.</div>
+    <div class="speech wro"><h4>WRO Member:</h4><p id="dialog">With Jenova War hero Reeve Tuesti at its helm, our organization is dedicated to aiding the healing process of the planet, as well as protecting it from any who attempt further harm.</div>
+    <p class="nar">Eventually he reaches an open area in front of a church. The Dragonfly from before shows up! Boss fight vs. Dragonfly GL. After the boss fight, Vincent jumps into the air, fires at the Dragonfly a few times, then, landing on top of it, transforms into the Galian Beast and punches it. He jumps off, the helicopter explodes, and he transforms back to Vincent. Enemy soldiers emerge from the vicinity and fire at Vincent; a truck drives in front of him, shielding him from the gunfire; WRO members pour out the back and return fire, accompanied by the real Reeve, who nods at Vincent. Vincent nods back.</p>
+    <p class="nar">Scene change; relative calm has been restored to Kalm (no pun intended). Vincent sits on a crate while Reeve is talking to a WRO commander. At the end of the conversation they salute, followed by Reeve walking over to Vincent.</p>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">Good work, Vincent.</div>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">The enemy is retreating. It seems they have finally begun their withdrawal from Kalm.</div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">Good.</div>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">However, we still require your assistance.</div>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">Reports are Edge is under attack.</div>
+    <p class="nar">Vincent looks down... he's got a job to do.</p>
+    <p class="nar">Scene change: two WRO members are taking cover behind crates. One of them is engulfed by black smoke.</p>
+    <div class="speech wro"><h4>WRO Member:</h4><p id="dialog">Hey, toss me another clip.</div>
+    <p class="nar">He turns around to see no one is there, before being engulfed himself. We see a group of four WRO Members running by, with the fourth one being engulfed by the smoke. The remaining three run into a warehouse.</p>
+    <div class="speech wro"><h4>WRO Member:</h4><p id="dialog">Where did everyone go?</div>
+    <p class="nar">A noise is heard above and the WRO Members look up. A scantily-clad girl with red hair and red eyes holding a weapon of some sort smirks at them. Her voice sports a slavic accent.</p>
+    <div class="speech wro"><h4>WRO Member:</h4><p id="dialog">Who the hell are you!?</div>
+    <div class="speech rosso"><h4>Rosso:</h4><p id="dialog">Rosso. Rosso the Crimson.</div>
+    <div class="speech wro"><h4>WRO Member:</h4><p id="dialog">Tsviets?</div>
+    <p class="nar">Her weapon opens up. Instantly she appears behind the three WRO members and in one broad move slashes them in their necks. They fall down.</p>
+    <div class="speech rosso"><h4>Rosso:</h4><p id="dialog">The mighty WRO...</div>
+    <div class="speech rosso"><h4>Rosso:</h4><p id="dialog">They wouldn't last a day in Deepground.</div>
+<p class="end">End of Chapter</p>
+<div class="prevnext">
+  <a href="02.html">Chapter 2: Showdown in the Wastes</a>
+</div>
+</div>
+
+<!-- Footer -->
+<div class="footer">Script sourced from Martin on FINAL FANTASY Worlds Apart</div>
+</div>
+</body>
+</html>

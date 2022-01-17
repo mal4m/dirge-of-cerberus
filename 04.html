@@ -1,0 +1,239 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Dirge of Cerberus - Script</title>
+  <meta name="description" content="Dirge of Cerberus - Script">
+  <meta name="author" content="SitePoint">
+  <meta property="og:title" content="Dirge of Cerberus - Script">
+  <meta property="og:type" content="website">
+  <meta property="og:description" content="Dirge of Cerberus - Script">
+  <meta property="og:image" content="image.png">
+  <link rel="icon" href="/favicon.ico">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
+</head>
+<body>
+  <script>
+  $(document).ready(function() {
+  		$('a[href*=#]').bind('click', function(e) {
+  				e.preventDefault(); // prevent hard jump, the default behavior
+
+  				var target = $(this).attr("href"); // Set the target as variable
+
+  				// perform animated scrolling by getting top-position of target-element and set it as scroll target
+  				$('html, body').stop().animate({
+  						scrollTop: $(target).offset().top
+  				}, 600, function() {
+  						location.hash = target; //attach the hash (#jumptarget) to the pageurl
+  				});
+
+  				return false;
+  		});
+  });
+
+  $(window).scroll(function() {
+  		var scrollDistance = $(window).scrollTop();
+
+  		// Show/hide menu on scroll
+  		//if (scrollDistance >= 850) {
+  		//		$('nav').fadeIn("fast");
+  		//} else {
+  		//		$('nav').fadeOut("fast");
+  		//}
+
+  		// Assign active class to nav links while scolling
+  		$('.page-section').each(function(i) {
+  				if ($(this).position().top <= scrollDistance) {
+  						$('.navigation a.active').removeClass('active');
+  						$('.navigation a').eq(i).addClass('active');
+  				}
+  		});
+  }).scroll();
+  </script>
+<div class="nav">
+    <a href="index.html">Prologue</a>
+    <a href="01.html">Chapter 1</a>
+    <a href="02.html">Chapter 2</a>
+    <a href="03.html">Chapter 3</a>
+    <a href="04.html">Chapter 4</a>
+    <a href="05.html">Chapter 5</a>
+    <a href="06.html">Chapter 6</a>
+    <a href="07.html">Chapter 7</a>
+    <a href="08.html">Chapter 8</a>
+    <a href="09.html">Chapter 9</a>
+    <a href="10.html">Chapter 10</a>
+    <a href="11.html">Chapter 11</a>
+    <a href="12.html">Chapter 12</a>
+    <a href="reports.html">Reports</a>
+  </div>
+  <div class= "target" id="prologue" style="margin-top: -100px; padding-top:100px;"></div>
+<div class="page" id="">
+
+<!-- Chapter 4 -->
+<div class= "target" id="4" style="margin-top: -100px; padding-top:100px;"></div>
+<div class="chapter-container content">
+    <div class="header"><h1>Chapter 4: Headquarters Under Siege</h1></div>
+    <p class="nar">Vincent is inside a tube of water, much like the previous scene, but in the present day. He wakes up and stares forward; Shalua is sitting at a desk in front of him.</p>
+    <div class="speech shalua"><h4>Shalua:</h4><p id="dialog">Well, look who's awake.</div>
+    <p class="nar">Vincent looks around.</p>
+    <div class="speech shalua"><h4>Shalua:</h4><p id="dialog">Hold on. I'll release you.</div>
+    <p class="nar">He gets released.</p>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">Where am I?</div>
+    <div class="speech shalua"><h4>Shalua:</h4><p id="dialog">Safe inside the WRO headquarters.</div>
+    <div class="speech shalua"><h4>Shalua:</h4><p id="dialog">I carried you back here from Edge after you collapsed during your fight with Deepground.</div>
+    <div class="speech shalua"><h4>Shalua:</h4><p id="dialog">It seems like the beast inside you went a little wild back there. This happen often?</div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">Went wild? Do you mean Chaos?</div>
+    <div class="speech shalua"><h4>Shalua:</h4><p id="dialog">Chaos? Your body harbors the Chaos gene?</div>
+    <p class="nar">Shalua begins to walk around as she talks.</p>
+    <div class="speech shalua"><h4>Shalua:</h4><p id="dialog">So that explains your relationship with Dr. Lucrecia Crescent.</div>
+    <div class="speech shalua"><h4>Shalua:</h4><p id="dialog">Were you the product of one of her experiments?</div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">Lucrecia's experiments? <em>[He looks down]</em></div>
+    <div class="speech shalua"><h4>Shalua:</h4><p id="dialog">I apologize. That wasn't what I meant.</div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">Wait. Lucrecia was researching Chaos?</div>
+    <div class="speech shalua"><h4>Shalua:</h4><p id="dialog"><em>[looks at him]</em> Don't tell me you didn't know.</div>
+    <p class="nar">She sits down at her computer and types in a few keys. Information appears on the screen.</p>
+    <div class="speech shalua"><h4>Shalua:</h4><p id="dialog">Crescent. Shinra class A scientist specializing in biotechnology.</div>
+    <div class="speech shalua"><h4>Shalua:</h4><p id="dialog">In her research thesis, "The Planet's Pulse," she refers to Chaos as one of the sentient xenoforms residing among us.</div>
+    <div class="speech shalua"><h4>Shalua:</h4><p id="dialog">However, the theories that she presented in her work were so abstract and complex...</div>
+    <p class="nar">Vincent zones out as Shalua continues talking in the background. He hears Lucrecia's voice once again say "I'm so sorry.", followed by "Awaken."</p>
+    <div class="speech shalua"><h4>Shalua:</h4><p id="dialog">Are you alright?</div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">Can I see that thesis?</div>
+    <div class="speech shalua"><h4>Shalua:</h4><p id="dialog">Unfortunately, no. On top of being obscure, it was never even submitted to the Shinra database. All I know is what I saw while going through the company's archives.</div>
+    <p class="nar">Reeve walks in.</p>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">Vincent! Have you recovered already?</div>
+    <p class="nar">Scene change; the little girl who accompanied Azul in Kalm is typing on a computer. Azul approaches her from behind.</p>
+    <div class="speech azul"><h4>Azul:</h4><p id="dialog">What is the status of our keeper?</div>
+    <div class="speech"><h4>Girl:</h4><p id="dialog">His location remains unchanged since the confrontation. We can assume this is the WRO headquarters.</div>
+    <div class="speech azul"><h4>Azul:</h4><p id="dialog">Good. Two birds with one stone.</div>
+    <p class="nar">He walks away; she stands up, turns around and picks up an orange materia sitting on a nearby table, before leaving the room.</p>
+    <p class="nar">Back to Reeve, Vincent and Shalua; apparently Vincent has recited his story to the other two.</p>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">So Rosso the Crimson told you that Protomateria is the "key to controlling Omega"?</div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">Yeah.</div>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">Any ideas?</div>
+    <div class="speech shalua"><h4>Shalua:</h4><p id="dialog">Soul wrought of terra corrupt, quelling impurity, purging the stream to beckon forth an ultimate fate. Behold mighty Chaos, Omega's squire to the lofty heavens.</div>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">Where did you...?</div>
+    <div class="speech shalua"><h4>Shalua:</h4><p id="dialog">A passage from Dr. Crescent's thesis. But that's all I know. Unfortunately, I only saw a fragment of the document.</div>
+    <div class="speech shalua"><h4>Shalua:</h4><p id="dialog">However, Chaos... Omega... And... <em>[she looks at Vincent]</em> All seem to be connected to Dr. Crescent in some way. There's no other explanation.</div>
+    <div class="speech shalua"><h4>Shalua:</h4><p id="dialog">I think we'll need to gather more data on her to get anywhere.</div>
+    <p class="nar">The computer screens surrounding them flash red & an alarm goes off.</p>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">What now?</div>
+    <p class="nar">Outside WRO headquarters, dozens of Deepground soldiers enter the building. Azul spots a video camera; a Deepground soldier shoots it down.</p>
+    <div class="speech shalua"><h4>Shalua:</h4><p id="dialog">Damn!</div>
+    <p class="nar">She types a few keys, causing doors inside the complex to close. Vincent exits the room. Outside, we see a couple of Deepground soldiers standing around.</p>
+    <div class="speech azul"><h4>Azul:</h4><p id="dialog">Move.</div>
+    <p class="nar">They move out of the way. He approaches a steel door; on the other side are 3 WRO soldiers. He punches a big hole in it.</p>
+    <div class="speech azul"><h4>Azul:</h4><p id="dialog">Painless.</div>
+    <div class="speech azul"><h4>Azul:</h4><p id="dialog">Go.</div>
+    <p class="nar">Deepground soldiers swarm into the complex. We next seen Vincent in a hallway, on his way to confronting them.</p>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">Vincent! The enemy has breached the main gate! Hurry!</div>
+    <p class="nar">Shalua looks at the video feed of the camera which was shot earlier. What's left of the video feed shows the little girl walking by. Shalua freaks out.</p>
+    <div class="speech shalua"><h4>Shalua:</h4><p id="dialog">What?</div>
+    <div class="speech shalua"><h4>Shalua:</h4><p id="dialog">It couldn't be...</div>
+    <p class="nar">Gameplay time. Vincent works his way through the floors of the WRO building, taking out various Deepground units. Eventually he reaches a WRO member who alerts him of the threat to Reeve.</p>
+    <div class="speech wro"><h4>WRO Member:</h4><p id="dialog">Mr. Valentine! A sizable enemy unit is headed straight for the command center. Please, sir, you have to help the commissioner!</div>
+    <p class="nar">Oh no, Reeve! Vincent races to the command center, where he encounters...</p>
+    <div class="speech cait"><h4>Cait Sith:</h4><p id="dialog">Take that!</div>
+    <p class="nar">A Deepground soldier gets thrown out. Cait Sith walks out of the room, followed by Reeve, their actions synchronized.</p>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">Don't worry. I'll be fine here.</div>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">But Vincent. The Tsviets... Azul is still on the loose. <em>[Reeve and Cait Sith walk back into the room]</em></div>
+    <p class="nar">Gameplay continues; Vincent backtracks, and notices Azul on the ground floor; he makes his way there, and then through some hallways, until he gets to a large room. As he's walking, we can see a cloaked person following him. Shalua, who's also in the room, spots the hidden being and pulls her gun.</p>
+    <div class="speech shalua"><h4>Shalua:</h4><p id="dialog">Don't move.</div>
+    <p class="nar">The cloaked being... is that little girl. She uncloaks and walks up to Shalua, who's still pointing a gun at her.</p>
+    <div class="speech"><h4>Girl:</h4><p id="dialog">Very perceptive of you.</div>
+    <div class="speech shalua"><h4>Shalua:</h4><p id="dialog">I knew it.</div>
+    <p class="nar">They look at it each other.</p>
+    <div class="speech shalua"><h4>Shalua:</h4><p id="dialog">Shelke.</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">I have no acquaintances in the WRO.</div>
+    <div class="speech shalua"><h4>Shalua:</h4><p id="dialog">We've both changed so much. No, you haven't changed at all. Not in ten years.</div>
+    <p class="nar">Shelke gasps.</p>
+    <div class="speech shalua"><h4>Shalua:</h4><p id="dialog">Shelke. It's me. Shalua.</div>
+    <p class="nar">Shelke turns away.</p>
+    <div class="speech shalua"><h4>Shalua:</h4><p id="dialog">I've been searching for you for so long.</div>
+    <p class="nar">Shelke takes out her weapon, a pair of lightsabre-ish things with a tube connecting from one part of her wrist armor to another, and points one of the sabres at Shalua.</p>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">Don't take another step.</div>
+    <div class="speech shalua"><h4>Shalua:</h4><p id="dialog">Shelke?</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">It doesn't matter who I am or who you are. My current mission as a Deepground soldier is all that is relevant.</div>
+    <div class="speech shalua"><h4>Shalua:</h4><p id="dialog">Even though ten years have passed, you're still Shelke, my only sister!</div>
+    <p class="nar">Shelke lowers and disables her weapon.</p>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">Ten years. Has it been that long?</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">The day they came to take me away, I was told I had potential.</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">But those words were nothing but a precursor to a decade of suffering.</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">They manipulated my mind until I was a shadow of my original self.</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">The pain. The fear. For ten years I lived in a hell far deeper than any you could imagine.</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">But look at me. I should be 19 this year.</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">If I don't receive my daily dose of mako, this body wouldn't last a day.</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">However, I don't consider myself the least bit unfortunate.</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">Except that for so long I held on to a foolish thread of hope that someday, someone would come to save me.</div>
+    <div class="speech shalua"><h4>Shalua:</h4><p id="dialog"><em>[sobbing, as she falls to her knees]</em> I'm sorry, Shelke. I'm so sorry.</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">It's time to put the past behind us. <em>[turns on her weapon]</em></div>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">Stop this!</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">Reeve Tuesti.</div>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">So you are Shalua's younger sister.</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">Excellent. Now I can terminate both of you at once.</div>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">Look at her. That's the price Shalua has paid fighting Shinra for the past ten years.</div>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">She has given more than her arm, more than her eye. She has put her life on the line time and time again. All to find her lost sister.</div>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">More than half her organs have been reconstructed.</div>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">Not a day goes by when Shalua doesn't suffer the pain of a hundred souls.</div>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">But still, she...</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">Enough. I've... I've heard enough.</div>
+    <p class="nar">She prepares her weapon; Vincent pulls out his gun.</p>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">Stop!</div>
+    <p class="nar">Reeve shoots at a sprinkler on the ceiling, which sets it off. Shelke moves forward to attack Shalua; Vincent runs to her side. Shelke stops her attack just in time.</p>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">Vincent!</div>
+    <p class="nar">The three of them leave the room as the sprinkler stops. Reeve reaches into his pocket.</p>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">Use these.</div>
+    <p class="nar">Vincent takes what was given to him and re-enters the room.</p>
+    <div class="speech shalua"><h4>Shalua:</h4><p id="dialog">Shelke? Shelke!</div>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">Don't worry. The bullets will only sedate her. Let Vincent handle this.</div>
+    <p class="nar">Vincent and Shelke square off. Boss fight vs. Shelke the Transparent. After the fight, she's unconscious from the sedation bullets.</p>
+    <div class="speech shalua"><h4>Shalua:</h4><p id="dialog">Shelke!</div>
+    <p class="nar">Shalua runs to her side and cradles her in her arms. Reeve and Vincent walk away.</p>
+    <p class="nar">Gameplay. Vincent backtracks, but shortly thereafter stops; he turns around, as Azul comes crashing down through the ceiling.</p>
+    <div class="speech azul"><h4>Azul:</h4><p id="dialog">We meet again.</div>
+    <div class="speech azul"><h4>Azul:</h4><p id="dialog">Answer me this. Do you know why you even exist?</div>
+    <p class="nar">Vincent stares at him. Azul smirks.</p>
+    <div class="speech azul"><h4>Azul:</h4><p id="dialog">Just as I thought. Ignorant to your own destiny.</div>
+    <div class="speech azul"><h4>Azul:</h4><p id="dialog">Very well. I'll show you what you really are.</div>
+    <p class="nar">Vincent shoots at him, but it does nothing; a shield appears in front of Azul.</p>
+    <div class="speech azul"><h4>Azul:</h4><p id="dialog">You think that toy can penetrate my armor?</div>
+    <div class="speech azul"><h4>Azul:</h4><p id="dialog">Enough of the games, Vincent. Give me the Protomateria.</div>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">Vincent! Over here!</div>
+    <p class="nar">Vincent fires at Azul a few more times before running away.</p>
+    <div class="speech azul"><h4>Azul:</h4><p id="dialog">You can't run!</div>
+    <p class="nar">Vincent and Reeve are running away; Azul is hot on their trail.</p>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">Vincent!</div>
+    <p class="nar">Vincent looks at him and nods. They enter a large room; Vincent walks over to an extremely large gun/rocket launcher on the ground, picks it up & fires it at Azul. The explosion sends Vincent and Reeve backwards.</p>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">You shouldn't leave those things lying around.</div>
+    <p class="nar">Reeve laughs; Vincent looks at Azul, who's still standing, albeit shieldless, and now HE'S holding the gun/rocket launcher. He's also laughing menacingly.</p>
+    <div class="speech azul"><h4>Azul:</h4><p id="dialog">Well done. You have broken through my barrier.</div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">This ends here. Leave him to me. <em>[Reeve leaves]</em></div>
+    <div class="speech azul"><h4>Azul:</h4><p id="dialog">Long has it been since I faced a worthy opponent!</div>
+    <div style="text-align: center"><img src="http://www.ffwa.eu/ff7/images/script-shots/15.jpg" alt="" border="0" height="177" width="250" class="imgpad"><img src="http://www.ffwa.eu/ff7/images/script-shots/16.jpg" alt="" border="0" height="177" width="250" class="imgpad"></div>
+    <p class="nar">Boss fight vs. Azul the Cerulean. At the end of the fight, Vincent is standing in front of Azul, whose gun/rocket launcher is now on the ground.</p>
+    <div class="speech azul"><h4>Azul:</h4><p id="dialog">You may think this is the end, but...</div>
+    <p class="nar">He falls down.</p>
+    <p class="nar">Vincent is walking through the WRO HQ's lobby. Reeve approaches him.</p>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">Where are you...</div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">Nibelheim.</div>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">Wait. Shinra Manor? But that is where...</div>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">Understood.</div>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">However, be on your guard. We have reports of Deepground units deployed in that area.</div>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">If you wish to enter the manor in one piece, I suggest you use the sewer system extending from the old mako reactor.</div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">Sewer? How appropriate is that?</div>
+    <p class="nar">Vincent walks away.</p>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">Now, as for me and my feline companion...</div>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">It is time we found out what Deepground is truly up to.</div>
+<p class="end">End of Chapter</p>
+<div class="prevnext">
+  <a href="05.html">Chapter 5: Manor of Despair</a>
+</div>
+</div>
+
+<!-- Footer -->
+<div class="footer">Script sourced from Martin on FINAL FANTASY Worlds Apart</div>
+</div>
+</body>
+</html>

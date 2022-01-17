@@ -1,0 +1,300 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Dirge of Cerberus - Script</title>
+  <meta name="description" content="Dirge of Cerberus - Script">
+  <meta name="author" content="SitePoint">
+  <meta property="og:title" content="Dirge of Cerberus - Script">
+  <meta property="og:type" content="website">
+  <meta property="og:description" content="Dirge of Cerberus - Script">
+  <meta property="og:image" content="image.png">
+  <link rel="icon" href="/favicon.ico">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
+</head>
+<body>
+  <script>
+  $(document).ready(function() {
+  		$('a[href*=#]').bind('click', function(e) {
+  				e.preventDefault(); // prevent hard jump, the default behavior
+
+  				var target = $(this).attr("href"); // Set the target as variable
+
+  				// perform animated scrolling by getting top-position of target-element and set it as scroll target
+  				$('html, body').stop().animate({
+  						scrollTop: $(target).offset().top
+  				}, 600, function() {
+  						location.hash = target; //attach the hash (#jumptarget) to the pageurl
+  				});
+
+  				return false;
+  		});
+  });
+
+  $(window).scroll(function() {
+  		var scrollDistance = $(window).scrollTop();
+
+  		// Show/hide menu on scroll
+  		//if (scrollDistance >= 850) {
+  		//		$('nav').fadeIn("fast");
+  		//} else {
+  		//		$('nav').fadeOut("fast");
+  		//}
+
+  		// Assign active class to nav links while scolling
+  		$('.page-section').each(function(i) {
+  				if ($(this).position().top <= scrollDistance) {
+  						$('.navigation a.active').removeClass('active');
+  						$('.navigation a').eq(i).addClass('active');
+  				}
+  		});
+  }).scroll();
+  </script>
+<div class="nav">
+    <a href="index.html">Prologue</a>
+    <a href="01.html">Chapter 1</a>
+    <a href="02.html">Chapter 2</a>
+    <a href="03.html">Chapter 3</a>
+    <a href="04.html">Chapter 4</a>
+    <a href="05.html">Chapter 5</a>
+    <a href="06.html">Chapter 6</a>
+    <a href="07.html">Chapter 7</a>
+    <a href="08.html">Chapter 8</a>
+    <a href="09.html">Chapter 9</a>
+    <a href="10.html">Chapter 10</a>
+    <a href="11.html">Chapter 11</a>
+    <a href="12.html">Chapter 12</a>
+    <a href="reports.html">Reports</a>
+  </div>
+  <div class= "target" id="prologue" style="margin-top: -100px; padding-top:100px;"></div>
+<div class="page" id="">
+
+<!-- Chapter 5 -->
+<div class= "target" id="5" style="margin-top: -100px; padding-top:100px;"></div>
+<div class="chapter-container content">
+    <div class="header"><h1>Chapter 5: Manor of Despair</h1></div>
+    <p class="nar">Vincent lands in the sewer system. He makes his way forward, and it becomes clear that he's not alone... as a Sahagin jumps in front of him!</p>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">Looks like I'm not the only one here.</div>
+    <p class="nar">Vincent clears the sewers, and exits them, arriving in some storage area beneath the basement of the Shinra Manor. He gets in an elevator and, arms crossed, has a flashback to when he first met Lucrecia.</p>
+    <div style="text-align: center"><img src="http://www.ffwa.eu/ff7/images/script-shots/17.jpg" alt="" border="0" height="177" width="250" class="imgpad"><img src="http://www.ffwa.eu/ff7/images/script-shots/18.jpg" alt="" border="0" height="177" width="250" class="imgpad"></div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">Vincent Valentine reporting for duty, ma'am. I have been assigned your protection.</div>
+    <p class="nar">Lucrecia gasps.</p>
+    <div class="speech lucrecia"><h4>Lucrecia:</h4><p id="dialog">No...</div>
+    <p class="nar">Vincent is confused, goes "huh?"</p>
+    <div class="speech lucrecia"><h4>Lucrecia:</h4><p id="dialog">Why would they send his...</div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">Excuse me?</div>
+    <div class="speech lucrecia"><h4>Lucrecia:</h4><p id="dialog">I apologize. This is the first time I have ever met anyone from the Turks.</div>
+    <div class="speech lucrecia"><h4>Lucrecia:</h4><p id="dialog">Lucrecia Crescent. Pleased to make your acquaintance, Mr. Valentine. <em>[smiles]</em></div>
+    <p class="nar">Scene change. Cait Sith is traversing deep, deep under Midgar in his attempt to determine what Deepground is up to.</p>
+    <div class="speech cait"><h4>Cait Sith:</h4><p id="dialog">This has got to be the place.</div>
+    <p class="nar">Cait Sith evades the patrolling DG soldiers, jumping to a new area. A container from Kalm, filled with human brings, travels across a railing.</p>
+    <div class="speech cait"><h4>Cait Sith:</h4><p id="dialog">That's the same container I saw in Kalm!</div>
+    <p class="nar">On to another screen; Cait Sith arrives at a large pool of green liquid. A container (still filled with people) falls from above into the greenness.</p>
+    <div class="speech cait"><h4>Cait Sith:</h4><p id="dialog">What!?</div>
+    <div class="speech cait"><h4>Cait Sith:</h4><p id="dialog">Good gracious me!</div>
+    <div style="text-align: center"><img src="http://www.ffwa.eu/ff7/images/script-shots/19.jpg" alt="" border="0" height="177" width="250" class="imgpad"><img src="http://www.ffwa.eu/ff7/images/script-shots/20.jpg" alt="" border="0" height="177" width="250" class="imgpad"></div>
+    <p class="nar">Just as the container's about to fall in, a HUGE hand reaches out, grabs the container, and drags it under.</p>
+    <div class="speech cait"><h4>Cait Sith:</h4><p id="dialog">What in the blazes is growing down there?</div>
+    <div class="speech"><h4>Guy:</h4><p id="dialog">Usher of souls.</div>
+    <p class="nar">Cait Sith turns around to see a being whose outfit has wings, brimming with dark energy.</p>
+    <div class="speech"><h4>Guy:</h4><p id="dialog">My brother.</div>
+    <div style="text-align: center"><img src="http://www.ffwa.eu/ff7/images/script-shots/21.jpg" alt="" border="0" height="177" width="250" class="imgpad"><img src="http://www.ffwa.eu/ff7/images/script-shots/22.jpg" alt="" border="0" height="177" width="250" class="imgpad"></div>
+    <p class="nar">The darkness dissipates from his face, revealing all but his eyes, nose and chin are bandaged.</p>
+    <div class="speech"><h4>Guy:</h4><p id="dialog">Omega.</div>
+    <div class="speech cait"><h4>Cait Sith:</h4><p id="dialog">It's Nero the Sable. Oh dear...</div>
+    <p class="nar">Cait Sith gets engulfed by black energy, as we see a Moogle doll floating on the surface of the green liquid.</p>
+    <p class="nar">Back to Vincent, who's now in the basement of the Shinra Manor. He opens a door to reveal he's in the library & laboratory portion of the Shinra Manor, where Sephiroth's rage was first felt 8 years earlier. A small materia rolls on the ground and lands at his feet. He reaches down and picks it up; it shines brightly. He turns around: Lucrecia is standing there!</p>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">Lucrecia!</div>
+    <div class="speech lucrecia"><h4>Lucrecia:</h4><p id="dialog">Vincent, right?</div>
+    <div class="speech lucrecia"><h4>Lucrecia:</h4><p id="dialog">Have you come to check up on me?</div>
+    <p class="nar">She walks forward, right through him. Her hologram flickers. They both turn around to face each other again.</p>
+    <div class="speech lucrecia"><h4>Lucrecia:</h4><p id="dialog">Omega. His awakening is upon us.</div>
+    <p class="nar">Screen fades to white; the scene changes to Lucrecia standing in the cave where she would later be interred in crystals.</p>
+    <div class="speech lucrecia"><h4>Lucrecia:</h4><p id="dialog">Soul wrought of terra corrupt, quelling impurity, purging the stream to beckon forth an ultimate fate. Behold mighty Chaos, Omega's squire to the lofty heavens.</div>
+    <div class="speech lucrecia"><h4>Lucrecia:</h4><p id="dialog">I came across this passage while studying the scriptures of the Ancients.</div>
+    <div class="speech lucrecia"><h4>Lucrecia:</h4><p id="dialog">The Chronicles of Yore.</div>
+    <div class="speech lucrecia"><h4>Lucrecia:</h4><p id="dialog">Omega. The end.</div>
+    <p class="nar">She faces the crystals and stretches out her hands, and a ball of energy begins to form at them.</p>
+    <div class="speech lucrecia"><h4>Lucrecia:</h4><p id="dialog">Just as all other sentient beings, he too, is born of the Lifestream.</div>
+    <div class="speech lucrecia"><h4>Lucrecia:</h4><p id="dialog">However, his only purpose is to cleanse the planet of all things living and lead their immortal souls through the abyssal aether to a new beginning far, far beyond the neverending sea of stars.</div>
+    <p class="nar">The ball of energy disappears.</p>
+    <div class="speech lucrecia"><h4>Lucrecia:</h4><p id="dialog">Just as life circulates through our planet, so too, does our planet through the universe. Or at least in theory.</div>
+    <p class="nar">We see Lucrecia amidst a sea of stars; outer space, if you will.</p>
+    <div class="speech lucrecia"><h4>Lucrecia:</h4><p id="dialog">However, what I can be certain of is, if Omega awakens, then all life as we know it will end.</div>
+    <div class="speech lucrecia"><h4>Lucrecia:</h4><p id="dialog">And when Omega has embarked on his journey to the cosmos, our planet will wither and die.</div>
+    <p class="nar">Back to the present, and the Lucrecia hologram.</p>
+    <div class="speech lucrecia"><h4>Lucrecia:</h4><p id="dialog">I will leave a copy of my records here for you, Vincent.</div>
+    <div class="speech lucrecia"><h4>Lucrecia:</h4><p id="dialog">Though I cannot imagine what help they might be, if any at all.</div>
+    <div class="speech lucrecia"><h4>Lucrecia:</h4><p id="dialog">Just remember...</div>
+    <p class="nar">Lucrecia faces the ground.</p>
+    <div class="speech lucrecia"><h4>Lucrecia:</h4><p id="dialog">I am so sorry.</div>
+    <p class="nar">She disappears, and so does the materia in his hand.</p>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">Lucrecia.</div>
+    <p class="nar">He eyes a computer disc on a nearby table; he picks it up.</p>
+    <p class="nar">Gameplay continues; Vincent makes his way around the Shinra Manor, killing DG units and collecting any files on the Omega Report he can find. At one point he enters a door, falls to one knee - and it's flashback time!</p>
+    <p class="nar">Flashback: Vincent's inside the tube of liquid again, with Lucrecia looking at him; it's the exact same flashback as earlier. Scene cuts back to the present.</p>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">This pain.</div>
+    <div class="speech rosso"><h4>Rosso:</h4><p id="dialog">Well, well. We meet again.</div>
+    <div class="speech rosso"><h4>Rosso:</h4><p id="dialog">This is perfect. I so wanted to see you, my love.</div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">Deepground. What are they attempting to do with Omega?</div>
+    <div class="speech rosso"><h4>Rosso:</h4><p id="dialog">I don't know. And to be honest, I don't care.</div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">What?</div>
+    <div class="speech rosso"><h4>Rosso:</h4><p id="dialog">But this is what Weiss desires.</div>
+    <div class="speech rosso"><h4>Rosso:</h4><p id="dialog">Hail Weiss.</div>
+    <div class="speech rosso"><h4>Rosso:</h4><p id="dialog">And what Weiss orders, we do. It is very simple.</div>
+    <div class="speech rosso"><h4>Rosso:</h4><p id="dialog">If he desires the awakening of Omega, then that is what all of Deepground desires.</div>
+    <div class="speech rosso"><h4>Rosso:</h4><p id="dialog">We could care less what happens to the planet.</div>
+    <div class="speech rosso"><h4>Rosso:</h4><p id="dialog">But all this matters little to me. It is not every day you are granted the chance to cleanse the world of all life.</div>
+    <div class="speech rosso"><h4>Rosso:</h4><p id="dialog">Just the thought sends a chill of excitement through my body.</div>
+    <div class="speech rosso"><h4>Rosso:</h4><p id="dialog">The Deepground soldiers were born and bred to kill.</div>
+    <div class="speech rosso"><h4>Rosso:</h4><p id="dialog">We were chained to a destiny of servitude.</div>
+    <div class="speech rosso"><h4>Rosso:</h4><p id="dialog">But then three years ago, we were freed from our chains--though waiting for us was darkness lit only by the faint glow of mako.</div>
+    <div class="speech rosso"><h4>Rosso:</h4><p id="dialog">And what do you think we did when we gained our freedom?</div>
+    <p class="nar">Rosso laughs.</p>
+    <div class="speech rosso"><h4>Rosso:</h4><p id="dialog">We killed. That is how we were raised. That is all we knew.</div>
+    <div class="speech rosso"><h4>Rosso:</h4><p id="dialog">And so I bathed in the blood of a thousand soldiers.</div>
+    <div class="speech rosso"><h4>Rosso:</h4><p id="dialog">And I enjoyed it. I reveled in it.</div>
+    <div class="speech rosso"><h4>Rosso:</h4><p id="dialog">And when I finally stepped out of the abyss, I craved for more.</div>
+    <div class="speech rosso"><h4>Rosso:</h4><p id="dialog">You understand, right?</div>
+    <p class="nar">Vincent points his gun at her.</p>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">I don't think so.</div>
+    <div class="speech rosso"><h4>Rosso:</h4><p id="dialog">How can you say that, darling? We're one and the same.</div>
+    <p class="nar">She speeds away; Vincent follows, temporarily being delayed by a robot firing explosives. He eventually reaches the entrance to the Shinra Manor, where the stairs lead to the second floor. Boss Battle vs. Black Widow (the aforementioned robot)</p>
+    <p class="nar">After the battle's conclusion, Vincent is standing around. Something is approaching fast from behind... he turns around, just as Rosso reaches him and jabs her hand directly into his chest. I mean, INTO. When she pulls it out, she's holding some uniquely-glowing materia... Vincent crouches on the ground.</p>
+    <div style="text-align: center"><img src="http://www.ffwa.eu/ff7/images/script-shots/23.jpg" alt="" border="0" height="177" width="250" class="imgpad"><img src="http://www.ffwa.eu/ff7/images/script-shots/24.jpg" alt="" border="0" height="177" width="250" class="imgpad"><img src="http://www.ffwa.eu/ff7/images/script-shots/25.jpg" alt="" border="0" height="177" width="250" class="imgpad"></div>
+    <div class="speech rosso"><h4>Rosso:</h4><p id="dialog">I'm sorry. Were you not expecting that?</div>
+    <p class="nar">Vincent is on the ground, spasming. His eyes, and then his whole body, glow red. He transforms into Chaos, but is still unable to move, and transforms back into Vincent.</p>
+    <div class="speech rosso"><h4>Rosso:</h4><p id="dialog">So, you cannot control the beast without this.</div>
+    <div class="speech rosso"><h4>Rosso:</h4><p id="dialog">Well, there will be no need for it when I'm done with you.</div>
+    <div style="text-align: center"><img src="http://www.ffwa.eu/ff7/images/script-shots/26.jpg" alt="" border="0" height="177" width="250" class="imgpad"><img src="http://www.ffwa.eu/ff7/images/script-shots/27.jpg" alt="" border="0" height="177" width="250" class="imgpad"></div>
+    <p class="nar">Rosso crouches down to finish off Vincent, but in runs some mysterious person with a big shuriken! The person flings the shuriken at Rosso, causing her to back away from Vincent. The shuriken spins around, and then it emits bright light, blinding Rosso... by the time the light dissipates, both the mysterious person and Vincent are gone.</p>
+    <div class="speech rosso"><h4>Rosso:</h4><p id="dialog">Wutai flea!</div>
+    <p class="nar">Rosso runs out of the manor, looking around franticly but seeing nothing. She punches the ground, flinging rocks everywhere.</p>
+    <div class="speech rosso"><h4>Rosso:</h4><p id="dialog">If you manage to survive that wound, I'll make sure you don't survive the next one.</div>
+    <div class="speech rosso"><h4>Rosso:</h4><p id="dialog">But no matter. <em>[She holds up the materia in her hand]</em> The end is upon us.</div>
+    <p class="nar">Flashback. Hojo is sitting at a table while Vincent talks to him. For the record, the game never actually says Hojo says these lines, but it's obviously him.</p>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">Is it true?</div>
+    <div class="speech hojo"><h4>Hojo:</h4><p id="dialog">Is what true?</div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">That Lucrecia... That Dr. Crescent is to take part in this project?</div>
+    <div class="speech lucrecia"><h4>Lucrecia:</h4><p id="dialog">It's true. <em>[She walks into the room]</em></div>
+    <div class="speech lucrecia"><h4>Lucrecia:</h4><p id="dialog">Why are you so surprised?</div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">But using your own child for an experiment?</div>
+    <p class="nar">Hojo goes "Hah!"</p>
+    <div class="speech hojo"><h4>Hojo:</h4><p id="dialog">I don't know what you're implying, but both of us are scientists. We know what we are doing.</div>
+    <div class="speech hojo"><h4>Hojo:</h4><p id="dialog">You are the last person to have any word in this. Now leave us at once, boy!</div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">But...</div>
+    <div class="speech lucrecia"><h4>Lucrecia:</h4><p id="dialog">But what?</div>
+    <div class="speech lucrecia"><h4>Lucrecia:</h4><p id="dialog">If you have something to say, say it.</div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">Are you... Are you sure this is what you really want?</div>
+    <div class="speech lucrecia"><h4>Lucrecia:</h4><p id="dialog">Am I sure? Am I sure!? If this only concerns me, then yes, I am sure!</div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">I just...</div>
+    <p class="nar">Vincent stares at the ground, and thinks the following.</p>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">All I did was watch.</div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">I didn't even try to stop her.</div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">And then...</div>
+    <p class="nar">Shot of Lucrecia walking... she begins to fall over and clutches her stomach in pain, as we see images of Jenova, the Holy materia falling down, and Sephiroth walking through the flames of Nibelheim - all images directly lifted from Advent Children. Screen fades to black.</p>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">That was my sin.</div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">And this...</div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">This...</div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">Is my punishment.</div>
+    <p class="nar">Flashback. Vincent is in the Shinra Manor laboratory, his vision is hazy. He looks at his hands, those of a Galian Beast. He lets out a blood-curdling scream.</p>
+    <p class="nar">Scene change; Vincent is dreaming about sitting in Lucrecia's Cave, as he looks at her encased in her crystal tomb.</p>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">I...</div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">I saw you again.</div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">It was the place we first met.</div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">But you were...</div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">No. I'm the one to blame.</div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">I couldn't stop you that day.</div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">I just...</div>
+    <p class="nar">Lucrecia's disembodied voice returns.</p>
+    <div class="speech lucrecia"><h4>Lucrecia:</h4><p id="dialog">I...found...</div>
+    <div class="speech lucrecia"><h4>Lucrecia:</h4><p id="dialog">I gave... you...</div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">Lucrecia?</div>
+    <div class="speech lucrecia"><h4>Lucrecia:</h4><p id="dialog">I'm so sorry.</div>
+    <p class="nar">Vincent wakes up, in the real world, being transported in a truck. The mysterious person is sitting in front of him.</p>
+    <div class="speech person"><h4>Person:</h4><p id="dialog">Morning!</div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">Where...?</div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">Who are you?</div>
+    <div class="speech person"><h4>Person:</h4><p id="dialog">Well, I'm glad you asked! I am the champion of the earth and the sky. I am the conqueror of evil. The single white rose of Wutai.</div>
+    <p class="nar">The person throws off their outfit to reveal...</p>
+    <div class="speech yuffie"><h4>Yuffie:</h4><p id="dialog">Yuffie Kisaragi!</div>
+    <p class="nar">She stands up on a chair.</p>
+    <div class="speech yuffie"><h4>Yuffie:</h4><p id="dialog">Feast your eyes on...</div>
+    <p class="nar">She loses her balance and falls backwards, knocking her head into the wall, then clutching it and moaning "Owwww!"</p>
+    <div style="text-align: center"><img src="http://www.ffwa.eu/ff7/images/script-shots/28.jpg" alt="" border="0" height="177" width="250" class="imgpad"><img src="http://www.ffwa.eu/ff7/images/script-shots/29.jpg" alt="" border="0" height="177" width="250" class="imgpad"></div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">So, where are we?</div>
+    <div class="speech yuffie"><h4>Yuffie:</h4><p id="dialog">C'mon, aren't you at least a little concerned.</div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">Yuffie.</div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">It's been a while.</div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">How's your head?</div>
+    <div class="speech yuffie"><h4>Yuffie:</h4><p id="dialog">You... could you at least pretend to be sympathetic!?</div>
+    <p class="nar">Vincent tries to stand up, but clutches his chest. Yuffie rushes to his side.</p>
+    <div class="speech yuffie"><h4>Yuffie:</h4><p id="dialog">Hey, take it easy. That was a big hole you had in your chest.</div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">A hole in my chest?</div>
+    <div class="speech yuffie"><h4>Yuffie:</h4><p id="dialog">I seriously thought you were a goner, but then the wound healed itself right up.</div>
+    <div class="speech yuffie"><h4>Yuffie:</h4><p id="dialog">You were always "different," but I guess that's why you're still breathing.</div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">Yuffie, what are you doing here?</div>
+    <div class="speech yuffie"><h4>Yuffie:</h4><p id="dialog">Me? I'm just helping out Reeve and his gang.</div>
+    <div class="speech yuffie"><h4>Yuffie:</h4><p id="dialog">I was poking around Nibelheim and I found you looking all corpselike in Shinra Manor. So I saved you.</div>
+    <div class="speech yuffie"><h4>Yuffie:</h4><p id="dialog">Imagine that--me, saving the great Vincent Valentine. Do I get any thanks? <em>[giggles]</em></div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">Thanks, Yuffie.</div>
+    <div class="speech yuffie"><h4>Yuffie:</h4><p id="dialog"><em>[shakes her hands while going "no no no!"]</em> I didn't mean for you to take me so seriously.</div>
+    <div class="speech yuffie"><h4>Yuffie:</h4><p id="dialog">Anyway...</div>
+    <div class="speech yuffie"><h4>Yuffie:</h4><p id="dialog">Reeve wanted us to contact him as soon as you woke up.</div>
+    <p class="nar">Scene change: The screen is black.</p>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">Vincent has come to? Excellent.</div>
+    <p class="nar">A tv screen flickers on; Reeve is standing there.</p>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">I have some good news. Using you-know-who, I was able to infiltrate Midgar. However, what I saw wasn't the prettiest of pictures.</div>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">Omega... I should have known.</div>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">We cannot let them sacrifice the lives of any more people. Once we've gathered our forces, we'll launch a full offensive.</div>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">Of course, we'll require the help of you two as well. Please hurry back to headquarters.</div>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">Oh. I'm analyzing the data files you sent earlier. I should have results soon. Tuesti out.</div>
+    <p class="nar">The transmission ends; Yuffie is sitting at the monitor.</p>
+    <div class="speech yuffie"><h4>Yuffie:</h4><p id="dialog">There you have it. I don't know what's going down, but it sounds big.</div>
+    <div class="speech yuffie"><h4>Yuffie:</h4><p id="dialog">I've been waiting a long time to get my hands on those Deepground punks.</div>
+    <div class="speech yuffie"><h4>Yuffie:</h4><p id="dialog">They've had their way long enough. Now it's time to give them a taste of Pain a la Yuffie.</div>
+    <p class="nar">Yuffie rambles on about how many of them she could take on, while Vincent just lies down.</p>
+    <p class="nar">Scene change. Shelke is inside a tube of water in WRO headquarters.</p>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">Where am I?</div>
+    <p class="nar">She somehow manages to deactivate it and step out. She sees Shalua slouched over her computer terminal, sleeping. Elsewhere, we see a pair of WRO soldiers standing watch outside a room, where a still-unconscious Azul is lying down on a table of some sort. His eyes open up.</p>
+    <p class="nar">Back to Shelke; she picks up her weapon, waking Shalua up.</p>
+    <div class="speech shalua"><h4>Shalua:</h4><p id="dialog">Shelke! How are you feeling?</div>
+    <p class="nar">Shelke looks at her and sighs.</p>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">You were a fool to let your enemy live. Now I'm going to kill you and return to Deepground.</div>
+    <div class="speech shalua"><h4>Shalua:</h4><p id="dialog">I don't think so. I have to admit, I wasn't myself back there. Seeing you for the first time in ten years left me in a spin.</div>
+    <div class="speech shalua"><h4>Shalua:</h4><p id="dialog">But I've had time to recover. And I'm not letting you get away. Not this time.</div>
+    <div class="speech shalua"><h4>Shalua:</h4><p id="dialog">There's no way I'm going to let you kill me, and there's no way I'm going to let you go back to Deepground.</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">I don't recall needing your permission to do anything.</div>
+    <div class="speech shalua"><h4>Shalua:</h4><p id="dialog">And I don't remember you ever being able to win any of our fights, do you?</div>
+    <div class="speech shalua"><h4>Shalua:</h4><p id="dialog">How about it? You want to try your luck?</div>
+    <div style="text-align: center"><img src="http://www.ffwa.eu/ff7/images/script-shots/30.jpg" alt="" border="0" height="177" width="250" class="imgpad"><img src="http://www.ffwa.eu/ff7/images/script-shots/31.jpg" alt="" border="0" height="177" width="250" class="imgpad"></div>
+    <p class="nar">We see a WRO soldier keeping watch outside Azul's room. He thinks he hears a noise, and goes closer to it... only to be blasted backwards, along with the door, as a giant beast's foot steps out. Elsewhere, a DG soldier snipes two WRO members. Another sniper snipes two more. A soldier breaks though the glass ceiling, sniping two more members. The complex is utterly overrun with DG soldiers, killing everything in sight.</p>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">Understood. You may begin mobilization.</div>
+    <div class="speech wro"><h4>WRO Member:</h4><p id="dialog">Commissioner!</div>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">Officer!</div>
+    <p class="nar">We hear a garbled scream in the background of the transmission.</p>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">Deepground!?</div>
+    <p class="nar">Reeve turns around and sees a Heavy Armor unit blasting a missile at him. The screen fades to white.</p>
+    <p class="nar">Back to Shalua and Shelke; as they're about to throw down, "Emergency" begins blaring throughout the complex.</p>
+    <div class="speech shalua"><h4>Shalua:</h4><p id="dialog">They're back!? But why?</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">They were waiting for Azul.</div>
+    <div class="speech shalua"><h4>Shalua:</h4><p id="dialog">Azul?</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">His death was merely a prologue to the true terror.</div>
+    <p class="nar">Scene change to Yuffie and Vincent, still sitting in the rear of the truck.</p>
+    <div class="speech wro"><h4>WRO Member:</h4><p id="dialog">We'll be arriving shortly.</div>
+    <div class="speech wro"><h4>WRO Member:</h4><p id="dialog">What the hell?</div>
+    <p class="nar">The truck shakes; Yuffie falls down, rolls around and knocks her head on the wall (again), this time falling unconscious. Vincent jumps out of the truck.</p>
+<p class="end">End of Chapter</p>
+<div class="prevnext">
+  <a href="06.html">Chapter 6: Deepground Strikes Back</a>
+</div>
+</div>
+
+<!-- Footer -->
+<div class="footer">Script sourced from Martin on FINAL FANTASY Worlds Apart</div>
+</div>
+</body>
+</html>

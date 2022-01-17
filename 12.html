@@ -1,0 +1,189 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Dirge of Cerberus - Script</title>
+  <meta name="description" content="Dirge of Cerberus - Script">
+  <meta name="author" content="SitePoint">
+  <meta property="og:title" content="Dirge of Cerberus - Script">
+  <meta property="og:type" content="website">
+  <meta property="og:description" content="Dirge of Cerberus - Script">
+  <meta property="og:image" content="image.png">
+  <link rel="icon" href="/favicon.ico">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
+</head>
+<body>
+  <script>
+  $(document).ready(function() {
+  		$('a[href*=#]').bind('click', function(e) {
+  				e.preventDefault(); // prevent hard jump, the default behavior
+
+  				var target = $(this).attr("href"); // Set the target as variable
+
+  				// perform animated scrolling by getting top-position of target-element and set it as scroll target
+  				$('html, body').stop().animate({
+  						scrollTop: $(target).offset().top
+  				}, 600, function() {
+  						location.hash = target; //attach the hash (#jumptarget) to the pageurl
+  				});
+
+  				return false;
+  		});
+  });
+
+  $(window).scroll(function() {
+  		var scrollDistance = $(window).scrollTop();
+
+  		// Show/hide menu on scroll
+  		//if (scrollDistance >= 850) {
+  		//		$('nav').fadeIn("fast");
+  		//} else {
+  		//		$('nav').fadeOut("fast");
+  		//}
+
+  		// Assign active class to nav links while scolling
+  		$('.page-section').each(function(i) {
+  				if ($(this).position().top <= scrollDistance) {
+  						$('.navigation a.active').removeClass('active');
+  						$('.navigation a').eq(i).addClass('active');
+  				}
+  		});
+  }).scroll();
+  </script>
+<div class="nav">
+    <a href="index.html">Prologue</a>
+    <a href="01.html">Chapter 1</a>
+    <a href="02.html">Chapter 2</a>
+    <a href="03.html">Chapter 3</a>
+    <a href="04.html">Chapter 4</a>
+    <a href="05.html">Chapter 5</a>
+    <a href="06.html">Chapter 6</a>
+    <a href="07.html">Chapter 7</a>
+    <a href="08.html">Chapter 8</a>
+    <a href="09.html">Chapter 9</a>
+    <a href="10.html">Chapter 10</a>
+    <a href="11.html">Chapter 11</a>
+    <a href="12.html">Chapter 12</a>
+    <a href="reports.html">Reports</a>
+  </div>
+  <div class= "target" id="prologue" style="margin-top: -100px; padding-top:100px;"></div>
+<div class="page" id="">
+
+<!-- Chapter 12 -->
+<div class= "target" id="12" style="margin-top: -100px; padding-top:100px;"></div>
+<div class="chapter-container content">
+    <div class="header"><h1>Chapter 12: A Chaotic Finale</h1></div>
+    <p class="nar">Vincent/Chaos is standing on a platform, with Omega looming in the far distance. As you make your way across various platforms, Omega sends creatures to finish you off, but Chaos' Death Penalty takes them out with ease.</p>
+    <p class="nar">Eventually, we see an FMV; Omega fires off some energy in an attempt to send Vincent backwards; however, suddenly, a Mako Reactor explodes! We see Cloud took a nice swipe at it, and tumbles downward, landing on his feet. He picks up his cellphone.</p>
+    <div class="speech cloud"><h4>Cloud:</h4><p id="dialog">Sorry about the wait.</div>
+    <p class="nar">Next, Tifa kicks a DG soldier, and picks up her phone.</p>
+    <div class="speech tifa"><h4>Tifa:</h4><p id="dialog">Everything's clear over here!</div>
+    <p class="nar">Barret fires his gunarm into the sky.</p>
+    <div class="speech barret"><h4>Barret:</h4><p id="dialog">They're all yours now, Vincent!</div>
+    <p class="nar">Cid coolly lights a cigarette. He's leaning on a metal grate, as a reactor collapses in the background.</p>
+    <div class="speech cid"><h4>Cid:</h4><p id="dialog">All in a day's work.</div>
+    <div style="text-align: center"><img src="http://www.ffwa.eu/ff7/images/script-shots/91.jpg" alt="" border="0" height="177" width="250" class="imgpad"><img src="http://www.ffwa.eu/ff7/images/script-shots/92.jpg" alt="" border="0" height="177" width="250" class="imgpad"></div>
+    <p class="nar">Cut to Reeve, with Shelke, Yuffie & some WRO Members by his side.</p>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">Fire.</div>
+    <p class="nar">Reactor explodes, everybody cheers... but Shelke.</p>
+    <div class="speech yuffie"><h4>Yuffie:</h4><p id="dialog">Alright!</div>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">And just in time.</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">When did I start caring so much about what happened?</div>
+    <p class="nar">She turns around and looks up.</p>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">The rest is up to you.</div>
+    <p class="nar">Scene cuts to Vincent, still flying in the sky above Omega. The streams of energy once connected to the reactors are now loose. We cut to quick shots of Cloud, Tifa, Barret, Cid, Reeve and Yuffie, and then show all of them, shouting "Vincent!" in unison.</p>
+    <div style="text-align: center"><img src="http://www.ffwa.eu/ff7/images/script-shots/93.jpg" alt="" border="0" height="177" width="250" class="imgpad"><img src="http://www.ffwa.eu/ff7/images/script-shots/94.jpg" alt="" border="0" height="177" width="250" class="imgpad"></div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">Guess I have no choice.</div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">It's time... to save the world.</div>
+    <div style="text-align: center"><img src="http://www.ffwa.eu/ff7/images/script-shots/95.jpg" alt="" border="0" height="177" width="250" class="imgpad"><img src="http://www.ffwa.eu/ff7/images/script-shots/96.jpg" alt="" border="0" height="177" width="250" class="imgpad"></div>
+    <p class="nar">Vincent charges towards Omega at full power. We see his 6 teammates from FFVII once again, as they shout "Yeah!" in unison. Vincent slams into Omega's barrier and pushes his way through it, entering the giant Weapon. Vincent wrecks Omega on the inside, then ventures to its key area; a gorgeous world filled with water with clouds in the sky. Beneath the water is something, which Weiss appears to be ingrained in. Boss Battle vs. Crystal Feelers; when they get destroyed the underwater object ascends into the sky. Boss Battle vs. Omega Cocoon. Upon its defeat, the cocoon explodes.</p>
+    <div style="text-align: center"><img src="http://www.ffwa.eu/ff7/images/script-shots/97.jpg" alt="" border="0" height="177" width="250" class="imgpad"><img src="http://www.ffwa.eu/ff7/images/script-shots/98.jpg" alt="" border="0" height="177" width="250" class="imgpad"></div>
+    <p class="nar">We see an image of Weiss, sword in each hand, walking towards Vincent/Chaos. He then speeds forward, but Vincent fires a blast from the Death Penalty, sending him flying backwards... yet an instant later, we see him behind Vincent, both his swords piecing his stomach. But THEN an instant after that, we see Vincent behind Weiss, pointing the Death Penalty at him.</p>
+    <div style="text-align: center"><img src="http://www.ffwa.eu/ff7/images/script-shots/99.jpg" alt="" border="0" height="177" width="250" class="imgpad"><img src="http://www.ffwa.eu/ff7/images/script-shots/100.jpg" alt="" border="0" height="177" width="250" class="imgpad"></div>
+    <p class="nar">Weiss smirks and jumps into the air, and their flashy fight continues, like something you'd see in Dragonball Z. Eventually, Weiss laughs, and we see what had been inside the cocoon. Some huge... thing.</p>
+    <div style="text-align: center"><img src="http://www.ffwa.eu/ff7/images/script-shots/103.jpg" alt="" border="0" height="177" width="250" class="imgpad"></div>
+    <p class="nar">It sends forth 4 feelers, which latch onto Weiss and pull him into... it.</p>
+    <div style="text-align: center"><img src="http://www.ffwa.eu/ff7/images/script-shots/101.jpg" alt="" border="0" height="177" width="250" class="imgpad"><img src="http://www.ffwa.eu/ff7/images/script-shots/102.jpg" alt="" border="0" height="177" width="250" class="imgpad"></div>
+    <div style="text-align: center"><img src="http://www.ffwa.eu/ff7/images/script-shots/104.jpg" alt="" border="0" height="177" width="250" class="imgpad"></div>
+    <p class="nar">Final Boss Battle vs. Omega Weiss. Upon its defeat, Weiss detaches and plummets. The creature gets absorbed into the ground.</p>
+    <p class="nar">FMV. Omega becomes crystallized, and the crystal turns to stone, yet it continues to float above Midgar. His massive wings breaks through their stone prison, flapping fervently, as he lifts into the air. Vincent keeps pace with him.</p>
+    <div style="text-align: center"><img src="http://www.ffwa.eu/ff7/images/script-shots/105.jpg" alt="" border="0" height="177" width="250" class="imgpad"><img src="http://www.ffwa.eu/ff7/images/script-shots/106.jpg" alt="" border="0" height="177" width="250" class="imgpad"></div>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">Omega's ascending! But that would mean...!</div>
+    <div style="text-align: center"><img src="http://www.ffwa.eu/ff7/images/script-shots/107.jpg" alt="" border="0" height="177" width="250" class="imgpad"><img src="http://www.ffwa.eu/ff7/images/script-shots/108.jpg" alt="" border="0" height="177" width="250" class="imgpad"></div>
+    <p class="nar">Vincent soars past Omega, turns around and faces him as he approaches. The Protomateria in his chest is glowing brighter than ever. He lets out a howl, and plummets right into him. From space, we see a tremendous explosion cover a good portion of the planet... and the screen goes white.</p>
+    <div style="text-align: center"><img src="http://www.ffwa.eu/ff7/images/script-shots/109.jpg" alt="" border="0" height="177" width="250" class="imgpad"><img src="http://www.ffwa.eu/ff7/images/script-shots/110.jpg" alt="" border="0" height="177" width="250" class="imgpad"></div>
+    <p class="nar">When it fades back in, we see the whiteness being to subside over Midgar. Cloud and the gang look upwards, as they can see the stars.</p>
+    <div style="text-align: center"><img src="http://www.ffwa.eu/ff7/images/script-shots/111.jpg" alt="" border="0" height="177" width="250" class="imgpad"><img src="http://www.ffwa.eu/ff7/images/script-shots/112.jpg" alt="" border="0" height="177" width="250" class="imgpad"></div>
+    <p class="nar">The blackness of space soon turns to green, as the mako energy from Omega falls back to Earth, along with three globules of red energy.</p>
+    <div style="text-align: center"><img src="http://www.ffwa.eu/ff7/images/script-shots/113.jpg" alt="" border="0" height="177" width="250" class="imgpad"><img src="http://www.ffwa.eu/ff7/images/script-shots/114.jpg" alt="" border="0" height="177" width="250" class="imgpad"></div>
+    <div class="speech yuffie"><h4>Yuffie:</h4><p id="dialog">Vincent?</div>
+    <p class="nar">The credits begin to roll, as the red globules descend. We see Vincent's keychain dangling from a metal pole, perhaps implying he perished?</p>
+    <div style="text-align: center"><img src="http://www.ffwa.eu/ff7/images/script-shots/115.jpg" alt="" border="0" height="177" width="250" class="imgpad"><img src="http://www.ffwa.eu/ff7/images/script-shots/116.jpg" alt="" border="0" height="177" width="250" class="imgpad"></div>
+    <p class="nar">The camera fades out on the keychain, as the credits continue to roll by. Towards the end of the credits, it fades back in on Midgar, and we see the tube Shalua is in. The glass is cracked, and her eyes remain closed... and sadly, they don't reopen.</p>
+    <div style="text-align: center"><img src="http://www.ffwa.eu/ff7/images/script-shots/117.jpg" alt="" border="0" height="177" width="250" class="imgpad"><img src="http://www.ffwa.eu/ff7/images/script-shots/118.jpg" alt="" border="0" height="177" width="250" class="imgpad"></div>
+    <p class="nar">Of course, a Final Fantasy game wouldn't be complete without additional cutscenes after the credits. We see glimpses of Midgar on a beautiful day, as birds fly by. Shelke provides some voiceovers.</p>
+    <div style="text-align: center"><img src="http://www.ffwa.eu/ff7/images/script-shots/119.jpg" alt="" border="0" height="177" width="250" class="imgpad"><img src="http://www.ffwa.eu/ff7/images/script-shots/120.jpg" alt="" border="0" height="177" width="250" class="imgpad"></div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">Vincent...</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">It has been almost a week since that day.</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">The Lifestream has returned to the planet and has begun to flow normally once again.</div>
+    <p class="nar">We see she is sitting inside the refurbished 7th Heaven, as seen in Advent Children.</p>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">And I have started to fill the ten-year hole in my life... or at least started to try.</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">I've learned so much in the past weeks.</div>
+    <p class="nar">She's looking at her phone, and smirks.</p>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">Now that I realize I'm not alone, I think I may be a little stronger than I was before.</div>
+    <p class="nar">On the other side of the bar, Tifa is cleaning off a table.</p>
+    <div class="speech yuffie"><h4>Yuffie:</h4><p id="dialog">Have you heard from Cloud?</div>
+    <div class="speech tifa"><h4>Tifa:</h4><p id="dialog">He hasn't found anything.</div>
+    <div class="speech yuffie"><h4>Yuffie:</h4><p id="dialog">Ain't going to make this easy for us, is he?</div>
+    <p class="nar">Shelke looks out the window.</p>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">Vincent.</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">Do you remember the last words we exchanged?</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">Do you remember our promise? Your promise to Lucrecia?</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">Go. Tell her how you feel. Tell her what is truly in your heart.</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">I know that you probably will never see this but I have to try... I have to believe.</div>
+    <p class="nar">She places her phone down, as we see a text message is being sent. Cut to outside the Seventh Heaven, where she sits, with a yawning Red XIII by her side (yes that's the first time we've seen him in the entire game!)</p>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">I've learned I must never give up hope. Never...</div>
+    <div style="text-align: center"><img src="http://www.ffwa.eu/ff7/images/script-shots/121.jpg" alt="" border="0" height="177" width="250" class="imgpad"><img src="http://www.ffwa.eu/ff7/images/script-shots/122.jpg" alt="" border="0" height="177" width="250" class="imgpad"></div>
+    <p class="nar">Scene changes to Lucrecia's Cave; the present this time, not a flashback, dream or hallucination. She's encased in the crystals like always; Vincent is talking to her, while sitting in the same place he always sits.</p>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">Lucrecia.</div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">Everything's alright now.</div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">Omega and Chaos have returned to the planet.</div>
+    <p class="nar">He stands up.</p>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">Thank you.</div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">It was you.</div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">You were the reason I survived.</div>
+    <div style="text-align: center"><img src="http://www.ffwa.eu/ff7/images/script-shots/123.jpg" alt="" border="0" height="177" width="250" class="imgpad"><img src="http://www.ffwa.eu/ff7/images/script-shots/124.jpg" alt="" border="0" height="177" width="250" class="imgpad"></div>
+    <p class="nar">He turns around and walks away. A single teardrop roles down her cheek. Upon exiting the cave, he sees Shelke sporting some new, non-DG clothes.</p>
+    <div style="text-align: center"><img src="http://www.ffwa.eu/ff7/images/script-shots/125.jpg" alt="" border="0" height="177" width="250" class="imgpad"><img src="http://www.ffwa.eu/ff7/images/script-shots/126.jpg" alt="" border="0" height="177" width="250" class="imgpad"></div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">Everyone's waiting, Vincent Valentine.</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog"><em>[sighs]</em> I don't know why they made me come up here and get you.</div>
+    <p class="nar">Vincent smirks. Shelke enjoys the scenery, then turns her head to face Vincent.</p>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">Not that I mind, though.</div>
+    <div style="text-align: center"><img src="http://www.ffwa.eu/ff7/images/script-shots/127.jpg" alt="" border="0" height="177" width="250" class="imgpad"><img src="http://www.ffwa.eu/ff7/images/script-shots/128.jpg" alt="" border="0" height="177" width="250" class="imgpad"></div>
+    <p class="nar">She smiles, and they both look into the sky, where the fragments of Omega remain, floating in space.</p>
+    <div style="text-align: center"><img src="http://www.ffwa.eu/ff7/images/script-shots/129.jpg" alt="" border="0" height="177" width="250" class="imgpad"></div>
+    <p class="nar">"The End" appears on the screen. Is it though? If you get the three G-Reports scattered throughout the game, you're privy to the "super secret ending". Observe!</p>
+    <div style="text-align: center"><img src="http://www.ffwa.eu/ff7/images/script-shots/130.jpg" alt="" border="0" height="177" width="250" class="imgpad"><img src="http://www.ffwa.eu/ff7/images/script-shots/131.jpg" alt="" border="0" height="177" width="250" class="imgpad"></div>
+    <p class="nar">Midgar, after the destruction of Omega. In any underground cave, Weiss' body lies motionless on a slab of rock, his swords at his side. Suddenly, electricity fills the room... a body hovers in the air, enveloped in a ball of water. The ball glows orange; stalactites begin to fall from above. The ball explodes outwards, and the man lands. He moves towards Weiss, walking on water, momentarily standing above him before picking him up. The man is the mysterious being known as G, or </p>
+    <p class="nar">Genesis. For more on G, read the G Reports!</p>
+    <div style="text-align: center"><img src="http://www.ffwa.eu/ff7/images/script-shots/132.jpg" alt="" border="0" height="177" width="250" class="imgpad"><img src="http://www.ffwa.eu/ff7/images/script-shots/133.jpg" alt="" border="0" height="177" width="250" class="imgpad"></div>
+    <div class="speech gen"><h4>G:</h4><p id="dialog">It is not yet time for slumber.</div>
+    <div class="speech gen"><h4>G:</h4><p id="dialog">We still have much work to do...</div>
+    <div class="speech gen"><h4>G:</h4><p id="dialog">My brother.</div>
+    <div style="text-align: center"><img src="http://www.ffwa.eu/ff7/images/script-shots/134.jpg" alt="" border="0" height="177" width="250" class="imgpad"></div>
+    <p class="nar">Camera close-up on his face. His eyes shine blue with the power of mako; a left wing spouts out of his back. And with one mighty flap, he flies away, as his feathers slowly descend.</p>
+    <div style="text-align: center"><img src="http://www.ffwa.eu/ff7/images/script-shots/135.jpg" alt="" border="0" height="177" width="250" class="imgpad"><img src="http://www.ffwa.eu/ff7/images/script-shots/136.jpg" alt="" border="0" height="177" width="250" class="imgpad"></div>
+    <p class="end" style="margin-top: 20px;">End of Chapter</p>
+<div class="prevnext">
+  <a href="reports.html">Omega Reports and G Reports</a>
+</div>
+</div>
+
+<!-- Footer -->
+<div class="footer">Script sourced from Martin on FINAL FANTASY Worlds Apart</div>
+</div>
+</body>
+</html>

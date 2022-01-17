@@ -1,0 +1,139 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Dirge of Cerberus - Script</title>
+  <meta name="description" content="Dirge of Cerberus - Script">
+  <meta name="author" content="SitePoint">
+  <meta property="og:title" content="Dirge of Cerberus - Script">
+  <meta property="og:type" content="website">
+  <meta property="og:description" content="Dirge of Cerberus - Script">
+  <meta property="og:image" content="image.png">
+  <link rel="icon" href="/favicon.ico">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
+</head>
+<body>
+  <script>
+  $(document).ready(function() {
+  		$('a[href*=#]').bind('click', function(e) {
+  				e.preventDefault(); // prevent hard jump, the default behavior
+
+  				var target = $(this).attr("href"); // Set the target as variable
+
+  				// perform animated scrolling by getting top-position of target-element and set it as scroll target
+  				$('html, body').stop().animate({
+  						scrollTop: $(target).offset().top
+  				}, 600, function() {
+  						location.hash = target; //attach the hash (#jumptarget) to the pageurl
+  				});
+
+  				return false;
+  		});
+  });
+
+  $(window).scroll(function() {
+  		var scrollDistance = $(window).scrollTop();
+
+  		// Show/hide menu on scroll
+  		//if (scrollDistance >= 850) {
+  		//		$('nav').fadeIn("fast");
+  		//} else {
+  		//		$('nav').fadeOut("fast");
+  		//}
+
+  		// Assign active class to nav links while scolling
+  		$('.page-section').each(function(i) {
+  				if ($(this).position().top <= scrollDistance) {
+  						$('.navigation a.active').removeClass('active');
+  						$('.navigation a').eq(i).addClass('active');
+  				}
+  		});
+  }).scroll();
+  </script>
+<div class="nav">
+    <a href="index.html">Prologue</a>
+    <a href="01.html">Chapter 1</a>
+    <a href="02.html">Chapter 2</a>
+    <a href="03.html">Chapter 3</a>
+    <a href="04.html">Chapter 4</a>
+    <a href="05.html">Chapter 5</a>
+    <a href="06.html">Chapter 6</a>
+    <a href="07.html">Chapter 7</a>
+    <a href="08.html">Chapter 8</a>
+    <a href="09.html">Chapter 9</a>
+    <a href="10.html">Chapter 10</a>
+    <a href="11.html">Chapter 11</a>
+    <a href="12.html">Chapter 12</a>
+    <a href="reports.html">Reports</a>
+  </div>
+  <div class= "target" id="prologue" style="margin-top: -100px; padding-top:100px;"></div>
+<div class="page" id="">
+
+<!-- Chapter 2 -->
+<div class= "target" id="2" style="margin-top: -100px; padding-top:100px;"></div>
+<div class="chapter-container content">
+    <div class="header"><h1>Chapter 2: Showdown in the Wastes</h1></div>
+    <p class="nar">Reeve and Vincent are in a truck, traveling from Kalm to Edge.</p>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">Reeve. Who were those men?</div>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">Deepground soldiers.</div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">Deepground?</div>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">Yes. The shadow of the Shinra Company, constructed by the former president and completely hidden from the rest of the world.</div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">Constructed?</div>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">His goal was to create an army of superhuman warriors--not once letting morality interfere.</div>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">The man you met earlier, Azul, is also a member of Deepground. But, he belongs to an elite unit known as the Tsviets.</div>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">The whole organization was kept a secret. That is why there is so little information on them. However, it's nothing like I expected.</div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">Not even a person in your position was informed?</div>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">No. Other than the president himself, the only people who knew of Deepground's existence were most likely Heidegger, Scarlet, and the head of biochemical research, Hojo.</div>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">After the president's death, the transfer of power to his son was carried out so quickly, I doubt Rufus was ever briefed on the project.</div>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">As for me, I was told the information was on a need to know basis. And as an official in charge of urban development, I guess I wasn't on their list.</div>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">All the intel we currently have on Deepground was only discovered recently when we came across some of Scarlet's old files.</div>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog"><em>[sighs]</em> Vincent. Have you heard of the mass disappearance that occurred recently in Junon?</div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">I remember the report saying that 20 or 30 people suddenly vanished.</div>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">That's what the report would like you to believe.</div>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">It was determined internally that if the truth was leaked, they wouldn't be able to contain the inevitable panic.</div>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">The actual number of people that went missing that day was 1200. 1200 people simply vanished without a single trace.</div>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">The WRO conducted a private investigation but we came up empty-handed. Except for the rumors.</div>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">Since the Junon disappearances, people in Edge have been on edge.</div>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">They say that night after night you can hear screams coming from the direction of Midgar.</div>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">Could it be the wind? Let me ask you, does the wind sound like a thousand wailing souls?</div>
+    <p class="nar">Awkward pause in the conversation.</p>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">Listen. Can you hear them? The cries?</div>
+    <p class="nar">Some scattered voices can be heard in the distant background.</p>
+    <div class="speech wro"><h4>WRO Member:</h4><p id="dialog">Commissioner! A rogue transmission is being broadcast on all wavelengths!</div>
+    <p class="nar">Vincent and Reeve look at the tv screen. A man is sitting in a throne. As he speaks the camera shows him from different angles.</p>
+    <div style="text-align: center"><img src="http://www.ffwa.eu/ff7/images/script-shots/11.jpg" alt="" border="0" height="177" width="250" class="imgpad"></div>
+    <div class="speech"><h4>Guy:</h4><p id="dialog">At last. The time has come to cleanse this world.</div>
+    <div class="speech"><h4>Guy:</h4><p id="dialog">The pure will be "spared" for the cause, while the tainted will be hunted down and exterminated.</div>
+    <div class="speech"><h4>Guy:</h4><p id="dialog">They shall be slashed, strangled, and slaughtered. Beaten, stabbed, and crushed. Garroted and impaled. Shot and executed without mercy.</div>
+    <div class="speech"><h4>Guy:</h4><p id="dialog">The time has come to cleanse this world.</div>
+    <p class="nar">He laughs rather villainously; the transmission cuts out.</p>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">Where could that signal have...?</div>
+    <p class="nar">The truck rumbles.</p>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">What was that?</div>
+    <p class="nar">He opens the back of the truck, just as a beast jumps up towards him; Vincent shoots it.</p>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">Guard hounds!</div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">I'll take care of your pet problem. Just keep driving.</div>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">Vincent! Use this!</div>
+    <p class="nar">A machine gun turret with accompanying seat emerges from the floor of the truck. Vincent sits in it. Eventually the truck crashes; Vincent gets out.</p>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">Are you alright?</div>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">I'll be fine. But that's more than I can say for the engine.</div>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">Vincent. If possible, I want you to continue on to Edge. That transmission we just saw troubles me.</div>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">Once I have repaired the Shadowfox, I'll need to return to headquarters.</div>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">A WRO squad has already been dispatched to Edge. Join them and help liberate the city.</div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">I guess I have no choice.</div>
+    <p class="nar">Vincent makes his way through the wasteland, killing Guard hounds and a boss, Crimson Hound. A little after, Deepground soldiers on hoverbikes attack him, and they get easily dispatched.</p>
+    <p class="nar">Vincent has reached Edge; a rather grey and depressing town, currently in the midst of a rainstorm. It was here that Rosso slaughtered the WRO squad.</p>
+<p class="end">End of Chapter</p>
+<div class="prevnext">
+  <a href="03.html">Chapter 3: Silent Edge</a>
+</div>
+</div>
+
+<!-- Footer -->
+<div class="footer">Script sourced from Martin on FINAL FANTASY Worlds Apart</div>
+</div>
+</body>
+</html>

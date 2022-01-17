@@ -1,0 +1,180 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Dirge of Cerberus - Script</title>
+  <meta name="description" content="Dirge of Cerberus - Script">
+  <meta name="author" content="SitePoint">
+  <meta property="og:title" content="Dirge of Cerberus - Script">
+  <meta property="og:type" content="website">
+  <meta property="og:description" content="Dirge of Cerberus - Script">
+  <meta property="og:image" content="image.png">
+  <link rel="icon" href="/favicon.ico">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
+</head>
+<body>
+  <script>
+  $(document).ready(function() {
+  		$('a[href*=#]').bind('click', function(e) {
+  				e.preventDefault(); // prevent hard jump, the default behavior
+
+  				var target = $(this).attr("href"); // Set the target as variable
+
+  				// perform animated scrolling by getting top-position of target-element and set it as scroll target
+  				$('html, body').stop().animate({
+  						scrollTop: $(target).offset().top
+  				}, 600, function() {
+  						location.hash = target; //attach the hash (#jumptarget) to the pageurl
+  				});
+
+  				return false;
+  		});
+  });
+
+  $(window).scroll(function() {
+  		var scrollDistance = $(window).scrollTop();
+
+  		// Show/hide menu on scroll
+  		//if (scrollDistance >= 850) {
+  		//		$('nav').fadeIn("fast");
+  		//} else {
+  		//		$('nav').fadeOut("fast");
+  		//}
+
+  		// Assign active class to nav links while scolling
+  		$('.page-section').each(function(i) {
+  				if ($(this).position().top <= scrollDistance) {
+  						$('.navigation a.active').removeClass('active');
+  						$('.navigation a').eq(i).addClass('active');
+  				}
+  		});
+  }).scroll();
+  </script>
+<div class="nav">
+    <a href="index.html">Prologue</a>
+    <a href="01.html">Chapter 1</a>
+    <a href="02.html">Chapter 2</a>
+    <a href="03.html">Chapter 3</a>
+    <a href="04.html">Chapter 4</a>
+    <a href="05.html">Chapter 5</a>
+    <a href="06.html">Chapter 6</a>
+    <a href="07.html">Chapter 7</a>
+    <a href="08.html">Chapter 8</a>
+    <a href="09.html">Chapter 9</a>
+    <a href="10.html">Chapter 10</a>
+    <a href="11.html">Chapter 11</a>
+    <a href="12.html">Chapter 12</a>
+    <a href="reports.html">Reports</a>
+  </div>
+  <div class= "target" id="prologue" style="margin-top: -100px; padding-top:100px;"></div>
+<div class="page" id="">
+
+<!-- Chapter 9 -->
+<div class= "target" id="9" style="margin-top: -100px; padding-top:100px;"></div>
+<div class="chapter-container content">
+    <div class="header"><h1>Chapter 9: An Empire in Ruins</h1></div>
+    <p class="nar">Vincent makes his way through the familiar (though largely destroyed) lobby of the Shinra Tower, eventually finding the President's entrance to Deepground. He ventures further, eventually encountering... another Black Widow! Boss fight vs. Black Widow TW. Easily dispatched.</p>
+    <p class="nar">Vincent continues on, eventually realizing he's a bit lost. He phones someone, but a "beep beep beep" implies the user is unavailable (as a result of Shelke's confrontation with Nero). He then receives a phone call.</p>
+    <div class="speech tifa"><h4>Tifa:</h4><p id="dialog">Hey, I got through!</div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">Tifa?</div>
+    <div class="speech barret"><h4>Barret:</h4><p id="dialog">Wha? You got through!? Yo! Vincent! You still alive!?</div>
+    <div class="speech tifa"><h4>Tifa:</h4><p id="dialog">Of course he is, we're talking to him, aren't we? And do you really have to shout right next to my ear?</div>
+    <div class="speech barret"><h4>Barret:</h4><p id="dialog"><em>[laughs]</em> Sorry 'bout that, Tifa!</div>
+    <div class="speech tifa"><h4>Tifa:</h4><p id="dialog">I apologize, Vincent. Here's Cloud.</div>
+    <div class="speech cloud"><h4>Cloud:</h4><p id="dialog">Vincent?</div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">Cloud. It's been a while.</div>
+    <p class="nar">Camera does the fade-out/fade-in thing.</p>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">Cid's airship?</div>
+    <div class="speech cloud"><h4>Cloud:</h4><p id="dialog">We lost contact about 15 minutes ago.</div>
+    <div class="speech cloud"><h4>Cloud:</h4><p id="dialog">I don't think we have to worry, though. Those two should be fine.</div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">Yeah. And what about you?</div>
+    <div class="speech cloud"><h4>Cloud:</h4><p id="dialog">What do you think?</div>
+    <div class="speech tifa"><h4>Tifa:</h4><p id="dialog">Right! You can count on us!</div>
+    <div class="speech barret"><h4>Barret:</h4><p id="dialog">When I'm through, there won't be a single sucka standing!</div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">Right.</div>
+    <div class="speech cloud"><h4>Cloud:</h4><p id="dialog">And as for you...</div>
+    <p class="nar">Vincent interjects.</p>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">Don't worry. Leave Deepground to me.</div>
+    <div class="speech cloud"><h4>Cloud:</h4><p id="dialog">Can you hold on a second?</div>
+    <div class="speech cloud"><h4>Cloud:</h4><p id="dialog">Tifa.</div>
+    <div class="speech tifa"><h4>Tifa:</h4><p id="dialog">Got it!</div>
+    <div class="speech tifa"><h4>Tifa:</h4><p id="dialog">Vincent, I'm sending you a map of the Shinra Building.</div>
+    <p class="nar">Vincent receives the map.</p>
+    <div class="speech tifa"><h4>Tifa:</h4><p id="dialog">Deepground is below the complex. Take an elevator as far down as you can.</div>
+    <div class="speech tifa"><h4>Tifa:</h4><p id="dialog">Good lu--</div>
+    <div class="speech barret"><h4>Barret:</h4><p id="dialog">Give 'em hell, Vincent!</div>
+    <div class="speech tifa"><h4>Tifa:</h4><p id="dialog">Barret, I thought I told you to--</div>
+    <div class="speech cloud"><h4>Cloud:</h4><p id="dialog">Don't go getting yourself killed, now.</div>
+    <p class="nar">They hang up; Vincent does the same, and moves on.</p>
+    <p class="nar">So Vincent keeps going through the sprawling underground complex - this chapter is pretty thin on story. Eventually though, Vincent arrives at a large elevator that will lead him to the Deepground complex. And standing on this elevator is... Azul!</p>
+    <div class="speech azul"><h4>Azul:</h4><p id="dialog">So Rosso didn't survive.</div>
+    <p class="nar">Azul looks up and goes "Ohhh". Energy is emanating from Vincent's body.</p>
+    <div class="speech azul"><h4>Azul:</h4><p id="dialog">Something inside you wants out.</div>
+    <div class="speech azul"><h4>Azul:</h4><p id="dialog">Its stench is so very familiar.</div>
+    <p class="nar">Azul has a hearty laugh.</p>
+    <div class="speech azul"><h4>Azul:</h4><p id="dialog">Come, Vincent! Show me your rage!</div>
+    <div class="speech azul"><h4>Azul:</h4><p id="dialog">Now, let the killing begin!</div>
+    <p class="nar">He picks up his huge gun; the elevator begins to descend, as the Boss Battle vs. Neo Azul commences. After the battle, the gun is on the ground; Azul laughs.</p>
+    <div class="speech azul"><h4>Azul:</h4><p id="dialog">This is how a battle should be. Don't you think so?</div>
+    <div class="speech azul"><h4>Azul:</h4><p id="dialog">Now feel my true strength. Feel the wrath of Azul the Cerulean!</div>
+    <p class="nar">Azul transforms into the beast from WRO HQ. Boss fight vs. Arch Azul, He gets defeated... but he's still in beast form after the battle! He charges forward and slaps Vincent, who hits the elevator's side railing hard.</p>
+    <div class="speech azul"><h4>Azul:</h4><p id="dialog">Stand! This isn't over yet.</div>
+    <p class="nar">Vincent stands.</p>
+    <div class="speech azul"><h4>Azul:</h4><p id="dialog">Good. Now come and fight.</div>
+    <p class="nar">Vincent zips in and punches Azul hard in his chest area. Bright light emanates from it.</p>
+    <div class="speech azul"><h4>Azul:</h4><p id="dialog">Why you!</div>
+    <p class="nar">A huge explosion blinds the screen. When the smoke clears, Chaos is standing there, and Azul is back in human mode.</p>
+    <div class="speech azul"><h4>Azul:</h4><p id="dialog">Chaos?</div>
+    <p class="nar">Chaos is holding Azul's gun. He launches it forward , and it pierces through Azul's stomach.</p>
+    <div class="speech azul"><h4>Azul:</h4><p id="dialog">It looks like you were more a beast than I.</div>
+    <div class="speech azul"><h4>Azul:</h4><p id="dialog">Very well. I'll see you again, Vincent... in hell!</div>
+    <p class="nar">Chaos powers up, and shoots forward an energy blast that send Azul crashing through the railing, and off the elevator.</p>
+    <div class="speech azul"><h4>Azul:</h4><p id="dialog">Hail Weiss!</div>
+    <p class="nar">He tumbles down the endless abyss while laughing maniacally. Chaos roars; we see Nero has been watching this saga from above.</p>
+    <div class="speech nero"><h4>Nero:</h4><p id="dialog">So that is Chaos. Intriguing.</div>
+    <div class="speech nero"><h4>Nero:</h4><p id="dialog">"Soul wrought of terra corrupt."</div>
+    <div class="speech nero"><h4>Nero:</h4><p id="dialog">Perhaps I should simply let him live out his destiny of destruction.</div>
+    <p class="nar">Nero vanishes, but as he does he drops a cellphone. Chaos turns and looks at it.</p>
+    <div class="speech lucrecia"><h4>Lucrecia:</h4><p id="dialog">I'm so sorry.</div>
+    <p class="nar">Flashback; Vincent is inside the regenerative tube in Shinra Manor while Lucrecia looks over him.</p>
+    <div class="speech lucrecia"><h4>Lucrecia:</h4><p id="dialog">Vincent. Just a little longer. Then I can let you out.</div>
+    <p class="nar">She turns around, then collapses on her knees.</p>
+    <div class="speech lucrecia"><h4>Lucrecia:</h4><p id="dialog">What's wrong with me lately? Maybe I've been working too hard.</div>
+    <p class="nar">we see Hojo, and he gives off a "Hah!"</p>
+    <div class="speech hojo"><h4>Hojo:</h4><p id="dialog">I thought I heard a rat down here.</div>
+    <div class="speech hojo"><h4>Hojo:</h4><p id="dialog">And just what do you think you're doing with my failed experiment?</div>
+    <div class="speech lucrecia"><h4>Lucrecia:</h4><p id="dialog">Get out of my lab!</div>
+    <div class="speech hojo"><h4>Hojo:</h4><p id="dialog">Silence! I'm the one giving orders here!</div>
+    <p class="nar">He approaches Lucrecia, and notices the computer screen behind her... then he goes "Ha ha ha"</p>
+    <div class="speech hojo"><h4>Hojo:</h4><p id="dialog">Omega? And Chaos?</div>
+    <p class="nar">He turns to Vincent and laughs again.</p>
+    <div class="speech hojo"><h4>Hojo:</h4><p id="dialog">I see. Another experiment? You're using this fine specimen to finish your thesis, aren't you, Doctor?</div>
+    <div class="speech lucrecia"><h4>Lucrecia:</h4><p id="dialog">No. You're wrong!</div>
+    <div class="speech hojo"><h4>Hojo:</h4><p id="dialog">Am I? Once a scientist, always a scientist, I must say.</div>
+    <div class="speech hojo"><h4>Hojo:</h4><p id="dialog">How happy this fellow must be. Helping his beloved even after he's begun rotting away.</div>
+    <p class="nar">Hojo laughs maniacally again as he walks away; Lucrecia buries her face in her hands and begins to cry.</p>
+    <div class="speech lucrecia"><h4>Lucrecia:</h4><p id="dialog">no. This is no experiment. It's...</div>
+    <p class="nar">Scene changes back to the president. Vincent is sprawled on his back.</p>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">Chaos. Lucrecia used me to... Lucrecia...</div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">So this pain is...</div>
+    <p class="nar">He slowly stands up, walks over to the dropped cell phone, and looks at it.</p>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">Shelke?</div>
+    <p class="nar">The elevator begins to rumble; it's reached the bottom.</p>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">Deepground. Shinra's dark secret.</div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">Three years of hell below and now a world of hell above.</div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">The path to darkness opens once more.</div>
+    <p class="nar">A large door opens, and we get a glimpse of the inside; a Mako Reactor with a "00" emblazoned on it; and a massive, sprawling underground city.</p>
+<p class="end">End of Chapter</p>
+<div class="prevnext">
+  <a href="10.html">Chapter 10: Shinra's Dark Secret</a>
+</div>
+</div>
+
+<!-- Footer -->
+<div class="footer">Script sourced from Martin on FINAL FANTASY Worlds Apart</div>
+</div>
+</body>
+</html>

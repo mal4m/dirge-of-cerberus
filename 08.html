@@ -1,0 +1,249 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Dirge of Cerberus - Script</title>
+  <meta name="description" content="Dirge of Cerberus - Script">
+  <meta name="author" content="SitePoint">
+  <meta property="og:title" content="Dirge of Cerberus - Script">
+  <meta property="og:type" content="website">
+  <meta property="og:description" content="Dirge of Cerberus - Script">
+  <meta property="og:image" content="image.png">
+  <link rel="icon" href="/favicon.ico">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
+</head>
+<body>
+  <script>
+  $(document).ready(function() {
+  		$('a[href*=#]').bind('click', function(e) {
+  				e.preventDefault(); // prevent hard jump, the default behavior
+
+  				var target = $(this).attr("href"); // Set the target as variable
+
+  				// perform animated scrolling by getting top-position of target-element and set it as scroll target
+  				$('html, body').stop().animate({
+  						scrollTop: $(target).offset().top
+  				}, 600, function() {
+  						location.hash = target; //attach the hash (#jumptarget) to the pageurl
+  				});
+
+  				return false;
+  		});
+  });
+
+  $(window).scroll(function() {
+  		var scrollDistance = $(window).scrollTop();
+
+  		// Show/hide menu on scroll
+  		//if (scrollDistance >= 850) {
+  		//		$('nav').fadeIn("fast");
+  		//} else {
+  		//		$('nav').fadeOut("fast");
+  		//}
+
+  		// Assign active class to nav links while scolling
+  		$('.page-section').each(function(i) {
+  				if ($(this).position().top <= scrollDistance) {
+  						$('.navigation a.active').removeClass('active');
+  						$('.navigation a').eq(i).addClass('active');
+  				}
+  		});
+  }).scroll();
+  </script>
+<div class="nav">
+    <a href="index.html">Prologue</a>
+    <a href="01.html">Chapter 1</a>
+    <a href="02.html">Chapter 2</a>
+    <a href="03.html">Chapter 3</a>
+    <a href="04.html">Chapter 4</a>
+    <a href="05.html">Chapter 5</a>
+    <a href="06.html">Chapter 6</a>
+    <a href="07.html">Chapter 7</a>
+    <a href="08.html">Chapter 8</a>
+    <a href="09.html">Chapter 9</a>
+    <a href="10.html">Chapter 10</a>
+    <a href="11.html">Chapter 11</a>
+    <a href="12.html">Chapter 12</a>
+    <a href="reports.html">Reports</a>
+  </div>
+  <div class= "target" id="prologue" style="margin-top: -100px; padding-top:100px;"></div>
+<div class="page" id="">
+
+<!-- Chapter 8 -->
+<div class= "target" id="8" style="margin-top: -100px; padding-top:100px;"></div>
+<div class="chapter-container content">
+    <div class="header"><h1>Chapter 8: Midgar Assault</h1></div>
+    <p class="nar">Vincent makes his way through the area, eventually encountering WRO Members.</p>
+    <div class="speech wro"><h4>WRO Member:</h4><p id="dialog">Mr. Valentine!</div>
+    <div class="speech wro"><h4>WRO Member:</h4><p id="dialog">We missed our landing point.</div>
+    <div class="speech wro"><h4>WRO Member:</h4><p id="dialog">This looks like the old sector 7 slums. The Train Graveyard.</div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">Yes it does.</div>
+    <div class="speech wro"><h4>WRO Member:</h4><p id="dialog">Sir, I've received a radio transmission reporting the remaining air squads have reached the upper level plates and joined the ground forces.</div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">Fine.</div>
+    <p class="nar">Vincent begins to walk away... the WRO Member turns to face him.</p>
+    <div class="speech wro"><h4>WRO Member:</h4><p id="dialog">Sir...</div>
+    <p class="nar">He turns around.</p>
+    <div class="speech wro"><h4>WRO Member:</h4><p id="dialog">Requesting permission to accompany you until we have reached the complex!</div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">Do as you wish.</div>
+    <div class="speech wro"><h4>WRO Member:</h4><p id="dialog">Sir! Thank you, sir!</div>
+    <p class="nar">Vincent encounters another WRO Member, cowering behind a crate.</p>
+    <div class="speech wro"><h4>WRO Member:</h4><p id="dialog">I was just taking a breather.</div>
+    <p class="nar">Vincent walks away.</p>
+    <div class="speech wro"><h4>WRO Member:</h4><p id="dialog">Sir! Let me join you!</div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">Just don't get in my way.</div>
+    <p class="nar">Vincent and the WRO Members continue through the Train Graveyard. At one point, a female WRO Member is crouched, gun ready, peering around a corner.</p>
+    <div class="speech wro"><h4>WRO Member:</h4><p id="dialog">You know, I was born in Midgar.</div>
+    <div class="speech wro"><h4>WRO Member:</h4><p id="dialog">My brother and I used to play here all the time. My mom didn't approve, though.</div>
+    <div class="speech wro"><h4>WRO Member:</h4><p id="dialog">After she died, my brother joined a Shinra resistance group, but was killed when the plate fell and...</div>
+    <div class="speech wro"><h4>WRO Member:</h4><p id="dialog">I can't believe this place is still here.</div>
+    <p class="nar">A different WRO Member runs up to them.</p>
+    <div class="speech wro"><h4>WRO Member:</h4><p id="dialog">Lieutenant! Soldiers!</div>
+    <p class="nar">The gameplay continues; eventually you run into a WRO Commander.</p>
+    <div class="speech wro"><h4>WRO Member:</h4><p id="dialog">Commander!</div>
+    <p class="nar">The Commander then speaks to you.</p>
+    <div class="speech wro"><h4>WRO Member:</h4><p id="dialog">Vincent Valentine! Thank you for your assistance!</div>
+    <div class="speech wro"><h4>WRO Member:</h4><p id="dialog">To reach the central complex, you must proceed through this maze of decommissioned train cars.</div>
+    <div class="speech wro"><h4>WRO Member:</h4><p id="dialog">However, I have received reports that beyond the graveyard are some of the enemy's most powerful defenses.</div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">Alright. I'll see what I can do.</div>
+    <div class="speech wro"><h4>WRO Member:</h4><p id="dialog">Wait! I can't let you go without backup!</div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">No.</div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">You heard what Cid said. Your job is to live. If you come with me, chances are you'll all die.</div>
+    <div class="speech wro"><h4>WRO Member:</h4><p id="dialog">Understood. I'll remain here until the current situation has improved. <em>[salutes]</em> Good luck, sir.</div>
+    <p class="nar">Continuing on some more, until he finds yet another WRO Member, this time injured. The Member pulls his gun on Vincent, then lowers it.</p>
+    <div class="speech wro"><h4>WRO Member:</h4><p id="dialog">Vincent Valentine.</div>
+    <p class="nar">Camera fades out, then fades back in.</p>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">There's no way out of here?</div>
+    <div class="speech wro"><h4>WRO Member:</h4><p id="dialog">None. I looked all over, but I found nothing. It looks like we're both stuck in here.</div>
+    <p class="nar">Vincent thinks for a moment, then pulls out his phone and calls someone, the 'someone' obviously being...</p>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">Shelke.</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">Vincent Valentine?</div>
+    <p class="nar">Camera does the fade out & fade in thing from before.</p>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">The only way out of the graveyard is through a nearby underground passage.</div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">Where?</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">I'm uploading the location now.</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">Also, up ahead, Deepground has established a heavy line of defense.</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">You probably won't even break a sweat, but I thought I would let you know.</div>
+    <p class="nar">Vincent hangs up.</p>
+    <p class="nar">He continues on, getting to another part of the Train Graveyard. His phone rings.</p>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">Vincent Valentine.</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">You've reached the central complex. Proceed up to reach the plate surface.</div>
+    <p class="nar">she gasps.</p>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">What's wrong?</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">The approaching Deepground squa-- No, it's nothing. I'll contact you agai--</div>
+    <p class="nar">DG soldiers with jetpacks fly in from above.</p>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">Aerial troopers. Good luck, Vincent.</div>
+    <p class="nar">Boss battle vs. Shrikes. Vincent easily takes them out, dispatching of the last one in a cutscene.</p>
+    <p class="nar">Vincent makes his way through the complex, dispatching assorted soldiers and robots. Eventually he makes his way to the top, and there to greet him is... Rosso.</p>
+    <div class="speech rosso"><h4>Rosso:</h4><p id="dialog">Still alive, I see.</div>
+    <div class="speech rosso"><h4>Rosso:</h4><p id="dialog">And you call yourself human?</div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">More human than you.</div>
+    <div class="speech rosso"><h4>Rosso:</h4><p id="dialog">More human than I? <em>[Laughs]</em> Tell me something I don't already know, darling!</div>
+    <div class="speech rosso"><h4>Rosso:</h4><p id="dialog">I'm a Tsviet! I traded away my human weaknesses for power long ago.</div>
+    <div class="speech rosso"><h4>Rosso:</h4><p id="dialog">It is the path I've chosen.</div>
+    <div class="speech rosso"><h4>Rosso:</h4><p id="dialog">And the path I'll tread.</div>
+    <div class="speech rosso"><h4>Rosso:</h4><p id="dialog">Until I've sucked all life from this pitiful world!</div>
+    <div class="speech rosso"><h4>Rosso:</h4><p id="dialog">And I'm not going to let you get in the way.</div>
+    <div class="speech rosso"><h4>Rosso:</h4><p id="dialog">You've lived long enough, Vincent Valentine.</div>
+    <div class="speech rosso"><h4>Rosso:</h4><p id="dialog">And I'll make sure you don't come back this time  by slicing you into pieces!</div>
+    <p class="nar">She takes out her weapon. Boss battle vs. Rosso the Crimson. After you take off about a quarter of her health...</p>
+    <div class="speech rosso"><h4>Rosso:</h4><p id="dialog">Do you know why they call me "the Crimson," darling?</div>
+    <div class="speech rosso"><h4>Rosso:</h4><p id="dialog">Let me show you!</div>
+    <p class="nar">Boss battle vs. Bloodburst Rosso - way faster and tougher! Still a cakewalk for Vincent. After the fight she's on the ground.</p>
+    <div class="speech rosso"><h4>Rosso:</h4><p id="dialog">Someone stronger...</div>
+    <div class="speech rosso"><h4>Rosso:</h4><p id="dialog">than...</div>
+    <p class="nar">She slowly gets up.</p>
+    <div class="speech rosso"><h4>Rosso:</h4><p id="dialog">Absurd...</div>
+    <div class="speech rosso"><h4>Rosso:</h4><p id="dialog">Absurd!</div>
+    <div class="speech rosso"><h4>Rosso:</h4><p id="dialog">Our time here together is done.</div>
+    <div class="speech rosso"><h4>Rosso:</h4><p id="dialog">But the mighty Azul awaits.</div>
+    <p class="nar">She runs to the edge of the platform.</p>
+    <div class="speech rosso"><h4>Rosso:</h4><p id="dialog">I shall not grant you the pleasure of killing Rosso the Crimson.</div>
+    <div class="speech rosso"><h4>Rosso:</h4><p id="dialog">No one will ever stand above me!</div>
+    <p class="nar">A beam of energy appears in her hand.</p>
+    <div class="speech rosso"><h4>Rosso:</h4><p id="dialog">No one! No one! No one!</div>
+    <p class="nar">After each "No one", she strikes the platform around her with the energy beam, forming the  shape of a square. Her part of the platform begins to fall down, and she cackles maniacally as she falls to her death.</p>
+    <p class="nar">Vincent is walking, and picks up his phone.</p>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">Vincent Valentine.</div>
+    <p class="nar">We see Shelke is still sitting in her chair with the helmet on.</p>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">The ground squads have not been able to penetrate the Deepground defenses.</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">The mako reactors are still operating at full capacity.</div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">So it seems.</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">What is your location?</div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">Shinra building... or what remains of it.</div>
+    <p class="nar">The building's wrecked, and on fire.</p>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">The same as it was three years ago.</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">Though, after Meteorfall, there wasn't much left of Midgar at all.</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">With the exception of Deepground.</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">The passage to Deepground should be located within Shinra building.</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">Search for the president's personal entrance.</div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">Alright.</div>
+    <p class="nar">Vincent feels the pain in his chest again; he collapses the screen goes black, and we hear the howl of Chaos. It fades back in, and we see he's still Vincent, though he's dropped his phone on the ground.</p>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">Is something wrong?</div>
+    <p class="nar">A DG mutant dog runs up to Vincent from behind; Vincent punches it away, stands up, and growls.</p>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">Vincent!</div>
+    <p class="nar">He regains his composure; he still hasn't transformed.</p>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">What's going on?</div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">Why is Chaos...? Why now?</div>
+    <p class="nar">Scene changes back to Shelke.</p>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">You really don't know, do you?</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">The Protomateria helped you control Chaos. Now that you've lost it your mental state has become extremely unstable.</div>
+    <p class="nar">Back to Vincent.</p>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">Protmateria? Control Chaos?</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">Yes. If you recall, you had it extracted from your chest by Rosso.</div>
+    <p class="nar">Scene changes back to Shelke; while we see her lips move, it's Lucrecia's voice we hear.</p>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">Chaos. While a part of you, the entity exists independently from the rest of your body.</div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">Shelke?</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">Chaos. The harbinger of anarchy.</div>
+    <p class="nar">Vincent turns around. He seems an image of Lucrecia, standing there.</p>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">Lucrecia.</div>
+    <p class="nar">She begins to walk toward him, and speaks in synch with Shelke.</p>
+    <div class="speech shelke"><h4>Shelke/Lucrecia:</h4><p id="dialog">Born before the planet dies, he shall gather together all life for Omega's journey to the sea of stars. That is Chaos. And he slumbers inside you.</div>
+    <p class="nar">The camera pans away; we see Vincent is looking at nothing, and Lucrecia is just a hallucination.</p>
+    <div class="speech lucrecia"><h4>Lucrecia:</h4><p id="dialog">I'm so sorry.</div>
+    <div class="speech lucrecia"><h4>Lucrecia:</h4><p id="dialog">You must fight him. I don't want you to die... <em>[She disappears]</em></div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">Lucrecia!</div>
+    <p class="nar">Scene change back to Shelke.</p>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">You must fight him.</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">I don't want you to die.</div>
+    <p class="nar">Her helmet malfunctions; sparks fly everywhere; she takes it off, while we see a red alarm blaring in the distance.</p>
+    <p class="nar">Back to Cid at the helm of the Shera.</p>
+    <div class="speech cid"><h4>Cid:</h4><p id="dialog">Hey! Engine room! What the hell's going on down there!?</div>
+    <div class="speech cid"><h4>Cid:</h4><p id="dialog">Engine room! Dammit!</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">What is wrong?</div>
+    <div class="speech cid"><h4>Cid:</h4><p id="dialog">Don't have a damn clue. All of a sudden, engine levels began dropping like crazy.</div>
+    <div class="speech cid"><h4>Cid:</h4><p id="dialog">We haven't taken any direct hits, so everything should be running like clockwork.</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">I will go have a look.</div>
+    <div class="speech cid"><h4>Cid:</h4><p id="dialog">Thanks. Counting on you.</div>
+    <p class="nar">She nods, and sprints to the engine room. Upon entering, she sees clouds of black energy throughout the room. An engine or two is on fire.</p>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">It can't be.</div>
+    <div class="speech nero"><h4>Nero:</h4><p id="dialog">Fancy meeting you here, Shelke.</div>
+    <p class="nar">She turns around to face him.</p>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">You.</div>
+    <div class="speech nero"><h4>Nero:</h4><p id="dialog">Quite unexpected.</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">Why did you come here, Nero?</div>
+    <div class="speech nero"><h4>Nero:</h4><p id="dialog">Why? I was short a few souls, and came to collect.</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">What did you do with the crew?</div>
+    <div class="speech nero"><h4>Nero:</h4><p id="dialog"><em>[laughs]</em> Need you ask? Look around. My mission is complete.</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">Oh...</div>
+    <p class="nar">She turns around and sees a motionless Cait Sith on the ground. She turns to face Nero once more, and... takes out her weapon!</p>
+    <div class="speech nero"><h4>Nero:</h4><p id="dialog">And what do we think we are doing?</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">I don’t really know.</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">However, since coming here I have realized one thing--</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">I don't want to let down anyone who's counting on me.</div>
+    <div class="speech nero"><h4>Nero:</h4><p id="dialog">Pure nonsense.</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">Nonsense? Perhaps.</div>
+    <p class="nar">Her weapon turns on. She attempts to hit Nero repeatedly, but he dodges or parries all her blows. Eventually he steps back, and his wings shift and fire bullets at Shelke, who puts up a shield to stop them. A black portal appears behind Nero... and the camera fades to black.</p>
+<p class="end">End of Chapter</p>
+<div class="prevnext">
+  <a href="09.html">Chapter 9: An Empire in Ruins</a>
+</div>
+</div>
+
+<!-- Footer -->
+<div class="footer">Script sourced from Martin on FINAL FANTASY Worlds Apart</div>
+</div>
+</body>
+</html>

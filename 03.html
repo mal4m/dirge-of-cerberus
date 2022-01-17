@@ -1,0 +1,158 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Dirge of Cerberus - Script</title>
+  <meta name="description" content="Dirge of Cerberus - Script">
+  <meta name="author" content="SitePoint">
+  <meta property="og:title" content="Dirge of Cerberus - Script">
+  <meta property="og:type" content="website">
+  <meta property="og:description" content="Dirge of Cerberus - Script">
+  <meta property="og:image" content="image.png">
+  <link rel="icon" href="/favicon.ico">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
+</head>
+<body>
+  <script>
+  $(document).ready(function() {
+  		$('a[href*=#]').bind('click', function(e) {
+  				e.preventDefault(); // prevent hard jump, the default behavior
+
+  				var target = $(this).attr("href"); // Set the target as variable
+
+  				// perform animated scrolling by getting top-position of target-element and set it as scroll target
+  				$('html, body').stop().animate({
+  						scrollTop: $(target).offset().top
+  				}, 600, function() {
+  						location.hash = target; //attach the hash (#jumptarget) to the pageurl
+  				});
+
+  				return false;
+  		});
+  });
+
+  $(window).scroll(function() {
+  		var scrollDistance = $(window).scrollTop();
+
+  		// Show/hide menu on scroll
+  		//if (scrollDistance >= 850) {
+  		//		$('nav').fadeIn("fast");
+  		//} else {
+  		//		$('nav').fadeOut("fast");
+  		//}
+
+  		// Assign active class to nav links while scolling
+  		$('.page-section').each(function(i) {
+  				if ($(this).position().top <= scrollDistance) {
+  						$('.navigation a.active').removeClass('active');
+  						$('.navigation a').eq(i).addClass('active');
+  				}
+  		});
+  }).scroll();
+  </script>
+<div class="nav">
+    <a href="index.html">Prologue</a>
+    <a href="01.html">Chapter 1</a>
+    <a href="02.html">Chapter 2</a>
+    <a href="03.html">Chapter 3</a>
+    <a href="04.html">Chapter 4</a>
+    <a href="05.html">Chapter 5</a>
+    <a href="06.html">Chapter 6</a>
+    <a href="07.html">Chapter 7</a>
+    <a href="08.html">Chapter 8</a>
+    <a href="09.html">Chapter 9</a>
+    <a href="10.html">Chapter 10</a>
+    <a href="11.html">Chapter 11</a>
+    <a href="12.html">Chapter 12</a>
+    <a href="reports.html">Reports</a>
+  </div>
+  <div class= "target" id="prologue" style="margin-top: -100px; padding-top:100px;"></div>
+<div class="page" id="">
+
+<!-- Chapter 3 -->
+<div class= "target" id="3" style="margin-top: -100px; padding-top:100px;"></div>
+<div class="chapter-container content">
+    <div class="header"><h1>Chapter 3: Silent Edge</h1></div>
+    <p class="nar">Rosso is sitting on a crate in the factory, laughing to herself.</p>
+    <div class="speech rosso"><h4>Rosso:</h4><p id="dialog">Slashed, strangled, and slaughtered. Beaten, stabbed, and crushed. Garroted and impaled. Shot and executed without mercy. Nicely said, Weiss.</div>
+    <p class="nar">She looks up at the sky.</p>
+    <div class="speech rosso"><h4>Rosso:</h4><p id="dialog">I wonder if this will be a little more amusing than last time.</div>
+    <p class="nar">The camera fades out, as we see she's surrounded by the corpses of WRO members.</p>
+    <div style="text-align: center"><img src="http://www.ffwa.eu/ff7/images/script-shots/13.jpg" alt="" border="0" height="177" width="250" class="imgpad"><img src="http://www.ffwa.eu/ff7/images/script-shots/14.jpg" alt="" border="0" height="177" width="250" class="imgpad"></div>
+    <p class="nar">Back to Vincent, who's peering around a corner. A woman in a labcoat and high heels approaches him from behind and pulls out a gun. Vincent turns around, also holding his gun. Both guns are pointed at each other's heads. The girl is wearing a bizarre outfit beneath the labcoat; her left eye is closed and she appears to have an artificial left arm. Vincent notices a WRO identification tag on her labcoat.</p>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">You're WRO?</div>
+    <div class="speech shalua"><h4>Girl:</h4><p id="dialog">Who's asking?</div>
+    <p class="nar">Vincent puts his gun away.</p>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">Vincent Valentine. Reeve sent me.</div>
+    <p class="nar">The girl puts her gun away.</p>
+    <div class="speech shalua"><h4>Shalua:</h4><p id="dialog">My apologies. Shalua Rui of the WRO.</div>
+    <div class="speech shalua"><h4>Shalua:</h4><p id="dialog">The commissioner has told me much about you.</div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">What happened here?</div>
+    <div class="speech shalua"><h4>Shalua:</h4><p id="dialog">That's what I'd like to know.</div>
+    <div class="speech shalua"><h4>Shalua:</h4><p id="dialog">I'm here on other business, but something's not right. It's too quiet.</div>
+    <div class="speech shalua"><h4>Shalua:</h4><p id="dialog">I've seen no trace of Deepground, or the squads that were sent in to fight them.</div>
+    <div class="speech shalua"><h4>Shalua:</h4><p id="dialog">Also, where are the 500 people who are supposed to still be living here?</div>
+    <div class="speech shalua"><h4>Shalua:</h4><p id="dialog">Well, this is getting us nowhere. Like I said, I have business to attend to. I'll see you around. <em>[she begins to walk away]</em></div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">Business?</div>
+    <div class="speech shalua"><h4>Shalua:</h4><p id="dialog"><em>[stops, turns around]</em> The commissioner keeps telling me I'm wasting my time searching.</div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">Searching for what?</div>
+    <div class="speech shalua"><h4>Shalua:</h4><p id="dialog">For my reason to live. <em>[walks away]</em></div>
+    <p class="nar">Back to gameplay; Vincent makes his way through the town, eventually stumbling on a solitary dying WRO member.</p>
+    <div class="speech wro"><h4>WRO Member:</h4><p id="dialog">Ambushed... by... soldier... in red...</div>
+    <div class="speech wro"><h4>WRO Member:</h4><p id="dialog">Squad... wiped out...</div>
+    <div class="speech wro"><h4>WRO Member:</h4><p id="dialog">Warehouse... on the... edge of town...</div>
+    <div class="speech wro"><h4>WRO Member:</h4><p id="dialog">They... were gathering... civilians...</div>
+    <p class="nar">The gameplay continues. Vincent moves on to an area with snipers, and kills them all. Eventually he spots a lone kid running away from several Deepground soldiers; he kills them and saves the kid.</p>
+    <div class="speech"><h4>Kid:</h4><p id="dialog">Thanks.</div>
+    <div class="speech"><h4>Kid:</h4><p id="dialog">The warehouse. I know how to get there. It's through that gate.</div>
+    <p class="nar">A nearby gate is revealed, which requires a cardkey to get by.</p>
+    <div class="speech"><h4>Kid:</h4><p id="dialog">You have the cardkey?</div>
+    <p class="nar">Vincent barely shakes his head to signal "no"</p>
+    <div class="speech"><h4>Kid:</h4><p id="dialog">Come on. <em>[runs away]</em> I know someone who does. Follow me.</div>
+    <p class="nar">Eventually Vincent gets the cardkey, and proceeds to the warehouse, where he's ambushed by a Heavy Armored Soldier and an array of Deepground soldiers, who (naturally) shout "Hail Weiss!" Boss fight vs. Heavy Armored Soldier.</p>
+    <div class="speech heavy"><h4>Heavy Armored Soldier:</h4><p id="dialog">How could I...?</div>
+    <p class="nar">The soldier falls down; Vincent walks to the door.</p>
+    <p class="nar">Scene change; outside, Rosso is staring upward, standing in the rain.</p>
+    <div class="speech rosso"><h4>Rosso:</h4><p id="dialog">You know, this is the first time I've ever felt the rain on my skin.</div>
+    <div class="speech rosso"><h4>Rosso:</h4><p id="dialog">But then again, I hadn't even seen the sky until a few days ago.</div>
+    <p class="nar">She stands there motionless for several seconds; the camera pulls back to reveal Vincent is standing there, looking at her.</p>
+    <div class="speech rosso"><h4>Rosso:</h4><p id="dialog">So you're Vincent Valentine. Keeper of the Protomateria.</div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">Protomateria?</div>
+    <div class="speech rosso"><h4>Rosso:</h4><p id="dialog">Yes. The key to controlling Omega. We know you have it.</div>
+    <div class="speech rosso"><h4>Rosso:</h4><p id="dialog">Hand it over now, and I'll kill you quickly.</div>
+    <p class="nar">Vincent stares at her. He is unamused!</p>
+    <div class="speech rosso"><h4>Rosso:</h4><p id="dialog">Not one to bargain, are we? Then I'll make sure you suffer.</div>
+    <p class="nar">Using her super-speed, she appears behind Vincent.</p>
+    <div class="speech rosso"><h4>Rosso:</h4><p id="dialog">Time to die.</div>
+    <p class="nar">She unfurls her weapon and attempts to strike him; Vincent dodges her blows; the center of her weapon is revealed to be a hidden gun; he manages to dodge the gunfire. However, she gets close enough to punch him, sending him crashing through a wall. Crouched on one knee, Vincent begins to glow red... he steps out of the building, now sporting a pair of wings, grey skin, and a generally macabre appearance. He is... Chaos! He generates a spherical red barrier of energy around him, which sends Rosso flying away. We next see Vincent standing in the rain, and he falls down. As he loses consciousness, he sees Shalua approaching him.</p>
+    <p class="nar">Next scene: a flashback, or perhaps a hallucination, but he's in Lucrecia's Cave. The camera pans around Lucrecia, still in her crystal tomb, as we occasionally hear her disembodied voice.</p>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">Lucrecia.</div>
+    <div class="speech lucrecia"><h4>Lucrecia:</h4><p id="dialog">...sorry...</div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">Why?</div>
+    <div class="speech lucrecia"><h4>Lucrecia:</h4><p id="dialog">Awake--</div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">Awake?</div>
+    <div class="speech lucrecia"><h4>Lucrecia:</h4><p id="dialog">I'm so sorry.</div>
+    <p class="nar">Another flashback; Vincent, as a Turk, is in the basement of Shinra Mansion, confronting Hojo, who's wielding a gun.</p>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">Talk! Why did you let this happen!?</div>
+    <div class="speech hojo"><h4>Hojo:</h4><p id="dialog">Silence.</div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">You!</div>
+    <div class="speech hojo"><h4>Hojo:</h4><p id="dialog">Silence!!! <em>[Hojo shoots him, Vincent falls down, staring at Hojo's boots]</em></div>
+    <div class="speech hojo"><h4>Hojo:</h4><p id="dialog">Why can't these people just keep quiet?</div>
+    <p class="nar">As Vincent begins to lose consciousness, he hears portions of what Hojo is saying to himself.</p>
+    <div class="speech hojo"><h4>Hojo:</h4><p id="dialog">I can... body... next experiment... a genius... I am... success here... justify... failures...</div>
+    <p class="nar">Next scene; Vincent wakes up, his vision distorted. He stumbles around before the screen fades to black and he screams.</p>
+    <p class="nar">Another scene change; he's inside a regenerative tube of water, while Lucrecia is outside, looking at him. This will be a familiar scene in future flashbacks; but for the moment, this is all we see.</p>
+<p class="end">End of Chapter</p>
+<div class="prevnext">
+  <a href="04.html">Chapter 4: Headquarters Under Siege</a>
+</div>
+</div>
+
+<!-- Footer -->
+<div class="footer">Script sourced from Martin on FINAL FANTASY Worlds Apart</div>
+</div>
+</body>
+</html>

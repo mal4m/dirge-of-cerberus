@@ -1,0 +1,305 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Dirge of Cerberus - Script</title>
+  <meta name="description" content="Dirge of Cerberus - Script">
+  <meta name="author" content="SitePoint">
+  <meta property="og:title" content="Dirge of Cerberus - Script">
+  <meta property="og:type" content="website">
+  <meta property="og:description" content="Dirge of Cerberus - Script">
+  <meta property="og:image" content="image.png">
+  <link rel="icon" href="/favicon.ico">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
+</head>
+<body>
+  <script>
+  $(document).ready(function() {
+  		$('a[href*=#]').bind('click', function(e) {
+  				e.preventDefault(); // prevent hard jump, the default behavior
+
+  				var target = $(this).attr("href"); // Set the target as variable
+
+  				// perform animated scrolling by getting top-position of target-element and set it as scroll target
+  				$('html, body').stop().animate({
+  						scrollTop: $(target).offset().top
+  				}, 600, function() {
+  						location.hash = target; //attach the hash (#jumptarget) to the pageurl
+  				});
+
+  				return false;
+  		});
+  });
+
+  $(window).scroll(function() {
+  		var scrollDistance = $(window).scrollTop();
+
+  		// Show/hide menu on scroll
+  		//if (scrollDistance >= 850) {
+  		//		$('nav').fadeIn("fast");
+  		//} else {
+  		//		$('nav').fadeOut("fast");
+  		//}
+
+  		// Assign active class to nav links while scolling
+  		$('.page-section').each(function(i) {
+  				if ($(this).position().top <= scrollDistance) {
+  						$('.navigation a.active').removeClass('active');
+  						$('.navigation a').eq(i).addClass('active');
+  				}
+  		});
+  }).scroll();
+  </script>
+<div class="nav">
+    <a href="index.html">Prologue</a>
+    <a href="01.html">Chapter 1</a>
+    <a href="02.html">Chapter 2</a>
+    <a href="03.html">Chapter 3</a>
+    <a href="04.html">Chapter 4</a>
+    <a href="05.html">Chapter 5</a>
+    <a href="06.html">Chapter 6</a>
+    <a href="07.html">Chapter 7</a>
+    <a href="08.html">Chapter 8</a>
+    <a href="09.html">Chapter 9</a>
+    <a href="10.html">Chapter 10</a>
+    <a href="11.html">Chapter 11</a>
+    <a href="12.html">Chapter 12</a>
+    <a href="reports.html">Reports</a>
+  </div>
+  <div class= "target" id="prologue" style="margin-top: -100px; padding-top:100px;"></div>
+<div class="page" id="">
+
+<!-- Chapter 7 -->
+<div class= "target" id="7" style="margin-top: -100px; padding-top:100px;"></div>
+<div class="chapter-container content">
+    <div class="header"><h1>Chapter 7: The Shera</h1></div>
+    <p class="nar">Camera panes around the bridge of the airship; various personnel rattle off different statistics; we next see the engine room, where people make similar comments. The airship is all charged up & ready to go!</p>
+    <p class="nar">Cid spots Vincent and leaves the wheel to talk to him.</p>
+    <div class="speech cid"><h4>Cid:</h4><p id="dialog">Hey! Vincent! Long time.</div>
+    <div class="speech wro"><h4>WRO Member:</h4><p id="dialog">Captain!</div>
+    <p class="nar">Cid quickly returns to the wheel.</p>
+    <div class="speech cid"><h4>Cid:</h4><p id="dialog">Sorry 'bout that.</div>
+    <div class="speech cid"><h4>Cid:</h4><p id="dialog">As much as I'd like to sit down and reminisce 'bout old times, you'll have to take a rain check. Why don't you have a look around my bird until the meeting?</div>
+    <p class="nar">Vincent makes his way around the airship, The Shera, first encountering Yuffie.</p>
+    <div class="speech yuffie"><h4>Yuffie:</h4><p id="dialog"><em>[heaving, like she's about to throw up]</em> Man, I hate airships. I knew I shouldn't have had eggs for breakfast.</div>
+    <div class="speech yuffie"><h4>Yuffie:</h4><p id="dialog">Sorry Vince. I don't feel like talking much.</div>
+    <p class="nar">Eventually Vincent arrives at a computer lab, where Shelke is working at a computer and Shalua remains inside her regenerative tube.</p>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">After the assault begins, the headquarters' facilities will no longer be available.</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">And to think, just a few days ago, I was the one who was in there.</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">No, forget I said anything.</div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">What are you working on?</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">I'm in the process of modifying this equipment so I can perform an SND--a synaptic net dive.</div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">Synaptic net dive?</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">My specialty within the Tsviets.</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">While retaining consciousness, I project an image of myself into a virtual reality called a network.</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">I can also use this ability to negotiate with data on the subconscious planes of sentient life forms.</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">However, this often involves a great risk to my own sanity.</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">For Shinra, the success of the SND project was crucial for their next step in...</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">I'm sorry. I seem to have gotten off-track. Simply put, I'm creating a personal network terminal within the airship's main control console.</div>
+    <p class="nar">Vincent backs up slightly.</p>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">What?</div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">Nothing. You just remind me of your sister.</div>
+    <p class="nar">Vincent leaves. In another room, he encounters Reeve, sitting down.</p>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">Thanks to Shelke's half of the data, I have been able to make more sense of the report.</div>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">But I still require more time to piece together the fragments. I will give you all a detailed briefing at the meeting.</div>
+    <p class="nar">Once all three individuals have been talked to, the scene changes; everyone's on the bridge. It's meeting time!</p>
+    <div class="speech cid"><h4>Cid:</h4><p id="dialog">Alright. Our old buddies and the remaining WRO squads will lead the ground assault...</div>
+    <p class="nar">Scene change; a lone truck is driving through the Wastelands. Barret is at the helm, with Tifa in the passenger seat.</p>
+    <div class="speech tifa"><h4>Tifa:</h4><p id="dialog">I see it!</div>
+    <p class="nar">The rear of the truck opens up. Cloud is sitting on his motorcycle; he puts his driving goggles on.</p>
+    <div class="speech cloud"><h4>Cloud:</h4><p id="dialog">Time to go, Fenrir.</div>
+    <p class="nar">He drives out of the truck, and then ahead of it; Cloud is leading the way.</p>
+    <div class="speech barret"><h4>Barret:</h4><p id="dialog">Awright!</div>
+    <div class="speech tifa"><h4>Tifa:</h4><p id="dialog">Yeah!</div>
+    <p class="nar">As the camera pans out, we see the truck is just one of over a dozen, and the entire convoy is on a direct course to Midgar.</p>
+    <div style="text-align: center"><img src="http://www.ffwa.eu/ff7/images/script-shots/46.jpg" alt="" border="0" height="177" width="250" class="imgpad"><img src="http://www.ffwa.eu/ff7/images/script-shots/47.jpg" alt="" border="0" height="177" width="250" class="imgpad"></div>
+    <p class="nar">Back to the meeting; Yuffie is holding a bag of ice to her forehead.</p>
+    <div class="speech yuffie"><h4>Yuffie:</h4><p id="dialog">...while we launch our attack from the air.</div>
+    <div class="speech cid"><h4>Cid:</h4><p id="dialog">Right. So Reeve, you ready?</div>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">Yes.</div>
+    <p class="nar">Scene changes to show Shelke about to put on her VR helmet again; Cait Sith is in the room with her.</p>
+    <div class="speech cait"><h4>Cait Sith:</h4><p id="dialog">Alright. Take it away, Shelke!</div>
+    <p class="nar">She puts it on and lies back in her chair.</p>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">Very well.</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">Data fragment link... successful. Commencing synaptic net dive in 3, 2, 1 ...</div>
+    <p class="nar">She begins the dive. On the bridge, Cid, Vincent, Reeve and Yuffie are exposed to a hologram of the universe.</p>
+    <div class="speech cid"><h4>Cid:</h4><p id="dialog">What the? Are we in...?</div>
+    <div class="speech yuffie"><h4>Yuffie:</h4><p id="dialog">What? What?</div>
+    <p class="nar">A distinct female voice-over recites Reeve's report.</p>
+    <div class="speech"><h4>Girl:</h4><p id="dialog">Just as we return to the planet when our lifelight has faded, the planet returns to the cosmos when her time has come.</div>
+    <div class="speech"><h4>Girl:</h4><p id="dialog">Anything that has definite shape will one day cease to exist. The same is true for this world.</div>
+    <p class="nar">The quartet are exposed to an image of a trio of meteors striking the planet, spreading a wave of fire over it.</p>
+    <div style="text-align: center"><img src="http://www.ffwa.eu/ff7/images/script-shots/48.jpg" alt="" border="0" height="177" width="250" class="imgpad"><img src="http://www.ffwa.eu/ff7/images/script-shots/49.jpg" alt="" border="0" height="177" width="250" class="imgpad"></div>
+    <div class="speech"><h4>Girl:</h4><p id="dialog">Before she takes her final breath, the pure Lifestreams that flow freely beneath her crust will be brought together into one by Omega--the ultimate lifeform. His purpose: to gather all life, sentient and non, and lead it into the sea of stars, where it will embark on a fabulous journey along a road untraveled.</div>
+    <p class="nar">The lifestreams, which had been gathering at one point, blast off into the universe.</p>
+    <div class="speech"><h4>Girl:</h4><p id="dialog">However, when Omega has lifted the life from this planet, all that will remain will be an empty shell destined to die silently in the limitless void of space.</div>
+    <p class="nar">The barren, lifeless world, begins to crack, then fall apart - very similar to Bugenhagen's demonstration of a lifeless planet from the original game.</p>
+    <div style="text-align: center"><img src="http://www.ffwa.eu/ff7/images/script-shots/50.jpg" alt="" border="0" height="177" width="250" class="imgpad"><img src="http://www.ffwa.eu/ff7/images/script-shots/51.jpg" alt="" border="0" height="177" width="250" class="imgpad"></div>
+    <p class="nar">Back on the Shera's bridge; the universal light show has ended, and the female voice-overs are replaced by Shelke voice-overs.</p>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">Omega is the same type of life form as the Weapons we encountered three years ago.</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">The planet gave birth to these creatures to protect itself just as the planet will ultimately give birth to the final Weapon, Omega, when the end of the world is imminent.</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">In essence, Omega is an elaborate safety mechanism designed solely to maintain and protect the flow of life.</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">Normally, Omega poses no threat to us. It only manifests when the planet has detected something that may cause her danger.</div>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">However, Deepground is attempting to awaken the beast early. Thus the kidnappings.</div>
+    <p class="nar">Brief scene change; Cait Sith puts on the VR helmet, then waves to Shelke. She nods at him. The screen is black, and we hear the screams & cries of many people.</p>
+    <div class="speech cait"><h4>Cait Sith:</h4><p id="dialog">Good gracious me!</div>
+    <p class="nar">Scene changes back to the bridge.</p>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">By slaughtering thousands of innocent souls, they are creating a pure Lifestream in order to trick the planet into thinking the "end" is near.</div>
+    <div class="speech cid"><h4>Cid:</h4><p id="dialog">Why, those conniving...!</div>
+    <div class="speech cid"><h4>Cid:</h4><p id="dialog">I don't know what this Weiss character is tryin', but he's crazy if he thinks we're gonna let him get away with it.</div>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">Right.</div>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">Omega is being revived deep beneath Midgar in Mako Reactor 0.</div>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">To increase the output of Reactor 0, all the other reactors have been tied into its mainframe.</div>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">Our objective is to destroy 1 through 8 and slow the reanimation process.</div>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">Mission details for each squad will be relayed separately.</div>
+    <div class="speech cid"><h4>Cid:</h4><p id="dialog">Alright. We've still got some time before the big show.</div>
+    <div class="speech cid"><h4>Cid:</h4><p id="dialog">You got anything needs tending to, do it.</div>
+    <p class="nar">Back to gameplay; Vincent talks to Cid, who's back at the wheel of The Shera.</p>
+    <div class="speech cid"><h4>Cid:</h4><p id="dialog">Vince, don't worry about the reactors. We'll take care of them.</div>
+    <div class="speech cid"><h4>Cid:</h4><p id="dialog">You work on those four wackos.</div>
+    <div class="speech cid"><h4>Cid:</h4><p id="dialog">I don't like letting you have all the fun, but you know I can't leave my baby here alone.</div>
+    <div class="speech cid"><h4>Cid:</h4><p id="dialog">Cloud and the others will be shutting down the power, and there's no way we're lettin' Yuffie go down there by herself.</div>
+    <div class="speech cid"><h4>Cid:</h4><p id="dialog">Sorry buddy. Looks like from here on out it's Vince versus the Tsviets.</div>
+    <p class="nar">Cid faces Vincent, and puts his hand on Vincent's shoulder.</p>
+    <div class="speech cid"><h4>Cid:</h4><p id="dialog">We're counting on you, old pal.</div>
+    <p class="nar">Optional dialogue, but I'm including it anyways. If you talk to Cid again...</p>
+    <div class="speech cid"><h4>Cid:</h4><p id="dialog">Yeah, but just look at Cait... I mean, Reeve. When the hell did he become so important?</div>
+    <div class="speech cid"><h4>Cid:</h4><p id="dialog">All this you see around you--everything here--he put up the gil for it.</div>
+    <div class="speech cid"><h4>Cid:</h4><p id="dialog">'Course that's on the condition that I help him save the world.</div>
+    <div class="speech cid"><h4>Cid:</h4><p id="dialog">What I want to know is where he got that kind of cash.</div>
+    <p class="nar">Talking to Cid AGAIN, even more optional.</p>
+    <div class="speech cid"><h4>Cid:</h4><p id="dialog">When all this is over, how about we grab a couple of cold ones. Just like the good ol' days, huh?</div>
+    <div class="speech cid"><h4>Cid:</h4><p id="dialog">Even Shera's been worried about you, and you know how she gets.</div>
+    <p class="nar">Back to the laboratory to talk with Shelke.</p>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">So tired...</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">Vincent Valentine.</div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">What?</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">This feeling. Is this what you meant by doing something for someone you care about?</div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">It seems so.</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">Dr. Crescent's data has begun defragmenting within my mind.</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">I can see many different images.</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">Images she experienced with you.</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">Interference... Recovery... So tired... <em>[She falls asleep]</em></div>
+    <p class="nar">And back to the room where Reeve is sitting.</p>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">So, no costume today?</div>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog"><em>[laughs]</em> Headquarters was pretty much destroyed by the Deepground forces.</div>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">But I was able to salvage a few things.</div>
+    <p class="nar">A Cait Sith approaches them.</p>
+    <div class="speech cait"><h4>Cait Sith:</h4><p id="dialog">Number 6, ready for action!</div>
+    <p class="nar">Talking to Reeve again, some more optional dialogue.</p>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">Tell me, Reeve. Who's backing your operation?</div>
+    <div class="speech cait"><h4>Cait Sith:</h4><p id="dialog">Oh, that.</div>
+    <p class="nar">Reeve laughs a bit.</p>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">Actually, I'm not sure. I have only met with a representative.</div>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">However, the WRO is crucial for this planet's survival.</div>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">I'm not concerned with the reasons this person has for helping us, as long as he continues writing the checks.</div>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">Though, I have a feeling it is probably someone who believes he is in debt to the planet.</div>
+    <p class="nar">And another convo with a still-heaving, still-airsick Yuffie.</p>
+    <div class="speech yuffie"><h4>Yuffie:</h4><p id="dialog">Did you hear? They attacked Wutai as well.</div>
+    <div class="speech yuffie"><h4>Yuffie:</h4><p id="dialog">Thanks to my dad and the Wusheng, things didn't turn out as bad as they could have, but... But I'm worried about my old man. He's not as young as he used to be.</div>
+    <div class="speech yuffie"><h4>Yuffie:</h4><p id="dialog">He's gonna have a heart attack one of these days, if not give me one!</div>
+    <p class="nar">Talking to Yuffie again, optional dialogue.</p>
+    <div class="speech yuffie"><h4>Yuffie:</h4><p id="dialog">Now, if I was there, dad wouldn't even have to put down his mai tai.</div>
+    <div class="speech yuffie"><h4>Yuffie:</h4><p id="dialog">What? What?</div>
+    <p class="nar">Another optional convo...</p>
+    <div class="speech yuffie"><h4>Yuffie:</h4><p id="dialog">I could take out Deepground with one hand tied behind my back! <em>[Starts to punch the air... then heaves]</em></div>
+    <p class="nar">Vincent approaches a lower area of The Shera. He clutches at his heart, which begins to beat louder, and he hears a beast's roar... he looks at his hand as he begins to glow red. He's now in Chaos mode. He claws at a wall, and is about to go kill some people when...</p>
+    <div class="speech lucrecia"><h4>Lucrecia:</h4><p id="dialog">Vincent.</div>
+    <p class="nar">He turns around and sees Lucrecia standing there. He reaches out to her with his right hand. His arm glows, and he returns to being Vincent... the hallucination disappears.</p>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">What's happening?</div>
+    <p class="nar">He looks at his hands.</p>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">A dream?</div>
+    <p class="nar">He turns his head & notices the clawing of the wall. He gasps... and clutches at his heart once again, as it beats louder.</p>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">Am I losing control?</div>
+    <p class="nar">Shelke is standing behind him... she walks away.</p>
+    <p class="nar">Back on the bridge, the camera's on Cid.</p>
+    <div class="speech cid"><h4>Cid:</h4><p id="dialog">Okay dogs, it's time!</div>
+    <div class="speech cid"><h4>Cid:</h4><p id="dialog">All hands to battle stations!</div>
+    <p class="nar">Scene change: The sun is setting, as Azul, Nero and Rosso stand on the outskirts of Midgar.</p>
+    <div class="speech azul"><h4>Azul:</h4><p id="dialog">A simultaneous attack from land and air.</div>
+    <div class="speech azul"><h4>Azul:</h4><p id="dialog">I think they may be serious this time.</div>
+    <div class="speech rosso"><h4>Rosso:</h4><p id="dialog">They had better be. I've been so bored lately.</div>
+    <div class="speech nero"><h4>Nero:</h4><p id="dialog">His awakening is near. Let tonight be the final chapter.</div>
+    <p class="nar">Back in the Shera's hangar, as the WRO troops prepare for battle. Yuffie's there with them. Cid's voice blares over the intercom.</p>
+    <div class="speech cid"><h4>Cid:</h4><p id="dialog">Listen up, 'cause I'm only gonna say this once!</div>
+    <div class="speech cid"><h4>Cid:</h4><p id="dialog">If any more of you are killed by those punks, I'll drag you back from hell and kill you again!</div>
+    <div class="speech cid"><h4>Cid:</h4><p id="dialog">You really want to piss off those SOBs, then why not try stayin' alive!</div>
+    <div class="speech cid"><h4>Cid:</h4><p id="dialog">That's what this war's all about!</div>
+    <div class="speech cid"><h4>Cid:</h4><p id="dialog">If you live, everybody behind you lives. If you die, they die!</div>
+    <div class="speech cid"><h4>Cid:</h4><p id="dialog">You got that? Now go kick some Deepground ass!</div>
+    <p class="nar">Yuffie & Everyone else cheers.</p>
+    <p class="nar">Scene change; Shelke talks to Vincent; Reeve is by their side.</p>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">Vincent Valentine. <em>[hands him a phone]</em></div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">What's this?</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">Your phone. I retrieved it in Kalm.</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">I've modified it slightly. Just dial #VIN to contact my personal terminal directly.</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">From this workstation, I can perform a synaptic net dive into almost any network system in Midgar.</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">I may also be able to help guide you into Deepground.</div>
+    <p class="nar">Vincent looks at Reeve; he crosses his arms.</p>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">It's not what you think.</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">By monitoring your movement, Dr. Crescent's data fragments are restored within me.</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">I'm simply providing this service for my own benefit.</div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">I didn't say anything.</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">I... Anyway... my resources here are limited. Do not expect too much.</div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">I'm counting on you, Shelke.</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">I... It's just I've never actually been "counted on" by anyone before.</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">Never mind.</div>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">Well then, can I "count on" you to keep an eye on the airship while we're away as well?</div>
+    <p class="nar">Shelke gasps.</p>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">I have already witnessed your strength and skill once.</div>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">This is war, and we have to be ready for anything. Your assistance would be of great help.</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">My assistance?</div>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">Exactly.</div>
+    <div class="speech wro"><h4>WRO Member:</h4><p id="dialog">Commissioner!</div>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">Excuse me. Vincent, I will see you again before deployment. And Shelke remember, I'm counting on you.</div>
+    <p class="nar">Reeve leaves; a few moments later, Vincent looks at Shelke and leaves too.</p>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">Fighting for...</div>
+    <p class="nar">She shakes her head.</p>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">No, I have no one to fight for. No one at all.</div>
+    <p class="nar">She walks away.</p>
+    <p class="nar">Oh man, it's FMV time. Cid punches one hand into his palm, all dramatic-like.</p>
+    <div class="speech cid"><h4>Cid:</h4><p id="dialog">This is it!</div>
+    <div class="speech cid"><h4>Cid:</h4><p id="dialog">Go!</div>
+    <p class="nar">The fleet of airships approach Midgar. Deepground is ready for them, as an array of helicopters, black widows, and hundreds of soldiers prepare to fire on them. A group of Heavy Armored soldiers launch a barrage of missiles, hitting a couple of airships; an airship returns fire, taking out several black widows. Gunfire and missiles fill the air; the bottom of an airship opens up, as a robotic female voice announces "Hatch open. Prepare for drop." Elsewhere, Shelke jumps into her chair and puts her helmet on.</p>
+    <div class="speech yuffie"><h4>Yuffie:</h4><p id="dialog">See you boys later!</div>
+    <p class="nar">Yuffie and the other soldiers dive out of the airship on hoverboard-type devices.</p>
+    <div class="speech yuffie"><h4>Yuffie:</h4><p id="dialog">Going down!</div>
+    <p class="nar">Cut back to Shelke, who's monitoring the developments.</p>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">Advance squad away. Secondary squad, prepare for drop.</div>
+    <div style="text-align: center"><img src="http://www.ffwa.eu/ff7/images/script-shots/52.jpg" alt="" border="0" height="177" width="250" class="imgpad"><img src="http://www.ffwa.eu/ff7/images/script-shots/53.jpg" alt="" border="0" height="177" width="250" class="imgpad"></div>
+    <p class="nar">The air battle rages on, as the fleet of trucks (and Cloud on his motorcycle) approach the city, while being heavily fired upon. Cloud leads the way.</p>
+    <div style="text-align: center"><img src="http://www.ffwa.eu/ff7/images/script-shots/54.jpg" alt="" border="0" height="177" width="250" class="imgpad"><img src="http://www.ffwa.eu/ff7/images/script-shots/55.jpg" alt="" border="0" height="177" width="250" class="imgpad"></div>
+    <div class="speech tifa"><h4>Tifa:</h4><p id="dialog">Barret!</div>
+    <p class="nar">Barret responds with a "Yo!" Cloud holds his sword in his right hand, while a stream of missiles fire from the top of Barret's truck, destroying all in their path. Cloud rides through the resulting firestorm. High above the action, Rosso sees Cloud approach. She giggles to herself, and jumps down. Cloud looks up in time to see Rosso, weapon unfurled, about to perform an epic spinning attack on him.</p>
+    <div style="text-align: center"><img src="http://www.ffwa.eu/ff7/images/script-shots/56.jpg" alt="" border="0" height="177" width="250" class="imgpad"><img src="http://www.ffwa.eu/ff7/images/script-shots/57.jpg" alt="" border="0" height="177" width="250" class="imgpad"></div>
+    <p class="nar">A large explosion occurs at his motorcycle, and we next see Cloud and Rosso gliding through the air, both attempting to strike the other. The clash of their weapons results in a large energy shockwave.</p>
+    <div style="text-align: center"><img src="http://www.ffwa.eu/ff7/images/script-shots/58.jpg" alt="" border="0" height="177" width="250" class="imgpad"><img src="http://www.ffwa.eu/ff7/images/script-shots/59.jpg" alt="" border="0" height="177" width="250" class="imgpad"></div>
+    <p class="nar">Elsewhere, Azul (with his large gun/rocket launcher in tow) fires into the air. The blast hits an airship. Which loses control and..</p>
+    <div class="speech cid"><h4>Cid:</h4><p id="dialog">What the!?</div>
+    <p class="nar">...collides with the Shera. A fire breaks out in the hatch area; Vincent and the WRO members dive out on their hoverboards just in time.</p>
+    <div style="text-align: center"><img src="http://www.ffwa.eu/ff7/images/script-shots/60.jpg" alt="" border="0" height="177" width="250" class="imgpad"><img src="http://www.ffwa.eu/ff7/images/script-shots/61.jpg" alt="" border="0" height="177" width="250" class="imgpad"></div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">Transmission with bay 9 lost. Damage to the Shera minimal.</div>
+    <div class="speech cid"><h4>Cid:</h4><p id="dialog">Damn! They're gonna pay for that!</div>
+    <p class="nar">A helicopter fires at Vincent; a few key gunshots causes it to explode. Vincent continues to glide down as he continues to be fired upon. After some more acrobatic moves, he successfully lands inside Midgar, starting at the Shinra Tower.</p>
+    <div style="text-align: center"><img src="http://www.ffwa.eu/ff7/images/script-shots/62.jpg" alt="" border="0" height="177" width="250" class="imgpad"></div>
+    <p class="nar">Gameplay resumes; the sun has set and the sky is showing signs of twilight. The war still rages on around him. He sees a train in front of him; his phone rings & he answers.</p>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">What do you think you're doing?</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">You have landed several klicks off your target destination.</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">However, considering the location of the enemy, this could work to your advantage.</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">Head for the central complex and locate a means of reaching the top level.</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">You will only be able to enter Deepground from the upper platform.</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">I'll contact you again. Shelke out.</div>
+<p class="end">End of Chapter</p>
+<div class="prevnext">
+  <a href="08.html">Chapter 8: Midgar Assault</a>
+</div>
+</div>
+
+<!-- Footer -->
+<div class="footer">Script sourced from Martin on FINAL FANTASY Worlds Apart</div>
+</div>
+</body>
+</html>

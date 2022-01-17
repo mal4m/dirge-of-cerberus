@@ -1,0 +1,238 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Dirge of Cerberus - Script</title>
+  <meta name="description" content="Dirge of Cerberus - Script">
+  <meta name="author" content="SitePoint">
+  <meta property="og:title" content="Dirge of Cerberus - Script">
+  <meta property="og:type" content="website">
+  <meta property="og:description" content="Dirge of Cerberus - Script">
+  <meta property="og:image" content="image.png">
+  <link rel="icon" href="/favicon.ico">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
+</head>
+<body>
+  <script>
+  $(document).ready(function() {
+  		$('a[href*=#]').bind('click', function(e) {
+  				e.preventDefault(); // prevent hard jump, the default behavior
+
+  				var target = $(this).attr("href"); // Set the target as variable
+
+  				// perform animated scrolling by getting top-position of target-element and set it as scroll target
+  				$('html, body').stop().animate({
+  						scrollTop: $(target).offset().top
+  				}, 600, function() {
+  						location.hash = target; //attach the hash (#jumptarget) to the pageurl
+  				});
+
+  				return false;
+  		});
+  });
+
+  $(window).scroll(function() {
+  		var scrollDistance = $(window).scrollTop();
+
+  		// Show/hide menu on scroll
+  		//if (scrollDistance >= 850) {
+  		//		$('nav').fadeIn("fast");
+  		//} else {
+  		//		$('nav').fadeOut("fast");
+  		//}
+
+  		// Assign active class to nav links while scolling
+  		$('.page-section').each(function(i) {
+  				if ($(this).position().top <= scrollDistance) {
+  						$('.navigation a.active').removeClass('active');
+  						$('.navigation a').eq(i).addClass('active');
+  				}
+  		});
+  }).scroll();
+  </script>
+<div class="nav">
+    <a href="index.html">Prologue</a>
+    <a href="01.html">Chapter 1</a>
+    <a href="02.html">Chapter 2</a>
+    <a href="03.html">Chapter 3</a>
+    <a href="04.html">Chapter 4</a>
+    <a href="05.html">Chapter 5</a>
+    <a href="06.html">Chapter 6</a>
+    <a href="07.html">Chapter 7</a>
+    <a href="08.html">Chapter 8</a>
+    <a href="09.html">Chapter 9</a>
+    <a href="10.html">Chapter 10</a>
+    <a href="11.html">Chapter 11</a>
+    <a href="12.html">Chapter 12</a>
+    <a href="reports.html">Reports</a>
+  </div>
+  <div class= "target" id="prologue" style="margin-top: -100px; padding-top:100px;"></div>
+<div class="page" id="">
+
+<!-- Chapter 6 -->
+<div class= "target" id="6" style="margin-top: -100px; padding-top:100px;"></div>
+<div class="chapter-container content">
+    <div class="header"><h1>Chapter 6: Deepground Strikes Back</h1></div>
+    <p class="nar">Vincent dispatches of the trio of machines (which look like Custom Sweepers from the original game) that derailed his truck. He proceeds through the wilderness, killing Guard Beasts, DG soldiers, and strange bug creatures along the way. He encounters a group of WRO Members and assists them; then, together with the WRO Members, they destroy a group of Helicopters intent on attacking WRO Headquarters.</p>
+    <p class="nar">Vincent proceeds to get closer to headquarters, eventually overhearing a transmission involving WRO Members, as they shout "This is headquarters. We need backup!" followed by ""Get away!", "What is that thing!?" and various screams followed by a beast's roar.</p>
+    <p class="nar">As he reaches the entrance to the headquarters, he's confronted by several DG soldiers... and another Black Widow. Boss battle vs. Black Widow II. Once it's defeated, he enters the headquarters... when Vincent had last been there 2 chapters ago it was in fine shape, but now it's a shell of what it once was; pretty much everything's destroyed. It's a surprise it's still standing; the ground is shredded and fires ravage the entire complex.</p>
+    <p class="nar">In one hallway, two WRO members are firing handguns at... something. Suddenly a 3rd member flies through the air and hits the two of them. We see the beast that has torn apart the complex. It's... very beastly!</p>
+    <div style="text-align: center"><img src="http://www.ffwa.eu/ff7/images/script-shots/32.jpg" alt="" border="0" height="177" width="250" class="imgpad"><img src="http://www.ffwa.eu/ff7/images/script-shots/33.jpg" alt="" border="0" height="177" width="250" class="imgpad"></div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">What the hell?</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">Azul.</div>
+    <p class="nar">Vincent turns around and sees Shelke & Shalua standing there. Azul storms towards them; Vincent fires but it has little to no effect. Shalua moves in to strike him, but gets knocked aside.</p>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">Shalua!</div>
+    <p class="nar">Azul knocks Vincent down. Shelke stands in front of Azul, looking at her fallen sister. To complete his trifecta, Azul smacks Shelke, sending her down. She dodges his second attempt, and pulls out a materia which momentarily paralyzes him.</p>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">The extreme potency of this shield materia is comparable to that of your barrier field, Azul.</div>
+    <p class="nar">He reverts to human form.</p>
+    <div class="speech azul"><h4>Azul:</h4><p id="dialog">Shelke? Why do you stand in my way?</div>
+    <p class="nar">She puts away the materia.</p>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">I had to protect myself. You were trying to kill me.</div>
+    <div class="speech azul"><h4>Azul:</h4><p id="dialog">Then now is the time.</div>
+    <p class="nar">He takes a swipe at her and she backs away.</p>
+    <div class="speech azul"><h4>Azul:</h4><p id="dialog">You are no longer required.</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">No longer...?</div>
+    <div class="speech azul"><h4>Azul:</h4><p id="dialog">You are no different from the others. Your weak body is nothing without mako.</div>
+    <div class="speech azul"><h4>Azul:</h4><p id="dialog">Your only skill is collecting data from inside a virtual reality.</div>
+    <div class="speech azul"><h4>Azul:</h4><p id="dialog">It makes me sick to even think of you as a member of the Tsviets.</div>
+    <div class="speech azul"><h4>Azul:</h4><p id="dialog">Weiss has ordered your termination.</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">Weiss!?</div>
+    <div class="speech azul"><h4>Azul:</h4><p id="dialog">Your mission was to identify and locate the keeper of the Protomateria.</div>
+    <div class="speech azul"><h4>Azul:</h4><p id="dialog">That is why we uploaded the doctor's data into your neural network.</div>
+    <div class="speech azul"><h4>Azul:</h4><p id="dialog">But now we no longer need it. And we cannot let it fall into the hands of the WRO.</div>
+    <div class="speech azul"><h4>Azul:</h4><p id="dialog">Your fate has been decided, Shelke. It is time for you to return to the planet.</div>
+    <p class="nar">Shelke pulls out her materia, paralyzing him in its shield once more. Shalua grabs her hand.</p>
+    <div class="speech shalua"><h4>Shalua:</h4><p id="dialog">Vincent! Shelke! Let's get out of here!</div>
+    <div style="text-align: center"><img src="http://www.ffwa.eu/ff7/images/script-shots/34.jpg" alt="" border="0" height="177" width="250" class="imgpad"></div>
+    <p class="nar">They run to the door; Shalua slams a button and it opens. Vincent's the first one out; Shelke tries to stay in the room.</p>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">Let go of me!</div>
+    <div class="speech shalua"><h4>Shalua:</h4><p id="dialog">I don't think so. We have ten years to catch up on. I'm not going to let this end here--</div>
+    <p class="nar">The door begins to close.</p>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">Shalua!</div>
+    <p class="nar">Shalua sticks her robotic arm between the closing doors.</p>
+    <div style="text-align: center"><img src="http://www.ffwa.eu/ff7/images/script-shots/35.jpg" alt="" border="0" height="177" width="250" class="imgpad"><img src="http://www.ffwa.eu/ff7/images/script-shots/36.jpg" alt="" border="0" height="177" width="250" class="imgpad"></div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">Why are you doing this?</div>
+    <div class="speech shalua"><h4>Shalua:</h4><p id="dialog">You can still get through. Go on.</div>
+    <p class="nar">Shalua throws her through the opening.</p>
+    <div class="speech shalua"><h4>Shalua:</h4><p id="dialog">Shelke.</div>
+    <p class="nar">Shelke looks back at her.</p>
+    <div class="speech shalua"><h4>Shalua:</h4><p id="dialog">I'm sorry I wasn't a better sister.</div>
+    <p class="nar">We see Azul approaching her from the background, as the pressure of the doors destroys her arm.</p>
+    <div class="speech shalua"><h4>Shalua:</h4><p id="dialog">I'm sorry I let you suffer so long.</div>
+    <div class="speech shalua"><h4>Shalua:</h4><p id="dialog">Vincent. Take care of her, will you?</div>
+    <p class="nar">Vincent is grabbing the door, but it's still gradually closing.</p>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">Wait!</div>
+    <div class="speech shalua"><h4>Shalua:</h4><p id="dialog">Shelke.</div>
+    <div class="speech shalua"><h4>Shalua:</h4><p id="dialog">I'm glad I was able to find you.</div>
+    <div class="speech shalua"><h4>Shalua:</h4><p id="dialog">And remember, I'll always love you.</div>
+    <p class="nar">The door closes. Vincent slams his hands on it.</p>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">Why?</div>
+    <p class="nar">We briefly see Azul's hand, then hear a loud thud. Beige liquid seeps under the door.</p>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">Why did she...? Why?</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">Shalua...</div>
+    <p class="nar">We hear another loud thud on the door. Vincent grabs Shelke and runs.</p>
+    <p class="nar">Scene change. Inside his thoroughly-destroyed office, Reeve is slumped on the ground, though still alive/conscious, just devastated at how easily the headquarters was destroyed. Vincent is by his side.</p>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">I'm so ashamed.</div>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">I am supposed to be a hero of the Jenova War.</div>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">But look at me.</div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">Don't take all the blame.</div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">You're not thinking of giving up, are you?</div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">I used to be nothing but a stone in the river of time, but three years ago it was you and the others who taught me I had to move ahead.</div>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">Vincent...</div>
+    <p class="nar">Vincent walks away.</p>
+    <p class="nar">Scene changed: Shalua is inside one of the regeneration tubes. Yuffie is keeping watch over her: Vincent walks in.</p>
+    <div class="speech yuffie"><h4>Yuffie:</h4><p id="dialog">They say she won't wake up.</div>
+    <div class="speech yuffie"><h4>Yuffie:</h4><p id="dialog">She suffered too much trauma to her head. Unless there's some kind of a miracle, she's not...</div>
+    <div class="speech yuffie"><h4>Yuffie:</h4><p id="dialog">Vincent! You were there! Why couldn't you save her!?</div>
+    <p class="nar">Vincent looks down.</p>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">I'm sorry.</div>
+    <div class="speech yuffie"><h4>Yuffie:</h4><p id="dialog">No.</div>
+    <div class="speech yuffie"><h4>Yuffie:</h4><p id="dialog">I didn't mean to...</div>
+    <p class="nar">Shelke walks in.</p>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">She was a fool.</div>
+    <p class="nar">Yuffie stands up, walks over to her and slaps her!</p>
+    <div style="text-align: center"><img src="http://www.ffwa.eu/ff7/images/script-shots/37.jpg" alt="" border="0" height="177" width="250" class="imgpad"><img src="http://www.ffwa.eu/ff7/images/script-shots/38.jpg" alt="" border="0" height="177" width="250" class="imgpad"></div>
+    <div class="speech yuffie"><h4>Yuffie:</h4><p id="dialog">You have no right to call her that!</div>
+    <div class="speech yuffie"><h4>Yuffie:</h4><p id="dialog">You don't know what...!</div>
+    <p class="nar">Vincent pulls Yuffie away from her.</p>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">Why would she do something so...?</div>
+    <p class="nar">Yuffie, about to cry, leaves the room.</p>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">Before, when I asked Shalua what she was searching for, she answered "her reason to live."</div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">It was you, Shelke. You were her reason to live.</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">So? I don't understand how someone could give her own life for that of another.</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">Do you understand, Vincent Valentine?</div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">I can't answer for your sister. But...</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">But?</div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">When a person has someone they care about that much, giving their life is sometimes the least they can do.</div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">And maybe that's what makes us human.</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">Someone they care about...</div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">Although... it seems like there are alot of people around me who don't need a reason to risk their lives for that of another.</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">And are you...</div>
+    <p class="nar">She nearly falls down; Vincent catches her. They look into each other's eyes; Flashback time!</p>
+    <p class="nar">The screen is white.</p>
+    <div class="speech lucrecia"><h4>Lucrecia:</h4><p id="dialog">...ent...</div>
+    <div class="speech lucrecia"><h4>Lucrecia:</h4><p id="dialog">Vincent...</div>
+    <div class="speech lucrecia"><h4>Lucrecia:</h4><p id="dialog">Vincent...</div>
+    <p class="nar">Vincent is lying on a grassy field beneath a tree.</p>
+    <div class="speech lucrecia"><h4>Lucrecia:</h4><p id="dialog">Fall asleep here, and you might catch a cold.</div>
+    <p class="nar">Vincent is startled.</p>
+    <div class="speech lucrecia"><h4>Lucrecia:</h4><p id="dialog">Why are you so surprised? Is my face that hideous?</div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">No. I didn't... I'm sorry.</div>
+    <div class="speech lucrecia"><h4>Lucrecia:</h4><p id="dialog">And how are you supposed to be my bodyguard if you're up here sleeping?</div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">The warm breeze... I was only going to rest my eyes for a minute.</div>
+    <div class="speech lucrecia"><h4>Lucrecia:</h4><p id="dialog">Well, I have to admit, the breeze is quite comfortable.</div>
+    <div class="speech lucrecia"><h4>Lucrecia:</h4><p id="dialog">However... I think you're in my seat.</div>
+    <p class="nar">Vincent goes "Huh?"; Lucrecia pulls a picnic basket out from behind her back.</p>
+    <div class="speech lucrecia"><h4>Lucrecia:</h4><p id="dialog">Care to join me?</div>
+    <p class="nar">Screen fades back to white.</p>
+    <div style="text-align: center"><img src="http://www.ffwa.eu/ff7/images/script-shots/39.jpg" alt="" border="0" height="177" width="250" class="imgpad"><img src="http://www.ffwa.eu/ff7/images/script-shots/40.jpg" alt="" border="0" height="177" width="250" class="imgpad"><img src="http://www.ffwa.eu/ff7/images/script-shots/41.jpg" alt="" border="0" height="177" width="250" class="imgpad"></div>
+    <p class="nar">Back in the present, Vincent has his hands on Shelke's shoulders & they're looking at each other. She backs away.</p>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">I'm sorry. <em>[She walks away]</em></div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">Why are her data fragments responding?</div>
+    <p class="nar">Reeve walks in.</p>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">Vincent. I agree with you. This is not the time for us to give up.</div>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">But I need to know something. Those data files you recovered from Shinra Manor-- are you sure there were not any more?</div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">I'm sure.</div>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">I see.</div>
+    <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">What's wrong?</div>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">Well, the Omega Report... The file was incomplete.</div>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">To make any sense out of it, we are going to require the other half.</div>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">If possible, I wanted to know more about our foe before we launched the attack on Midgar.</div>
+    <p class="nar">Shelke turns around.</p>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">Are you speaking of Dr. Lucrecia Crescent's findings?</div>
+    <p class="nar">Reeve gasps; he and Vincent look at her.</p>
+    <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">Yes. But how did you...?</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">A large quantity of her mnemonic data fragments has been uploaded into my neural network.</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">It was my prime directive to use this data to locate and retrieve the Protomateria.</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">However, not only was the data incomplete, but part of her consciousness began interfering with my own thought processes.</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">It was believed that the missing fragments may have been the reason for this.</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">I can attempt to upload the WRO's files on the Omega Report.</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">By combining it with the data I possess, you may obtain a clearer picture of what you will be up against.</div>
+    <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">And perhaps I can regain control of my mind.</div>
+    <p class="nar">Yuffie's voice blares over the intercom.</p>
+    <div class="speech yuffie"><h4>Yuffie:</h4><p id="dialog">Vincent! Reeve! You'd better get out here!</div>
+    <div style="text-align: center"><img src="http://www.ffwa.eu/ff7/images/script-shots/42.jpg" alt="" border="0" height="177" width="250" class="imgpad"><img src="http://www.ffwa.eu/ff7/images/script-shots/43.jpg" alt="" border="0" height="177" width="250" class="imgpad"></div>
+    <p class="nar">Reeve and Vincent walk outside the HQ, approaching Yuffie, who's waving her hands in the air.</p>
+    <div class="speech yuffie"><h4>Yuffie:</h4><p id="dialog">Cid!!! Hey!!! Over here!!!</div>
+    <p class="nar">The airship zips into view, and begins to descend. It's accompanied by an entire fleet, numbering at least a dozen, of similar airships.</p>
+    <div class="speech yuffie"><h4>Yuffie:</h4><p id="dialog">Wow!</div>
+    <div style="text-align: center"><img src="http://www.ffwa.eu/ff7/images/script-shots/44.jpg" alt="" border="0" height="177" width="250" class="imgpad"><img src="http://www.ffwa.eu/ff7/images/script-shots/45.jpg" alt="" border="0" height="177" width="250" class="imgpad"></div>
+    <p class="nar">Cut to Cid manning the helm of his airship.</p>
+    <div class="speech cid"><h4>Cid:</h4><p id="dialog">What the hell we waiting for!?</div>
+    <div class="speech cid"><h4>Cid:</h4><p id="dialog">It's time to get up 'n go!</div>
+    <div class="speech cid"><h4>Cid:</h4><p id="dialog">Come on get on board!</div>
+    <p class="nar">Cid smirks.</p>
+<p class="end">End of Chapter</p>
+<div class="prevnext">
+  <a href="07.html">Chapter 7: The Shera</a>
+</div>
+</div>
+
+<!-- Footer -->
+<div class="footer">Script sourced from Martin on FINAL FANTASY Worlds Apart</div>
+</div>
+</body>
+</html>
