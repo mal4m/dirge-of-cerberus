@@ -6,39 +6,75 @@
   <title>Dirge of Cerberus - Script</title>
   <meta name="description" content="Dirge of Cerberus - Script">
   <meta name="author" content="SitePoint">
-
   <meta property="og:title" content="A Basic HTML5 Template">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.sitepoint.com/a-basic-html5-template/">
   <meta property="og:description" content="Dirge of Cerberus - Script">
   <meta property="og:image" content="image.png">
-
   <link rel="icon" href="/favicon.ico">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-
   <link rel="stylesheet" href="css/styles.css?v=1.0">
-
 </head>
 <body>
-  <!-- your content here... -->
   <script>
-  // When the user scrolls down 50px from the top of the document, resize the header's font size
-  window.onscroll = function() {scrollFunction()};
+  $(document).ready(function() {
+  		$('a[href*=#]').bind('click', function(e) {
+  				e.preventDefault(); // prevent hard jump, the default behavior
 
-  function scrollFunction() {
-    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-      Document.getElementById("header").style.fontSize = "10px";
-    } else {
-      Document.getElementById("header").style.fontSize = "30px";
-    }
-  }
+  				var target = $(this).attr("href"); // Set the target as variable
+
+  				// perform animated scrolling by getting top-position of target-element and set it as scroll target
+  				$('html, body').stop().animate({
+  						scrollTop: $(target).offset().top
+  				}, 600, function() {
+  						location.hash = target; //attach the hash (#jumptarget) to the pageurl
+  				});
+
+  				return false;
+  		});
+  });
+
+  $(window).scroll(function() {
+  		var scrollDistance = $(window).scrollTop();
+
+  		// Show/hide menu on scroll
+  		//if (scrollDistance >= 850) {
+  		//		$('nav').fadeIn("fast");
+  		//} else {
+  		//		$('nav').fadeOut("fast");
+  		//}
+
+  		// Assign active class to nav links while scolling
+  		$('.page-section').each(function(i) {
+  				if ($(this).position().top <= scrollDistance) {
+  						$('.navigation a.active').removeClass('active');
+  						$('.navigation a').eq(i).addClass('active');
+  				}
+  		});
+  }).scroll();
   </script>
-
+  <div class="nav">
+    <a href="#prologue">Prologue</a>
+    <a href="#1">Chapter 1</a>
+    <a href="#2">Chapter 2</a>
+    <a href="#3">Chapter 3</a>
+    <a href="#4">Chapter 4</a>
+    <a href="#5">Chapter 5</a>
+    <a href="#6">Chapter 6</a>
+    <a href="#7">Chapter 7</a>
+    <a href="#8">Chapter 8</a>
+    <a href="#9">Chapter 9</a>
+    <a href="#10">Chapter 10</a>
+    <a href="#11">Chapter 11</a>
+    <a href="#12">Chapter 12</a>
+    <a href="#reports">Reports</a>
+  </div>
+  <div class= "target" id="prologue" style="margin-top: -100px; padding-top:100px;"></div>
+<div class="page" id="">
 <!-- Prologue -->
-<div id="page">
-<div id="chapter-container" class="content">
-    <div id="header">Prologue: Meteorfall</div>
+<div class="chapter-container content">
+    <div class="header"><h1>Prologue: Meteorfall</h1></div>
     <div style="text-align: center"><img src="http://www.ffwa.eu/ff7/images/script-shots/01.jpg" alt="" border="0" height="177" width="250" class="imgpad"><img src="http://www.ffwa.eu/ff7/images/script-shots/02.jpg" alt="" border="0" height="177" width="250" class="imgpad"></div>
     <p id="nar">A portion of Meteor sticks itself through the smoke and clouds above Midgar. Rescue workers are evacuating the city and carting off the dead amidst harsh Meteor-generated winds.</p>
     <div class="speech yuffie"><h4>Yuffie:</h4><p id="dialog">Come on! Hurry up!</div>
@@ -89,8 +125,10 @@
     <div style="text-align: center"><img src="http://www.ffwa.eu/ff7/images/script-shots/07.jpg" alt="" border="0" height="177" width="250" class="imgpad"><img src="http://www.ffwa.eu/ff7/images/script-shots/08.jpg" alt="" border="0" height="177" width="250" class="imgpad"></div>
     <p id="nar">Another batch of helicopters arrive, carrying large containers. Some bizarre dog-like mutant creature runs towards someone and bites their chest, dragging him away. Vincent is shown standing in his window, as a helicopter descends directly in front of him and fires a missile. His room explodes into flames as he jumps in the air and fires at the helicopter repeatedly, destroying it. We're shown one of the soldiers ordering a little girl clutching a teddy bear to "get in there!", "there" being one of the aforementioned containers. People are being herded into containers as the city burns around them. Vincent is pissed off.</p>
 </div>
-<div id="chapter-container" class="content">
-    <div id="header"><span>Chapter 1: Sea of Flames</span></div>
+<!-- Chapter 1 -->
+<div class= "target" id="1"></div>
+<div class="chapter-container content">
+    <div class="header"><h1>Chapter 1: Sea of Flames</h1></div>
     <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">What's going on?</div>
     <p id="nar">A trio of soldiers approach on the rooftop behind Vincent. From their line of vision we see a sort of computer screen with the words "Vincent Valentine", "Gender: Male", "Blood Type: A" at the top left of the screen. We cut to a scene of a girl with an elaborate device covering the top half of her head.</p>
     <div class="speech shelke"><h4>Girl:</h4><p id="dialog">Found you.</div>
@@ -172,8 +210,10 @@
     <div class="speech rosso"><h4>Rosso:</h4><p id="dialog">The mighty WRO...</div>
     <div class="speech rosso"><h4>Rosso:</h4><p id="dialog">They wouldn't last a day in Deepground.</div>
 </div>
-<div id="chapter-container" class="content">
-    <div id="header"><span>Chapter 2: Showdown in the Wastes</span></div>
+<!-- Chapter 2 -->
+<div class= "target" id="2"></div>
+<div class="chapter-container content">
+    <div class="header"><h1>Chapter 2: Showdown in the Wastes</h1></div>
     <p id="nar">Reeve and Vincent are in a truck, traveling from Kalm to Edge.</p>
     <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">Reeve. Who were those men?</div>
     <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">Deepground soldiers.</div>
@@ -225,9 +265,10 @@
     <p id="nar">Vincent makes his way through the wasteland, killing Guard hounds and a boss, Crimson Hound. A little after, Deepground soldiers on hoverbikes attack him, and they get easily dispatched.</p>
     <p id="nar">Vincent has reached Edge; a rather grey and depressing town, currently in the midst of a rainstorm. It was here that Rosso slaughtered the WRO squad.</p>
 </div>
-<div id="chapter-container" class="content">
-    <!-- Chapter 3 -->
-    <div id="header"><span>Chapter 3: Silent Edge</span></div>
+<!-- Chapter 3 -->
+<div class= "target" id="3"></div>
+<div class="chapter-container content">
+    <div class="header"><h1>Chapter 3: Silent Edge</h1></div>
     <p id="nar">Rosso is sitting on a crate in the factory, laughing to herself.</p>
     <div class="speech rosso"><h4>Rosso:</h4><p id="dialog">Slashed, strangled, and slaughtered. Beaten, stabbed, and crushed. Garroted and impaled. Shot and executed without mercy. Nicely said, Weiss.</div>
     <p id="nar">She looks up at the sky.</p>
@@ -298,9 +339,10 @@
     <p id="nar">Next scene; Vincent wakes up, his vision distorted. He stumbles around before the screen fades to black and he screams.</p>
     <p id="nar">Another scene change; he's inside a regenerative tube of water, while Lucrecia is outside, looking at him. This will be a familiar scene in future flashbacks; but for the moment, this is all we see.</p>
 </div>
-<div id="chapter-container" class="content">
-    <!-- Chapter 4 -->
-    <div id="header"><span>Chapter 4: Headquarters Under Siege</span></div>
+<!-- Chapter 4 -->
+<div class= "target" id="4"></div>
+<div class="chapter-container content">
+    <div class="header"><h1>Chapter 4: Headquarters Under Siege</h1></div>
     <p id="nar">Vincent is inside a tube of water, much like the previous scene, but in the present day. He wakes up and stares forward; Shalua is sitting at a desk in front of him.</p>
     <div class="speech shalua"><h4>Shalua:</h4><p id="dialog">Well, look who's awake.</div>
     <p id="nar">Vincent looks around.</p>
@@ -452,9 +494,10 @@
     <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">Now, as for me and my feline companion...</div>
     <div class="speech reeve"><h4>Reeve:</h4><p id="dialog">It is time we found out what Deepground is truly up to.</div>
 </div>
-<div id="chapter-container" class="content">
-    <!-- Chapter 5 -->
-    <div id="header"><span>Chapter 5: Manor of Despair</span></div>
+<!-- Chapter 5 -->
+<div class= "target" id="5"></div>
+<div class="chapter-container content">
+    <div class="header"><h1>Chapter 5: Manor of Despair</h1></div>
     <p id="nar">Vincent lands in the sewer system. He makes his way forward, and it becomes clear that he's not alone... as a Sahagin jumps in front of him!</p>
     <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">Looks like I'm not the only one here.</div>
     <p id="nar">Vincent clears the sewers, and exits them, arriving in some storage area beneath the basement of the Shinra Manor. He gets in an elevator and, arms crossed, has a flashback to when he first met Lucrecia.</p>
@@ -667,9 +710,10 @@
     <div class="speech wro"><h4>WRO Member:</h4><p id="dialog">What the hell?</div>
     <p id="nar">The truck shakes; Yuffie falls down, rolls around and knocks her head on the wall (again), this time falling unconscious. Vincent jumps out of the truck.</p>
 </div>
-<div id="chapter-container" class="content">
-    <!-- Chapter 6 -->
-    <div id="header"><span>Chapter 6: Deepground Strikes Back</span></div>
+<!-- Chapter 6 -->
+<div class= "target" id="6"></div>
+<div class="chapter-container content">
+    <div class="header"><h1>Chapter 6: Deepground Strikes Back</h1></div>
     <p id="nar">Vincent dispatches of the trio of machines (which look like Custom Sweepers from the original game) that derailed his truck. He proceeds through the wilderness, killing Guard Beasts, DG soldiers, and strange bug creatures along the way. He encounters a group of WRO Members and assists them; then, together with the WRO Members, they destroy a group of Helicopters intent on attacking WRO Headquarters.</p>
     <p id="nar">Vincent proceeds to get closer to headquarters, eventually overhearing a transmission involving WRO Members, as they shout "This is headquarters. We need backup!" followed by ""Get away!", "What is that thing!?" and various screams followed by a beast's roar.</p>
     <p id="nar">As he reaches the entrance to the headquarters, he's confronted by several DG soldiers... and another Black Widow. Boss battle vs. Black Widow II. Once it's defeated, he enters the headquarters... when Vincent had last been there 2 chapters ago it was in fine shape, but now it's a shell of what it once was; pretty much everything's destroyed. It's a surprise it's still standing; the ground is shredded and fires ravage the entire complex.</p>
@@ -820,9 +864,10 @@
     <div class="speech cid"><h4>Cid:</h4><p id="dialog">Come on get on board!</div>
     <p id="nar">Cid smirks.</p>
 </div>
-<div id="chapter-container" class="content">
-    <!-- Chapter 7 -->
-    <div id="header"><span>Chapter 7: The Shera</span></div>
+<!-- Chapter 7 -->
+<div class= "target" id="7"></div>
+<div class="chapter-container content">
+    <div class="header"><h1>Chapter 7: The Shera</h1></div>
     <p id="nar">Camera panes around the bridge of the airship; various personnel rattle off different statistics; we next see the engine room, where people make similar comments. The airship is all charged up & ready to go!</p>
     <p id="nar">Cid spots Vincent and leaves the wheel to talk to him.</p>
     <div class="speech cid"><h4>Cid:</h4><p id="dialog">Hey! Vincent! Long time.</div>
@@ -1040,9 +1085,10 @@
     <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">You will only be able to enter Deepground from the upper platform.</div>
     <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">I'll contact you again. Shelke out.</div>
 </div>
-<div id="chapter-container" class="content">
-    <!-- Chapter 8 -->
-    <div id="header"><span>Chapter 8: Midgar Assault</span></div>
+<!-- Chapter 8 -->
+<div class= "target" id="8"></div>
+<div class="chapter-container content">
+    <div class="header"><h1>Chapter 8: Midgar Assault</h1></div>
     <p id="nar">Vincent makes his way through the area, eventually encountering WRO Members.</p>
     <div class="speech wro"><h4>WRO Member:</h4><p id="dialog">Mr. Valentine!</div>
     <div class="speech wro"><h4>WRO Member:</h4><p id="dialog">We missed our landing point.</div>
@@ -1204,9 +1250,10 @@
     <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">Nonsense? Perhaps.</div>
     <p id="nar">Her weapon turns on. She attempts to hit Nero repeatedly, but he dodges or parries all her blows. Eventually he steps back, and his wings shift and fire bullets at Shelke, who puts up a shield to stop them. A black portal appears behind Nero... and the camera fades to black.</p>
 </div>
-<div id="chapter-container" class="content">
-    <!-- Chapter 9 -->
-    <div id="header"><span>Chapter 9: An Empire in Ruins</span></div>
+<!-- Chapter 9 -->
+<div class= "target" id="9"></div>
+<div class="chapter-container content">
+    <div class="header"><h1>Chapter 9: An Empire in Ruins</h1></div>
     <p id="nar">Vincent makes his way through the familiar (though largely destroyed) lobby of the Shinra Tower, eventually finding the President's entrance to Deepground. He ventures further, eventually encountering... another Black Widow! Boss fight vs. Black Widow TW. Easily dispatched.</p>
     <p id="nar">Vincent continues on, eventually realizing he's a bit lost. He phones someone, but a "beep beep beep" implies the user is unavailable (as a result of Shelke's confrontation with Nero). He then receives a phone call.</p>
     <div class="speech tifa"><h4>Tifa:</h4><p id="dialog">Hey, I got through!</div>
@@ -1299,9 +1346,10 @@
     <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">The path to darkness opens once more.</div>
     <p id="nar">A large door opens, and we get a glimpse of the inside; a Mako Reactor with a "00" emblazoned on it; and a massive, sprawling underground city.</p>
 </div>
-<div id="chapter-container" class="content">
-    <!-- Chapter 10 -->
-    <div id="header"><span>Chapter 10: Shinra's Dark Secret</span></div>
+<!-- Chapter 10 -->
+<div class= "target" id="10"></div>
+<div class="chapter-container content">
+    <div class="header"><h1>Chapter 10: Shinra's Dark Secret</h1></div>
     <p id="nar">Vincent proceeds forward a bit; in the distance he notices a bunch of Gargoyles fly up to him. For a long time, Vincent makes his way throughout the Deepground complex/city, with no story developments; just a lot of dungeon crawling.</p>
     <p id="nar">Eventually, something of note happens; a whirlpool of black energy suddenly appears behind Vincent! He tries to run away, but it engulfs him; he's surrounded by darkness, and it completely swallows him. Somewhere in the darkness, a small blip of light appears and gets larger. A girl's voice is heard.</p>
     <div class="speech"><h4>Girl:</h4><p id="dialog">No. Don't let Chaos control you.</div>
@@ -1472,9 +1520,10 @@
     <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">Not sure. Neither am I.</div>
     <div class="speech shelke"><h4>Shelke:</h4><p id="dialog">But, Vincent... I don't want to see the world end. I just don't want there to be any more pain.</div>
 </div>
-<div id="chapter-container" class="content">
-    <!-- Chapter 11 -->
-    <div id="header"><span>Chapter 11: Beginnings</span></div>
+<!-- Chapter 11 -->
+<div class= "target" id="11"></div>
+<div class="chapter-container content">
+    <div class="header"><h1>Chapter 11: Beginnings</h1></div>
     <p id="nar">Vincent makes his way closer to the reactor; another group of Gargoyles attack him. As he continues on, it becomes increasingly apparent that Vincent is in the same area that Cait Sith originally ventured into many chapters ago.</p>
     <p id="nar">Vincent eventually gets to the bridge leading into the reactor. Before he can enter, though... a helicopter comes into view, with numerous Gargoyles sitting on it. Boss fight vs. Dragonfly PT. Easily defeated, like always.</p>
     <p id="nar">Vincent walks makes his way through the reactor. He walks into one room, and...</p>
@@ -1809,9 +1858,10 @@
     <div class="speech vincent"><h4>Vincent:</h4><p id="dialog">But before that, I have a story to end.</div>
     <p id="nar">He flies up.</p>
 </div>
-<div id="chapter-container" class="content">
-    <!-- Chapter 12 -->
-    <div id="header"><span>Chapter 12: A Chaotic Finale</span></div>
+<!-- Chapter 12 -->
+<div class= "target" id="12"></div>
+<div class="chapter-container content">
+    <div class="header"><h1>Chapter 12: A Chaotic Finale</h1></div>
     <p id="nar">Vincent/Chaos is standing on a platform, with Omega looming in the far distance. As you make your way across various platforms, Omega sends creatures to finish you off, but Chaos' Death Penalty takes them out with ease.</p>
     <p id="nar">Eventually, we see an FMV; Omega fires off some energy in an attempt to send Vincent backwards; however, suddenly, a Mako Reactor explodes! We see Cloud took a nice swipe at it, and tumbles downward, landing on his feet. He picks up his cellphone.</p>
     <div class="speech cloud"><h4>Cloud:</h4><p id="dialog">Sorry about the wait.</div>
@@ -1913,9 +1963,10 @@
     <p id="nar">Camera close-up on his face. His eyes shine blue with the power of mako; a left wing spouts out of his back. And with one mighty flap, he flies away, as his feathers slowly descend.</p>
     <div style="text-align: center"><img src="http://www.ffwa.eu/ff7/images/script-shots/135.jpg" alt="" border="0" height="177" width="250" class="imgpad"><img src="http://www.ffwa.eu/ff7/images/script-shots/136.jpg" alt="" border="0" height="177" width="250" class="imgpad"></div>
 </div>
-<div id="chapter-container" class="content">
-    <!-- Chapter Reports -->
-    <div id="header"><span>Omega Reports and G Reports</span></div>
+<!-- Omega Reports -->
+<div class= "target" id="reports"></div>
+<div class="chapter-container content">
+    <div class="header"><h1>Omega Reports and G Reports</h1></div>
     <p id="basic">There are 8 Omega Reports; the first 4 are found in Shinra Manor, with the last 4 spread out in the DG complex and on Omega itself. The first few appear to be written by Dr. Grimoire Valentine, with the latter few by Lucrecia herself.</p>
     <h4 id="reporthead">Discovery</h4>
         <div id="report"><center>- Ancient Table Discovered -
@@ -2020,50 +2071,8 @@
       </ul>
     <p id="basic">All these unanswered questions allow some intriguing possibilities for a sequel to Dirge of Cerberus, or even a true sequel to FFVII, namely FFVII-2. G certainly seems to be a powerful enough, being the archetype of Sephiroth. But I suppose we'll find out in due time... that's enough speculation for now. Hope you enjoyed the script!</p>
 </div>
+<!-- Footer -->
 <div class="footer">Script sourced from Martin on FINAL FANTASY Worlds Apart</div>
 </div>
-<script type="module">
-
-  // Import the functions you need from the SDKs you need
-
-  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.2/firebase-app.js";
-
-  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.6.2/firebase-analytics.js";
-
-  // TODO: Add SDKs for Firebase products that you want to use
-
-  // https://firebase.google.com/docs/web/setup#available-libraries
-
-
-  // Your web app's Firebase configuration
-
-  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-
-  const firebaseConfig = {
-
-    apiKey: "AIzaSyBN5UNQ8vtQdB161spLF-lfIuASKJE4cks",
-
-    authDomain: "dirge-b2520.firebaseapp.com",
-
-    projectId: "dirge-b2520",
-
-    storageBucket: "dirge-b2520.appspot.com",
-
-    messagingSenderId: "418581955814",
-
-    appId: "1:418581955814:web:db54e6fcc30bfc07512727",
-
-    measurementId: "G-PS90K9LW8V"
-
-  };
-
-
-  // Initialize Firebase
-
-  const app = initializeApp(firebaseConfig);
-
-  const analytics = getAnalytics(app);
-
-</script>
 </body>
 </html>
