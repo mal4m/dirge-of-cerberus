@@ -3,12 +3,12 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Dirge of Cerberus - Script</title>
-  <meta name="description" content="Dirge of Cerberus - Script">
+  <title>Dirge of Cerberus - Chapter 8: Midgar Assault</title>
+  <meta name="description" content="Dirge of Cerberus - Chapter 8: Midgar Assault">
   <meta name="author" content="SitePoint">
-  <meta property="og:title" content="Dirge of Cerberus - Script">
+  <meta property="og:title" content="Dirge of Cerberus - Chapter 8: Midgar Assault">
   <meta property="og:type" content="website">
-  <meta property="og:description" content="Dirge of Cerberus - Script">
+  <meta property="og:description" content="Dirge of Cerberus - Chapter 8: Midgar Assault">
   <meta property="og:image" content="image.png">
   <link rel="icon" href="/favicon.ico">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
@@ -16,43 +16,7 @@
   <link rel="stylesheet" href="css/styles.css?v=1.0">
 </head>
 <body>
-  <script>
-  $(document).ready(function() {
-  		$('a[href*=#]').bind('click', function(e) {
-  				e.preventDefault(); // prevent hard jump, the default behavior
 
-  				var target = $(this).attr("href"); // Set the target as variable
-
-  				// perform animated scrolling by getting top-position of target-element and set it as scroll target
-  				$('html, body').stop().animate({
-  						scrollTop: $(target).offset().top
-  				}, 600, function() {
-  						location.hash = target; //attach the hash (#jumptarget) to the pageurl
-  				});
-
-  				return false;
-  		});
-  });
-
-  $(window).scroll(function() {
-  		var scrollDistance = $(window).scrollTop();
-
-  		// Show/hide menu on scroll
-  		//if (scrollDistance >= 850) {
-  		//		$('nav').fadeIn("fast");
-  		//} else {
-  		//		$('nav').fadeOut("fast");
-  		//}
-
-  		// Assign active class to nav links while scolling
-  		$('.page-section').each(function(i) {
-  				if ($(this).position().top <= scrollDistance) {
-  						$('.navigation a.active').removeClass('active');
-  						$('.navigation a').eq(i).addClass('active');
-  				}
-  		});
-  }).scroll();
-  </script>
 <div class="nav">
     <a href="index.html">Prologue</a>
     <a href="01.html">Chapter 1</a>
