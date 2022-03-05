@@ -1,0 +1,1940 @@
+ev0001_se_0001
+ev0001_se_0002
+
+ev0100: KALM
+ev0100_10105vn  JP
+ev0100_10106vn  JP
+ev0100_10109v2	What's going on?
+ev0100_10109vn	Huh?
+ev0100_10110sk	Found you.
+ev0100_10201vn	Now where am I supposed to meet Reeve?
+ev0100_10301vn	[Galian Beast]
+ev0100_10302vn	[Galian Beast]
+ev0100_10401sk	Vincent Valentine.
+ev0100_10402sk	We've found you.
+ev0100_10403az	Is this the one?
+ev0100_10404sk	Yes.
+ev0100_10406sk	The Protomateria.
+ev0100_10408sk	Tell us where it is.
+ev0100_10409az	Hail Weiss.
+ev0100_10410wl	Hail Weiss!
+ev0100_10501az	Challenge accepted.
+ev0100_10502sk  [weak effort]
+ev0100_10503az	Luck is on your side.
+ev0100_10504sk	I'm sorry.
+ev0100_10505az	I am Azul. We will meet again.
+ev0100_10506rv	Vincent Valentine!
+ev0100_10507rv	Are you alright?
+ev0100_10508vn	Mhm
+ev0100_10509vn	Reeve, nice to see you again. Not a very interesting outfit, though.
+ev0100_10510rv	It took me a while to decide which costume I'd put on for today.
+ev0100_10511rv	But enough of the small talk. Who were those soldiers that just left?
+ev0100_10512vn	I don't know. The large one called himself Azul.
+ev0100_10513rv	Azul the Cerulean? Of the Tsviets!?
+ev0100_10514rv	Then that could only mean...
+ev0100_10515wh	Commissioner!
+ev0100_10516rv	We'll discuss this later.
+ev0100_10517rv	WRO troops have arrived and commenced rescue operations. We could use your help, Vincent.
+ev0100_10518vn	Reeve.
+ev0100_10519rv	Hm?
+ev0100_10520vn	I don't know what you are up to, but I want absolutely no part of it.
+ev0100_10521rv	But... You fought alongside us three years ago! We need your help once mor--
+ev0100_10522vn	Reeve!
+ev0100_10523ct	That was a close one! Never was good at fighting. Luckily, I came out wearing "Reeve."
+ev0100_10524ct	You're really not a bad bloke, are you, Vincent? You pretend not to care, but you always come through in the end.
+ev0100_10525vn	Alright, what do you want me to do?
+ev0100_10526ct	Let's run those lads outta town.
+ev0100_10527ct	I'll leave the method up to you. When you've tidied things up,
+ev0100_10528ct	meet me at the square in front of the east church.
+ev0100_10529rv	This way!
+ev0100_10530rv	What happened here?
+ev0100_10601wr	Mister Vincent Valentine.
+ev0100_10602wr	I'm an officer with the World Regenesis Organization. Speak with me if you require any assistance.
+ev0100_10603wr	Sir!
+ev0100_10604wr  The WRO was originally established three years ago, after Meteorfall. With Jenova War hero Reeve Tuesti at its helm, our organization is dedicated to aiding the healing process of the planet, as well as protecting it from any who attempt further harm.
+ev0100_10605wr  Proceed to the East Church, just past these buildings.
+ev0100_10606wr  Hurry! We will assist you in securing the area!
+ev0100_10607fm  [Mother and child crying, panicking]
+ev0100_10608fm  No! [Mother and child crying, panicking]
+ev0100_10609fm  No! Rio! No, don't take my baby!
+ev0100_10612mm  [Mother crying]
+ev0100_10613ri  Mommy! Mommy!
+ev0100_10614ri  No! I want my mommy!
+ev0100_10615ri  [crying]
+ev0100_10616ri  Mommy!
+ev0100_10617mm  Rio!
+ev0100_10701rv	Good work, Vincent.
+ev0100_10702rv	The enemy is retreating. It seems they have finally begun their withdrawal from Kalm.
+ev0100_10703vn	Good.
+ev0100_10704rv	However, we still require your assistance.
+ev0100_10705rv	Reports are Edge is under attack.
+ev0100_10901k1  [efforts]
+ev0100_10902k1	Thank you.
+ev0100_10903k1  [effort]
+ev0100_11001l1  Are... are they still out there?
+ev0100_11002vn	No. Not anymore.
+ev0100_11003l1  Alright...
+ev0100_11004l1  C'mon!
+ev0100_11005l2  Yeah!
+ev0100_11101l3  [scream]
+ev0100_11102l3  Help me!
+ev0100_11103vn	You should be alright.
+ev0100_11104l3  Thank you, sir!
+ev0100_11201l4  JP
+ev0100_11202l5  Find him!
+ev0100_11203l4  JP
+ev0100_11204l5  JP
+ev0100_11205l6  [scream]
+ev0100_11206l7  [scream]
+ev0100_11301l4  JP
+ev0100_11302l5  Target wanted, dead or alive! Fire at will!
+ev0100_11303l4  JP
+ev0100_11401l4  Vincent Valentine?!
+ev0100_11402l4  The keeper!
+ev0100_11403l5  JP
+ev0100_11501m1  JP
+ev0100_11502m1  [scream]
+ev0100_11503m2  [scream]
+ev0100_11504m3  [scream]
+ev0100_11505m4  [scream]
+ev0100_11506m1  [scream]
+ev0100_11601m3  Somebody help!
+ev0100_11602m3  [yelling, screaming]
+ev0100_11603m3  Help!
+ev0100_11604m3  I'm still alive!
+ev0100_11605m4  No!
+ev0100_11606m4  [scream]
+ev0100_11607m4  [death effort]
+ev0100_11608m4  Thank you so much!
+ev0100_11609m5  [yelling, panting, effort]
+ev0100_11610m5  [death effort]
+ev0100_11611m5  You don't know how grateful I am!
+ev0100_11701n1  JP
+ev0100_11702n2  JP
+ev0100_11703n1  JP
+ev0100_11704n3  JP
+ev0100_11801o1  Over here!
+ev0100_11802o2  Hurry!
+ev0100_11803o3  Wait for me!
+ev0100_11804o4  C'mon!
+ev0100_11805o3  [panting, effort]
+ev0100_11901p1  JP
+ev0100_11902p2  JP
+ev0100_11903p1  JP
+ev0100_11904p3  JP
+ev0100_11905p1  JP
+ev0100_11906p2  JP
+ev0100_11907p1  Thank you, Mr. Valentine!
+ev0100_11908p3  Appreciate the backup!
+ev0100_11909p2  I'm glad you're on our side, sir!
+ev0100_12001q1  Alright men! Watch your backs!
+ev0100_12002q2  Has Alpha route been secured?
+ev0100_12003q3  Any word from the battalion?
+ev0100_12004q1  Safety of the residents is our top priority!
+ev0100_12005q2  [effort]
+ev0100_12006q3  Deepground!
+ev0100_12007q2  JP
+ev0100_12008q1  JP
+ev0100_12009q4  [scream]
+ev0100_12010q5  [scream]
+ev0100_12011q6  JP
+ev0100_12012q7  [scream]
+ev0100_12013q4  [effort]
+ev0100_12014q5  [death effort]
+ev0100_12015q6  [death effort]
+ev0100_12016q7  [death effort]
+ev0100_12017q1  [death effort]
+ev0100_12018q2  [death effort]
+ev0100_12019q3  [death effort]
+ev0100_12020q1  JP
+ev0100_12021q2  [death effort]
+ev0100_12022q3  [death effort]
+ev0100_12023q1  Sir! Thank you for your support! Sir!
+ev0100_12024q1  And good luck!
+ev0100_12025q2  Sir! Thank you for your support! Sir!
+ev0100_12026q2  And good luck!
+ev0100_12027q3  Sir! Thank you for your support! Sir!
+ev0100_12028q3  And good luck!
+ev0100_12029q6  Thank you! Thank you very much!
+ev0100_12030q6  And good luck!
+ev0100_12031q7  Thank you! Thank you very much!
+ev0100_12032q7  And good luck!
+ev0100_12033q4  Thank you! Thank you very much!
+ev0100_12034q4  And good luck!
+ev0100_12035q5  Thank you! Thank you very much!
+ev0100_12036q5  And good luck!
+ev0100_12101r1  JP
+ev0100_12102r1  JP
+ev0100_12103r2  JP
+ev0100_12104r1  Securing the route!
+ev0100_12105r2  Securing the route!
+ev0100_12201wl  JP
+ev0180_10801wh	Hey, toss me another clip.
+ev0180_10802wh  [effort, confused]
+ev0180_10803cp	Where did everyone go?
+ev0180_10804rs  [laugh]
+ev0180_10805cp	Huh?
+ev0180_10806cp	Who the hell are you!?
+ev0180_10807rs	Rosso.
+ev0180_10808rs	Rosso the Crimson.
+ev0180_10809cp	Tsviets?
+ev0180_10810cp  [shock, gasp]
+ev0180_10811rs	The mighty WRO... They wouldn't last a day in Deepground.
+
+ev0200: WRO TRANSPORT - OUTSIDE EDGE
+ev0200_20101vn	Reeve. Who were those men?
+ev0200_20102rv	Deepground soldiers.
+ev0200_20103vn	Deepground?
+ev0200_20104rv	Yes. The shadow of the Shinra Company, constructed by the former president and completely hidden from the rest of the world.
+ev0200_20105vn	Constructed?
+ev0200_20106rv	His goal was to create an army of superhuman warriors--not once letting morality interfere.
+ev0200_20107rv	The man you met earlier, Azul, is also a member of Deepground. But, he belongs to an elite unit known as the Tsviets.
+ev0200_20108rv	The whole organization was kept a secret. That is why there is so little information on them. However, it's nothing like I expected.
+ev0200_20109vn	Not even a person in your position was informed?
+ev0200_20110rv	No. Other than the president himself, the only people who knew of Deepground's existence were most likely Heidegger, Scarlet, and the head of biochemical research, Hojo.
+ev0200_20111rv	After the president's death, the transfer of power to his son was carried out so quickly, I doubt Rufus was ever briefed on the project.
+ev0200_20112rv	As for me, I was told the information was on a need to know basis. And as an official in charge of urban development, I guess I wasn't on their list.
+ev0200_20113rv	All the intel we currently have on Deepground was only discovered recently when we came across some of Scarlet's old files.
+ev0200_20114rv	[sigh]
+ev0200_20115rv	Vincent. Have you heard of the mass disappearance that occurred recently in Junon?
+ev0200_20116vn	I remember the report saying that 20 or 30 people suddenly vanished.
+ev0200_20117rv	That's what the report would like you to believe.
+ev0200_20119rv	It was determined internally that if the truth was leaked, they wouldn't be able to contain the inevitable panic.
+ev0200_20120rv	The actual number of people that went missing that day was 1200.
+ev0200_20121vn	Hm?
+ev0200_20122rv	1200 people simply vanished without a single trace.
+ev0200_20123rv	The WRO conducted a private investigation but we came up empty-handed.
+ev0200_20124rv	Except for the rumors.
+ev0200_20125rv	Since the Junon disappearances, people in Edge have been on edge.
+ev0200_20126rv	They say that night after night you can hear screams coming from the direction of Midgar.
+ev0200_20127rv	Could it be the wind? Let me ask you, does the wind sound like a thousand wailing souls?
+ev0200_20128rv	Listen. Can you hear them? The cries?
+ev0200_20129wr	Commissioner! A rogue transmission is being broadcast on all wavelengths!
+ev0200_20130ws	At last.
+ev0200_20131ws	The time has come to cleanse this world.
+ev0200_20132ws	The pure will be "spared" for the cause,
+ev0200_20133ws	while the tainted will be hunted down and exterminated.
+ev0200_20134ws	They shall be slashed, strangled, and slaughtered. Beaten, stabbed, and crushed. Garroted and impaled. Shot and executed without mercy.
+ev0200_20135ws	The time has come to cleanse this world.
+ev0200_20136ws	[laughs]
+ev0200_20137rv	Where could that signal have...?
+ev0200_20138rv	What was that?
+ev0200_20139rv	[grunt]
+ev0200_20140rv	Guard hounds!
+ev0200_20141vn	I'll take care of your pet problem. Just keep driving.
+ev0200_20142rv  JP
+ev0200_20201vn	Are you alright?
+ev0200_20202rv	I'll be fine. But that's more than I can say for the engine.
+ev0200_20203rv	Vincent. If possible, I want you to continue on to Edge.
+ev0200_20204rv	That transmission we just saw troubles me. Once I have repaired the Shadowfox, I'll need to return to headquarters.
+ev0200_20205rv	A WRO squad has already been dispatched to Edge.
+ev0200_20206rv	Join them and help liberate the city.
+ev0200_20207vn	I guess I have no choice.
+ev0200_20301rv	Vincent! Use this!
+ev0200_20302rv  [confused, pain effort]
+ev0200_20303rv	Vincent!
+ev0200_20304rv  JP
+ev0200_d0101rv	Vincent! Use this!
+ev0200_d0102rv  [confused, pain effort]
+ev0200_d0103rv	Vincent!
+ev0200_d0104rv  JP
+
+ev0300: EDGE
+ev0300_30201rs	[Laughs]
+ev0300_30202rs	Slashed, strangled, and slaughtered. Beaten, stabbed, and crushed. Garroted and impaled. Shot and executed without mercy.
+ev0300_30203rs	Nicely said, Weiss.
+ev0300_30204rs	I wonder if this will be a little more amusing than last time.
+ev0300_30205c1  [pained effort]
+ev0300_30206c1	Ambushed... by... soldier... in red...
+ev0300_30207c1	Squad... wiped out...
+ev0300_30208c1	Warehouse... on the... edge of town...
+ev0300_30209c1	They... were gathering... civilians...
+ev0300_30210vn	Hm?
+ev0300_30211vn	A kid?
+ev0300_30212bo	The warehouse.
+ev0300_30213bo	I know how to get there.
+ev0300_30214bo	It's through that gate.
+ev0300_30215bo  JP
+ev0300_30216bo	You have the cardkey?
+ev0300_30217bo	Come on.
+ev0300_30218bo	I know someone who does.
+ev0300_30219vn  JP
+ev0300_30220bo  [effort]
+ev0300_30221bo  JP
+ev0300_30222bo	Follow me.
+ev0300_30223bo  [effort]
+ev0300_30224bo  [pained effort]
+ev0300_30225bo  [panting effort]
+ev0300_30226bb	Uh. Thanks.
+ev0300_30226bo	Thanks.
+ev0300_30227bo	Over here.
+ev0300_30228bo  [panting effort]
+ev0300_30229bo  [yelling, effort]
+ev0300_30230bo  [yelling]
+ev0300_30231c2	Survivor spotted! Don't let him escape!
+ev0300_30232c2  JP
+ev0300_30233bo	There. That should let you through.
+ev0300_30234vn	Hm. Right. Thanks kid.
+ev0300_30235bo	Avenge.
+ev0300_30236bo	I couldn't do...
+ev0300_30237bo	Mom and dad... right? But I... I couldn't move. I was scared... but... but...
+ev0300_30238bo	Please! Please! Help me avenge their death!
+ev0300_30301vn	You're WRO?
+ev0300_30302sa	Who's asking?
+ev0300_30303vn	Vincent Valentine. Reeve sent me.
+ev0300_30304sa	My apologies. Shalua Rui of the WRO.
+ev0300_30305sa	The commissioner has told me much about you.
+ev0300_30306vn	What happened here?
+ev0300_30307sa	That's what I'd like to know.
+ev0300_30308sa	I'm here on other business, but something's not right. It's too quiet.
+ev0300_30309sa	I've seen no trace of Deepground, or the squads that were sent in to fight them.
+ev0300_30310sa	Also, where are the 500 people who are supposed to still be living here?
+ev0300_30311sa	Well, this is getting us nowhere.
+ev0300_30312sa	Like I said, I have business to attend to. I'll see you around.
+ev0300_30313vn	Business?
+ev0300_30314sa	The commissioner keeps telling me I'm wasting my time searching.
+ev0300_30315vn	Searching for what?
+ev0300_30316sa	For my reason to live.
+ev0300_30401c1  JP
+ev0300_30402c1  JP
+ev0300_30501hd	[Grunts, flexes]
+ev0300_30502hd	How could I...?
+ev0300_30503wl	Hail weiss!
+ev0300_30601rs	You know, this is the first time I've ever felt the rain on my skin. But then again, I hadn't even seen the sky until a few days ago.
+ev0300_30602rs	So you're Vincent Valentine.
+ev0300_30603rs	Keeper of the Protomateria.
+ev0300_30604vn	Protomateria?
+ev0300_30605rs	Yes. The key to controlling Omega. We know you have it.
+ev0300_30606rs	Hand it over now, and I'll kill you quickly.
+ev0300_30607rs	Not one to bargain, are we?
+ev0300_30608rs	Then I'll make sure you suffer.
+ev0300_30609rs	Time to die.
+ev0300_30610rs	[Fighting, grunts, efforts]
+ev0300_30611rs  [effort]
+ev0300_30701vn  [pained effort]
+ev0300_30702vn  [pained effort]
+ev0300_30703rs  JP
+ev0300_30704vn  [pained effort]
+ev0300_30705vn  [pained effort]
+ev0300_30706kh  [Chaos roar]
+ev0300_30707rs  [effort]
+ev0300_30801vn  [sigh, effort]
+ev0300_30802vn  [sigh, breathing]
+
+ev0400: SHINRA MANOR - FLASHBACK
+ev0400_40201vn	Talk! Why did you let this happen!?
+ev0400_40202hj	Silence.
+ev0400_40203vn	You!
+ev0400_40204hj	Silence!!!
+ev0400_40205vn  [effort]
+ev0400_40206hj	Why can't these people just keep quiet?
+ev0400_40207hj	Ah yes. I can use this specimen's body for my next experiement. A genius. That's what I am yes! Success here will justify me- all my previous failures...
+ev0400_40301vn  [breathing, pained effort, struggle]
+ev0400_50801vn	That was my sin.
+ev0400_50802vn	And this... this is my punishment.
+ev0400_50803vn  [breathing, pained effort, yelling]
+ev0400_80701lc	Vincent. Just a little longer. Then I can let you out.
+ev0400_80702lc	What's wrong with me lately? Maybe I've been working too hard.
+ev0400_80703hj	I thought I heard a rat down here.
+ev0400_80704hj	And just what do you think you're doing with my failed experiment?
+ev0400_80705lc	Get out of my lab!
+ev0400_80706hj	Silence! I'm the one giving orders here!
+ev0400_80707hj	Omega? And Chaos?
+ev0400_80708hj	I see. Another experiment?
+ev0400_80709lc  [effort, gasp]
+ev0400_80710hj	You're using this fine specimen to finish your thesis, aren't you, Doctor?
+ev0400_80711lc	No. You're wrong!
+ev0400_80712hj	Am I? Once a scientist, always a scientist, I must say.
+ev0400_80713hj	How happy this fellow must be. Helping his beloved even after he's begun rotting away.
+ev0400_80714hj	[Laughing]
+ev0400_80715lc	No. This is no experiment. It's...
+ev0400_80716lc  JP
+ev0400_80717lc  [breathing, sigh]
+ev0400_90408gm	Don't you think you are taking things a little too quickly?
+ev0400_90409lc	And why not? All those people at Shinra who laughed at my thesis... I have to prove them wrong!
+ev0400_90410gm	Rushing into matters will get you nowhere, Doctor.
+ev0400_90411gm  [scoff]
+ev0400_90412gm	Hm?
+ev0400_90413lc  [gasp]
+ev0400_90414gm	Look out!
+ev0400_90415lc  [struggle]
+ev0400_90416gm  [pained effort]
+ev0400_90417lc	Are you alright, Dr. Valentine?
+ev0400_90418gm	I'll be fine.
+ev0400_90419gm	I'll be...
+ev0400_90428gm  [pained effort struggle]
+ev0400_a0201vn	Lucrecia? Hello?
+ev0400_a0202vn	Anybody here?
+ev0400_a0203vn	Father?
+ev0400_a0205lc	Who's...!?
+ev0400_a0206vn  [effort]
+ev0400_a0207lc  [effort]
+ev0400_a0208vn	Lucrecia. This file...
+ev0400_a0209lc	It's none of your business.
+ev0400_a0210vn	But it is. Why didn't you tell me you worked with my father?
+ev0400_a0211lc	Stop it! Just stop it!
+ev0400_a0212vn	Lucrecia...
+ev0400_a0213lc	I... It was all my fault. I didn't mean for your father to die. I couldn't... I'm so sorry.
+ev0400_a0214vn	But I never blamed her. All I wanted was to see her smiling face.
+ev0400_a0215vn	But after that day, the light left her heart.
+ev0400_a0216hj	So you've come to your senses and chosen me.
+ev0400_a0217lc	Yes, doctor.
+ev0400_a0218vn	However, if she is happy, then I don't mind.
+
+ev0410: WRO HEADQUARTERS - LAB
+ev0410_40401sa	Well, look who's awake.
+ev0410_40402sa	Hold on. I'll release you.
+ev0410_40403vn	Where am I?
+ev0410_40404sa	Safe inside the WRO headquarters. I carried you back here from Edge after you collapsed during your fight with Deepground.
+ev0410_40405sa	It seems like the beast inside you went a little wild back there.
+ev0410_40406sa	This happen often?
+ev0410_40407vn	Went wild? Do you mean Chaos?
+ev0410_40408sa	Chaos?
+ev0410_40409sa	Your body harbors the Chaos gene?
+ev0410_40410sa	So that explains your relationship with Dr. Lucrecia Crescent.
+ev0410_40411sa	Were you the product of one of her experiments?
+ev0410_40412vn	Lucrecia's experiments?
+ev0410_40413sa	I apologize. That wasn't what I meant.
+ev0410_40414vn	Wait. Lucrecia was researching Chaos?
+ev0410_40415sa	Don't tell me you didn't know.
+ev0410_40416sa	Crescent. Shinra class A scientist specializing in biotechnology.
+ev0410_40417sa	In her research thesis, "The Planet's Pulse,"
+ev0410_40418sa	she refers to Chaos as one of the sentient xenoforms residing among us.
+ev0410_40419sa	However, the theories that she presented in her work were so abstract and complex... that no one in Shinra took her seriously. Still, I heard rumors that the brilliant Professor Ghast later showed some interest in her findings...
+ev0410_40420sa	Hm?
+ev0410_40421lc	I'm so sorry.
+ev0410_40422lc	Awaken.
+ev0410_40423sa	Are you alright?
+ev0410_40424vn	Can I see that thesis?
+ev0410_40425sa	Unfortunately, no.
+ev0410_40426sa	On top of being obscure, it was never even submitted to the Shinra database.
+ev0410_40427sa	All I know is what I saw while going through the company's archives.
+ev0410_40428rv	Vincent! Have you recovered already?
+
+ev0460: WRO HEADQUARTERS - LAB
+ev0460_40601rv	So Rosso the Crimson told you that Protomateria is the "key to controlling Omega"?
+ev0460_40602vn	Yeah.
+ev0460_40603rv	Any ideas?
+ev0460_40605sa	Soul wrought of terra corrupt, quelling impurity, purging the stream to beckon forth an ultimate fate. Behold mighty Chaos, Omega's squire to the lofty heavens.
+ev0460_40606rv	Where did you...?
+ev0460_40607sa	A passage from Dr. Crescent's thesis.
+ev0460_40608sa	But that's all I know. Unfortunately, I only saw a fragment of the document.
+ev0460_40609sa	However, Chaos... Omega... And...
+ev0460_40610sa	All seem to be connected to Dr. Crescent in some way. There's no other explanation.
+ev0460_40612sa	I think we'll need to gather more data on her to get anywhere.
+ev0460_40613rv	What now?
+ev0460_40614sa	Damn!
+ev0460_40615rv  JP
+ev0460_40616sa  JP
+ev0460_40617rv  JP
+ev0460_40618rv  JP
+ev0460_40619rv  JP
+ev0460_40620rv  JP
+ev0460_40621rv  JP
+ev0460_40622vn  JP
+ev0460_40623rv  JP
+ev0460_40624rv  JP
+ev0460_40701sa  JP
+ev0460_40702sa  JP
+ev0460_40703sa  JP
+ev0460_40704sa  JP
+ev0460_40705sa  JP
+ev0460_40706rv  JP
+ev0460_40707rv  JP
+ev0460_40708rv  JP
+ev0460_40709rv  JP
+ev0460_40710rv  JP
+ev0460_40801ww  [gasp, effort]
+ev0460_40802ww	Mr. Valentine!
+ev0460_40803ww	A sizable enemy unit is headed straight for the command center. Please, sir, you have to help the commissioner!
+ev0460_40804u1  JP
+ev0460_40901rv  JP
+ev0460_40902rv  JP
+ev0460_40903sa	What?
+ev0460_40904sa  [effort]
+ev0460_41001az	We meet again.
+ev0460_41003az	Answer me this. Do you know why you even exist?
+ev0460_41004az	Just as I thought. Ignorant to your own destiny.
+ev0460_41005az	Very well. I'll show you what you really are.
+ev0460_41006az	You think that toy can penetrate my armor?
+ev0460_41007az	Enough of the games, Vincent. Give me the Protomateria.
+ev0460_41008az	You can't run!
+ev0460_41009az  [yell, effort]
+ev0460_41102vn  [effort]
+ev0460_41103az  [effort]
+ev0460_41104az  [effort]
+ev0460_41110sa  JP
+ev0460_41111sa  JP
+ev0460_41112sa  JP
+ev0460_41201sa	Don't move.
+ev0460_41202sk	Very perceptive of you.
+ev0460_41203sa	I knew it.
+ev0460_41205sa	Shelke.
+ev0460_41206sk	I have no acquaintances in the WRO.
+ev0460_41207sa	We've both changed so much. No, you haven't changed at all.
+ev0460_41208sa	Not in ten years.
+ev0460_41209sk  [gasp]
+ev0460_41210sa	Shelke. It's me. Shalua. I've been searching for you for so long.
+ev0460_41211sk	Don't take another step.
+ev0460_41212sa	Shelke?
+ev0460_41213sk	It doesn't matter who I am or who you are. My current mission as a Deepground soldier is all that is relevant.
+ev0460_41214sa	No! It does matter! Even though ten years have passed, you're still Shelke, my only sister!
+ev0460_41215sk	Ten years. Has it been that long?
+ev0460_41216sk	The day they came to take me away, I was told I had potential. But those words were nothing but a precursor to a decade of suffering.
+ev0460_41217sk	They manipulated my mind until I was a shadow of my original self.
+ev0460_41218sk	The pain. The fear. For ten years I lived in a hell far deeper
+ev0460_41219sk	than any you could imagine.
+ev0460_41220sk	But look at me. I should be 19 this year.
+ev0460_41221sk	If I don't receive my daily dose of mako, this body wouldn't last a day.
+ev0460_41223sk	However, I don't consider myself the least bit unfortunate.
+ev0460_41224sk	Except that for so long I held on to a foolish thread of hope that someday, someone would come to save me.
+ev0460_41225sa	I'm sorry, Shelke. I'm so sorry.
+ev0460_41226sk	It's time to put the past behind us.
+ev0460_41227rv	Stop this!
+ev0460_41228sk  [effort, gasp]
+ev0460_41229sk	Reeve Tuesti.
+ev0460_41230rv	So you are Shalua's younger sister.
+ev0460_41231sk	Excellent. Now I can terminate both of you at once.
+ev0460_41232rv	Look at her.
+ev0460_41233rv	That's the price Shalua has paid fighting Shinra for the past ten years.
+ev0460_41234rv	She has given more than her arm, more than her eye. She has put her life on the line time and time again.
+ev0460_41235rv	All to find her lost sister.
+ev0460_41236rv	More than half her organs have been reconstructed. Not a day goes by when Shalua doesn't suffer the pain of a hundred souls. But still, she...
+ev0460_41237sk	Enough.
+ev0460_41238sk	I've... I've heard enough.
+ev0460_41239rv	Stop!
+ev0460_41240rv	Vincent!
+ev0460_41241rv	Use these.
+ev0460_41242sa	Shelke? Shelke!
+ev0460_41243rv	Don't worry. The bullets will only sedate her. Let Vincent handle this.
+ev0460_41244sk  [effort]
+ev0460_41245sk  [effort]
+ev0460_41246sa	Shelke!
+ev0460_41248rv  [effort]
+ev0460_41249az  JP
+ev0460_41250rv	Vincent! Over here!
+ev0460_41251sa  [crying]
+ev0460_41252rv	Vincent!
+ev0460_41253rv  JP
+ev0460_41301rv  JP
+ev0460_41302vn	You shouldn't leave those things lying around.
+ev0460_41303rv  [laughing]
+ev0460_41304az  Ha!
+ev0460_41305az  [laughing]
+ev0460_41306rv  [gasp]
+ev0460_41307az  [laughing]
+ev0460_41308az	Well done. You have broken through my barrier.
+ev0460_41309vn	This ends here. Leave him to me.
+ev0460_41310az	Long has it been since I faced
+ev0460_41311az	a worthy opponent!
+ev0460_41312rv  [effort]
+ev0460_41313vn  [effort]
+ev0460_41401az	You may think this is the end, but...
+ev0460_41501rv	Where are you...
+ev0460_41502vn	Nibelheim.
+ev0460_41503rv	Wait. Shinra Manor? But that is where...
+ev0460_41504rv	Understood.
+ev0460_41505rv	However, be on your guard. We have reports of Deepground units deployed in that area.
+ev0460_41506rv	If you wish to enter the manor in one piece, I suggest you use the sewer system extending from the old mako reactor.
+ev0460_41507vn	Sewer? How appropriate is that?
+ev0460_41508rv	Now, as for me and my feline companion...
+ev0460_41509rv	It is time we found out what Deepground is truly up to.
+ev0460_d0201rv	Vincent!
+ev0460_d0202rv	The enemy has breached the main gate! Hurry!
+ev0460_d0203rv	Don't worry. I'll be fine here.
+ev0460_d0204rv	But Vincent... the Tsviets. Azul is still on the loose!
+ev0460_d0205az	Move.
+ev0460_d0206az	Painless.
+ev0460_d0207az	Go!
+ev0460_d0208ct	Take that!
+ev0460_d0209wl  [death effort]
+
+ev480: DEEPGROUND HIDEOUT
+ev0480_40501az	What is the status of our keeper?
+ev0480_40502sk	His location remains unchanged since the confrontation.
+ev0480_40503sk	We can assume this is the WRO headquarters.
+ev0480_40504az	Good. Two birds with one stone.
+ev0480_b0483sk	Who is she?
+ev0480_b0484nr	Dr. Lucrecia Crescent.
+ev0480_b0485sk	So I am to collect the data files-- the fragments she left within the network?
+ev0480_b0486nr	Correct. Then you are to use that data to find the Protomateria.
+ev0480_b0487nr	That is where he requires your assistance.
+ev0480_b0488sk	He...?
+ev0480_b0489sk	That information is unnecessary.
+ev0480_b0490sk	Connect with her, Vincent. Connect with her heart.
+
+ev0500: SHINRA MANOR
+ev0500_50402vn	Lucrecia!
+ev0500_50403lc	Vincent, right?
+ev0500_50404lc	Have you come to check up on me?
+ev0500_50405lc	Omega. His awakening is upon us.
+ev0500_50415lc	I will leave a copy of my records here for you, Vincent.
+ev0500_50416lc	Though I cannot imagine what help they might be, if any at all.
+ev0500_50417lc	Just remember...
+ev0500_50418lc	I am so sorry.
+ev0500_50419vn	Lucrecia.
+ev0500_50501vn  [wince]
+ev0500_50502vn	This pain.
+ev0500_50503rs	Well, well. We meet again.
+ev0500_50504rs	This is perfect. I so wanted to see you, my love.
+ev0500_50505vn	Deepground. What are they attempting to do with Omega?
+ev0500_50506rs	I don't know. And to be honest, I don't care.
+ev0500_50507vn	What?
+ev0500_50508rs	But this is what Weiss desires.
+ev0500_50509rs	Hail Weiss.
+ev0500_50510rs	And what Weiss orders, we do. It is very simple.
+ev0500_50511rs	If he desires the awakening of Omega, then that is what all of Deepground desires.
+ev0500_50512rs	We could care less what happens to the planet.
+ev0500_50513rs	But all this matters little to me.
+ev0500_50514rs	It is not every day you are granted the chance to cleanse the world of all life.
+ev0500_50515rs	Just the thought sends a chill of excitement through my body.
+ev0500_50516rs	The Deepground soldiers were born and bred to kill. We were chained to a destiny of servitude.
+ev0500_50517rs	But then three years ago, we were freed from our chains--though waiting for us was darkness lit only by the faint glow of mako.
+ev0500_50518rs	And what do you think we did when we gained our freedom?
+ev0500_50519rs	We killed. That is how we were raised. That is all we knew.
+ev0500_50520rs	And so I bathed in the blood of a thousand soldiers.
+ev0500_50521rs	And I enjoyed it. I reveled in it.
+ev0500_50522rs	And when I finally stepped out of the abyss, I craved for more.
+ev0500_50523rs	You understand, right?
+ev0500_50524vn	I don't think so.
+ev0500_50525rs	How can you say that, darling? We're one and the same.
+ev0500_50601vn  [pained effort, gasp, struggle]
+ev0500_50602rs	I'm sorry. Were you not expecting that?
+ev0500_50603vn  [pained effort]
+ev0500_50604vn  [pained effort]
+ev0500_50605kh  [chaos]
+ev0500_50606kh  [chaos]
+ev0500_50607rs	Ah...
+ev0500_50608rs	So, you cannot control the beast without this.
+ev0500_50609rs	Well, there will be no need for it when I'm done with you.
+ev0500_50610rs  [furious gasp]
+ev0500_50611rs	Wutai flea!
+ev0500_50612rs  [panting then yelling]
+ev0500_50613rs	If you manage to survive that wound, I'll make sure you don't survive the next one.
+ev0500_50614rs	But no matter.
+ev0500_50615rs	The end is upon us.
+ev0500_50616rs  [jump effort]
+ev0500_d0301vn  JP
+ev0500_d0303vn  JP
+ev0500_d0304vn  JP
+ev0500_d0305vn  JP
+ev0500_d0306vn  JP
+
+ev0520: CRESCENT CAVE
+ev0520_50406lc	Soul wrought of terra corrupt, quelling impurity, purging the stream to beckon forth an ultimate fate. Behold mighty Chaos, Omega's squire to the lofty heavens.
+ev0520_50407lc	I came across this passage while studying the scriptures of the Ancients.
+ev0520_50408lc	The Chronicles of Yore.
+ev0520_50409lc	Omega. The end. Just as all other sentient beings, he too, is born of the Lifestream.
+ev0520_50410lc	However, his only purpose is to cleanse the planet of all things living
+ev0520_50411lc	and lead their immortal souls through the abyssal aether to a new beginning far, far beyond the neverending sea of stars.
+ev0520_50412lc	Just as life circulates through our planet, so too, does our planet through the universe. Or at least in theory.
+ev0520_50413lc	However, what I can be certain of is, if Omega awakens, then all life as we know it will end.
+ev0520_50414lc	And when Omega has embarked on his journey to the cosmos, our planet will wither and die.
+
+ev0550: SHINRA MANOR - FLASHBACK
+ev0550_50201vn	Vincent Valentine reporting for duty, ma'am. I have been assigned your protection.
+ev0550_50202lc	No...
+ev0550_50203vn	Huh?
+ev0550_50204lc	Why would they send his...
+ev0550_50205vn	Excuse me?
+ev0550_50206lc	I apologize.
+ev0550_50207lc	This is the first time I have ever met anyone from the Turks.
+ev0550_50208lc  [exhale]
+ev0550_50209lc	Lucrecia Crescent.
+ev0550_50210lc	Pleased to make your acquaintance, Mr. Valentine.
+ev0550_50701vn	Is it true?
+ev0550_50702hj	Is what true?
+ev0550_50703vn	That Lucrecia... That Dr. Crescent is to take part in this project?
+ev0550_50704lc	It's true.
+ev0550_50706lc	Why are you so surprised?
+ev0550_50707vn	But using your own child for an experiment?
+ev0550_50708hj	I don't know what you're implying, but both of us are scientists. We know what we are doing.
+ev0550_50709hj	You are the last person to have any word in this. Now leave us at once, boy!
+ev0550_50710vn	But...
+ev0550_50711lc	But what?
+ev0550_50712vn  [sudden exhale]
+ev0550_50713lc	If you have something to say, say it.
+ev0550_50714vn	Are you...
+ev0550_50715vn	Are you sure this is what you really want?
+ev0550_50716lc	Am I sure?
+ev0550_50717lc	Am I sure!?
+ev0550_50718lc	If this only concerns me, then yes, I am sure!
+ev0550_50719vn	I just...
+ev0550_50720vn	All I did was watch.
+ev0550_50721vn	I didn't even try to stop her.
+ev0550_50722vn	And then...
+
+ev0570: NIBELHEIM SEWERS
+ev0570_d0302vn	Looks like I'm not the only one here.
+
+ev0600: WRO TRANSPORT - OUTSIDE HQ
+ev0600_60201yf	Morning!
+ev0600_60202vn	Where...?
+ev0600_60203vn	Who are you?
+ev0600_60204yf	Well, I'm glad you asked!
+ev0600_60205yf	I am the champion of the earth and the sky. I am the conqueror of evil.
+ev0600_60206yf	The single white rose of Wutai.
+ev0600_60207yf	Yuffie Kisaragi!
+ev0600_60208yf	Feast your eyes on...
+ev0600_60209yf	Ow!
+ev0600_60210vn	So, where are we?
+ev0600_60211yf	C'mon, aren't you at least a little concerned.
+ev0600_60212vn	Yuffie. It's been a while. How's your head?
+ev0600_60213yf	You... could you at least pretend to be sympathetic!?
+ev0600_60214vn  [wince]
+ev0600_60215yf	Hey, take it easy. That was a big hole you had in your chest.
+ev0600_60216vn	A hole in my chest?
+ev0600_60218yf	I seriously thought you were a goner, but then the wound healed itself right up. You were always "different," but I guess that's why you're still breathing.
+ev0600_60220vn	Yuffie, what are you doing here?
+ev0600_60221yf	Me? I'm just helping out Reeve and his gang.
+ev0600_60222yf	I was poking around Nibelheim and I found you looking all corpselike in Shinra Manor. So I saved you.
+ev0600_60223yf	Imagine that--me, saving the great Vincent Valentine. Do I get any thanks?
+ev0600_60224vn	Thanks, Yuffie.
+ev0600_60225yf	I didn't mean for you to take me so seriously.
+ev0600_60226yf	Anyway... Reeve wanted us to contact him as soon as you woke up.
+ev0600_60235yf	There you have it. I don't know what's going down, but it sounds big. I've been waiting a long time to get my hands on those Deepground punks.
+ev0600_60236yf	They've had their way long enough. Now it's time to give them a taste of Pain a la Yuffie.
+ev0600_60401wr	We'll be arriving shortly.
+ev0600_60402wr	What the hell?!
+ev0600_60403wr  [yelling]
+ev0600_60404yf  [loss of balance]
+
+ev0620: WRO HEADQUARTERS - PLAZA
+ev0620_60405f1	This is headquarters- we need backup!
+ev0620_60406f2  [screaming]
+ev0620_60407f3	Get away!
+ev0620_60408f4	What is that thing?!
+ev0620_60409f5  [screaming]
+ev0620_60410f6  [screaming]
+ev0620_60411az  [roaring]
+
+ev0630: WRO HEADQUARTERS - CONTROL CENTER
+ev0630_60227rv	Vincent has come to? Excellent.
+ev0630_60228rv	I have some good news. Using you-know-who, I was able to infiltrate Midgar.
+ev0630_60229rv	However, what I saw wasn't the prettiest of pictures.
+ev0630_60230rv	Omega... I should have known.
+ev0630_60231rv	We cannot let them sacrifice the lives of any more people. Once we've gathered our forces, we'll launch a full offensive.
+ev0630_60232rv	Of course, we'll require the help of you two as well. Please hurry back to headquarters.
+ev0630_60233rv	Oh. I'm analyzing the data files you sent earlier. I should have results soon.
+ev0630_60234rv	Tuesti out.
+ev0630_60301sk	Where am I?
+ev0630_60302sa  [surprised]
+ev0630_60303sa	Shelke! How are you feeling?
+ev0630_60304sk  [deep sigh]
+ev0630_60305sk	You were a fool to let your enemy live. Now I'm going to kill you and return to Deepground.
+ev0630_60306sa	I don't think so.
+ev0630_60308sa	I have to admit, I wasn't myself back there. Seeing you for the first time in ten years left me in a spin. But I've had time to recover.
+ev0630_60309sa	And I'm not letting you get away. Not this time.
+ev0630_60310sa	There's no way I'm going to let you kill me, and there's no way I'm going to let you go back to Deepground.
+ev0630_60311sk	I don't recall needing your permission to do anything.
+ev0630_60312sa	And I don't remember you ever being able to win any of our fights, do you? How about it? You want to try your luck?
+ev0630_60313sk  [annoyed effort]
+ev0630_60314az  [groaning]
+ev0630_60315d1  [pain effort]
+ev0630_60316d2  [pain effort]
+ev0630_60317d3  [pain effort]
+ev0630_60318d7  [pain effort]
+ev0630_60319rv	Understood. You may begin mobilization.
+ev0630_60320e1  Commissioner, we're being-
+ev0630_60321rv	Officer!
+ev0630_60322e2  Security Unit Beta...
+ev0630_60323e3  Commissioner, we need back-
+ev0630_60324rv	Deepground!?
+ev0630_60325sa	They're back!? But why?
+ev0630_60326az  [roar]
+ev0630_60327sk	They were waiting for Azul.
+ev0630_60328sa	Azul?
+ev0630_60329sk	His death was merely a prologue to the true terror.
+ev0630_60330d4  [pain effort]
+ev0630_60330d5  [pain effort]
+ev0630_60330d6  [pain effort]
+ev0630_60331rv  [gasp]
+ev0630_60332rv  [sudden pain]
+ev0630_60333e4  Emergency. Emergency. All battle squads report to stations. All others proceed to the undergound barracks. Emergency. Emergency. All battle squads report to stations. All others
+
+ev0650: WRO HEADQUARTERS - BASEMENT CORRIDOR
+ev0650_60601g1  [yelling]
+ev0650_60602vn	What the hell?
+ev0650_60603sk	Azul.
+ev0650_60604az  [roar]
+ev0650_60605vn	Shalua!
+ev0650_60606sa  [pained effort]
+ev0650_60607az  [roar]
+ev0650_60608sk	The extreme potency of this shield materia is comparable to that of your barrier field, Azul.
+ev0650_60609az	Shelke? Why do you stand in my way?
+ev0650_60610sk  [deep sigh]
+ev0650_60611sk	I had to protect myself. You were trying to kill me.
+ev0650_60612az	Then now is the time.
+ev0650_60613sk  [surprise effort]
+ev0650_60614az	You are no longer required.
+ev0650_60615sk	No longer...?
+ev0650_60616az	You are no different from the others. Your weak body is nothing without mako.
+ev0650_60617az	Your only skill is collecting data from inside a virtual reality.
+ev0650_60618az	It makes me sick to even think of you as a member of the Tsviets.
+ev0650_60619az	Weiss has ordered your termination.
+ev0650_60620sk	Weiss!?
+ev0650_60621az	Your mission was to identify and locate the keeper of the Protomateria.
+ev0650_60622az	That is why we uploaded the doctor's data into your neural network.
+ev0650_60623az	But now we no longer need it.
+ev0650_60624az	And we cannot let it fall into the hands of the WRO.
+ev0650_60625az	Your fate has been decided, Shelke. It is time for you to return to the planet.
+ev0650_60626sa	Vincent! Shelke! Let's get out of here!
+ev0650_60628sa	C'mon!
+ev0650_60629sk	Let go of me!
+ev0650_60630sa	I don't think so.
+ev0650_60631sk  [surprise effort]
+ev0650_60632sa	We have ten years to catch up on. I'm not going to let this end here--
+ev0650_60634sa  [pained effort]
+ev0650_60635sk	Why are you doing this?
+ev0650_60636vn	Shalua!
+ev0650_60637sa	You can still get through.
+ev0650_60638sk	Huh?
+ev0650_60639sa	Go on.
+ev0650_60640sa  [pained effort]
+ev0650_60641sa	Shelke.
+ev0650_60643sa	I'm sorry... I'm sorry I wasn't a better sister.
+ev0650_60644sa	I'm sorry I let you suffer so long.
+ev0650_60645sa	Vincent. Take care of her, will you?
+ev0650_60646vn	Wait!
+ev0650_60647sa	Shelke. I'm glad I was able to find you. And remember, I'll always love you.
+ev0650_60648vn  [struggle effort]
+ev0650_60649sk	Why?
+ev0650_60650sk  [surprise effort]
+ev0650_60651sk	Why did she...? Why?
+ev0650_60652sk	Shalua...
+ev0650_60653sa  [pained effort]
+ev0650_60654sk  [surprise gasp]
+ev0650_60655vn  [struggle effort]
+ev0650_60656g2  [struggle effort]
+ev0650_60657g3  [struggle effort]
+ev0650_60660az  [roar]
+ev0650_60661az  [roar]
+ev0650_60662az  [roar]
+ev0650_60663vn  [pained effort]
+ev0650_60664az  [roar]
+ev0650_60665sk  [effort]
+ev0650_60666az  [roar]
+ev0650_60667wl  [group effort struggle]
+ev0650_60701rv  [sigh]
+ev0650_60702rv	I'm so ashamed.
+ev0650_60703rv  I am supposed to be a hero of the Jenova War.
+ev0650_60704rv  But look at me.
+ev0650_60705vn  Don't take all the blame.
+ev0650_60706vn  Reeve.
+ev0650_60707rv  Huh?
+ev0650_60708vn  You're not thinking of giving up, are you?
+ev0650_60709vn  I used to be nothing but a stone in the river of time, but three years ago it was you and the others who taught me I had to move ahead.
+ev0650_60710rv  Vincent...
+ev0650_60801yf  They say she won't wake up.
+ev0650_60802yf  She suffered too much trauma to her head. Unless there's some kind of a miracle, she's not...
+ev0650_60803yf  Vincent! You were there! Why couldn't you save her!?
+ev0650_60804vn  I'm sorry.
+ev0650_60805yf  No.
+ev0650_60806yf  I didn't mean to...
+ev0650_60807sk  She was a fool.
+ev0650_60808yf  [effort]
+ev0650_60809yf  You have no right to call her that!
+ev0650_60810yf  You don't know... You don't know what...!
+ev0650_60811sk  Why... Why would she do something so...?
+ev0650_60812vn  Before,
+ev0650_60813vn  when I asked Shalua what she was searching for, she answered "her reason to live."
+ev0650_60814vn  It was you, Shelke. You were her reason to live.
+ev0650_60815sk  So?
+ev0650_60816sk  I don't understand how someone could give her own life for that of another.
+ev0650_60817sk  Do you understand, Vincent Valentine?
+ev0650_60818vn  I can't answer for your sister.
+ev0650_60819vn  But...
+ev0650_60820sk  But?
+ev0650_60821vn  When a person has someone they care about that much, giving their life is sometimes the least they can do.
+ev0650_60822vn  And maybe that's what makes us human.
+ev0650_60823sk  Someone they care about...
+ev0650_60824vn  Although...
+ev0650_60825vn  it seems like there are alot of people around me who don't need a reason to risk their lives for that of another.
+ev0650_60826sk  And are you...
+ev0650_60827sk  [effort]
+ev0650_60828yf  [crying]
+ev0650_60829yf  [crying]
+ev0650_61002sk  I'm sorry.
+ev0650_61003sk  Why are her data fragments responding?
+ev0650_61004rv  Vincent.
+ev0650_61005rv  I agree with you. This is not the time for us to give up.
+ev0650_61006rv  But I need to know something. Those data files you recovered from Shinra Manor-- are you sure there were not any more?
+ev0650_61007vn  I'm sure.
+ev0650_61008rv  I see.
+ev0650_61009vn  What's wrong?
+ev0650_61010rv  Well, the Omega Report... The file was incomplete.
+ev0650_61011rv  To make any sense out of it, we are going to require the other half.
+ev0650_61012rv  If possible, I wanted to know more about our foe before we launched the attack on Midgar.
+ev0650_61013sk  Are you speaking of Dr. Lucrecia Crescent's findings?
+ev0650_61014rv  Yes. But how did you...?
+ev0650_61015sk  A large quantity of her mnemonic data fragments has been uploaded into my neural network.
+ev0650_61016sk  It was my prime directive to use this data to locate and retrieve the Protomateria.
+ev0650_61018sk  However, not only was the data incomplete, but part of her consciousness began interfering with my own thought processes.
+ev0650_61019sk  It was believed that the missing fragments may have been the reason for this.
+ev0650_61021sk  I can attempt to upload the WRO's files on the Omega Report.
+ev0650_61022sk  By combining it with the data I possess, you may obtain a clearer picture of what you will be up against.
+ev0650_61023sk  And perhaps I can regain control of my mind.
+ev0650_61024yf  Vincent! Reeve! You'd better get out here!
+ev0650_61101cd  JP
+ev0650_61102cd  JP
+ev0650_61103yf  Cid!
+ev0650_61104yf  Hey!
+ev0650_61105yf  Over here!
+
+ev0700: THE SHERA
+ev0700_70101cd  Hey! Vincent! Long time.
+ev0700_70102sm  Captain!
+ev0700_70103cd  Sorry 'bout that.
+ev0700_70104cd  As much as I'd like to sit down and reminisce 'bout old times, you'll have to take a rain check. Why don't you have a look around my bird until the meeting?
+ev0700_70105yf  [Gags]
+ev0700_70106yf  Man, I hate airships.
+ev0700_70107yf  I knew I shouldn't have had eggs for breakfast!
+ev0700_70108yf  Sorry Vince. I don't feel like talking much.
+ev0700_70109rv  Thanks to Shelke's half of the data, I have been able to make more sense of the report.
+ev0700_70110rv  But I still require more time to piece together the fragments. I will give you all a detailed briefing at the meeting.
+ev0700_70201cd  Alright. Our old buddies and the remaining WRO squads will lead the ground assault...
+ev0700_e0101xa  Diverting AM energy flow to safety systems. Power levels 128 percent!
+ev0700_e0102xb  Forward visibility: 95 percent. Radar: functioning normally. Wide area scan shows no blips within a 10 klick radius.
+ev0700_e0103xc  Communication channels clear. Network terminals online. Gamma link operational. Adjusting settings six-two-eight-one through seven-one-two-niner.
+ev0700_e0104xd  Internal pressure normal. Begin line test in sectors two through six.
+ev0700_e0201xe  JP
+ev0700_e0202xf  Main propellor at eighty percent!
+ev0700_e0203xg  G-9 friction levels up to point 024!
+ev0700_e0204xh  We need oil on the L3 axel!
+ev0700_e0205xh  JP
+ev0700_e0206wl  JP
+ev0700_e0207xi  Six through nine: green!
+ev0700_e0208xj  JP
+ev0700_e0209xk  R3 right, one point nine degrees!
+ev0700_e0210xl  Operating the lower valve!
+ev0700_e0211xh  Propellor speed: up zero point three percent!
+ev0700_e0220wl  [combination of previous]
+ev0700_e0221wl  Six through nine: green! G-9 friction levels up to point 024! Operating the lower valve! Main propellor at eighty percent! Propellor speed: up zero point three percent!
+ev0700_e0222wl  Monitoring signal AJ109. All blocks clear.
+ev0700_e0223wl  [combination of previous]
+ev0700_e0301za  Sir!
+ev0700_e0302zb  Sir!
+ev0700_e0401zc  Beautiful, isn't it?
+ev0700_e0402zc  I've been a crew member for almost three years now. You think after a few hundred flights, I'd get tired of the view.
+ev0700_e0403zc  But you know... when I realized that this may be my last time up here, my last chance to take a glimpse of the land I call home, I just...
+ev0700_e0404zc  I... just wanted to get one last look.
+ev0700_e0501zd  Sir!
+ev0700_e0502zd  Did you notice the ceiling? It changes over time!
+ev0700_e0503zd  Aren't you amazed at all the things technology can do? It's like magic!
+ev0700_e0504zd  If only I could design something this remarkable...
+ev0700_e0601ze  You've heard of the Chocobo farm in the grasslands, haven't you? They've got the biggest stables around.
+ev0700_e0602ze  I keep my new River Chocobo there. He was born just a few weeks ago. I named him Boko.
+ev0700_e0603ze  Boko! A noble name for a noble steed!
+ev0700_e0604ze  I can't wait until this battle is over and I can go ride him off into the sunset!
+ev0700_e0701zf  I took part in the Kalm operation. But... I... I wasn't able to save a single person.
+ev0700_e0702zf  That's why this time,
+ev0700_e0703zf  maybe I'll be able to do something worthwhile!
+ev0700_e0704zf  I'm not going to let Deepground have its way anymore!
+ev0700_e0801zg  While this airship is named after Cid's wife, construction of the vessel wasn't performed by the captain at all.
+ev0700_e0802zg  Our team of loyal scientists here at the World Regenesis Organization, or those criminals at Shinra weren't involved either.
+ev0700_e0803zg  To tell you the truth, the ship is not even from this era. It is relic from a lost civilization.
+ev0700_e0804zg  Most of the machinery in the engine room is boxed up in black casing. So we don't even know what half of it does.
+ev0700_e0805zg  Oh, no... there's no need to worry! Even though we cannot reproduce the technology, we can still put it to good use.
+ev0700_e0806zg  I can almost guarantee there'll be no problems.
+ev0700_e0807zg  Almost.
+ev0700_e0901zh  That Dr. Rui...
+ev0700_e0902zh  She dun gone sacrificed everything she had to find that there little sister of hers! But now she's...
+ev0700_e0903zh  I just don't wanna see nothing like that happen to nobody ever again! And that's why I packed up and joined the WRO!
+ev0700_e1001zi  Deepground Soldiers. A ruthless band of killing machines determined to revive Omega and bring this world to her end.
+ev0700_e1002zi  And at the top stand at Tsviets, a small group of elite warriors more powerful than the rest combined.
+ev0700_e1003zi  Rosso the Crimson, Azul the Cerulean, Nero the Sable...
+ev0700_e1004zi  And their mysterious and enigmatic leader, Weiss the Immaculate.
+ev0700_e1005zi  It is believed that confrontations with these four will be unavoidable,
+ev0700_e1006zi  but their defeat is necessary for our mission's success.
+ev0700_e1007zi  However, I'm not worried. I know that you and the others will not let us or the planet down.
+ev0700_e1101zj  It's not much longer until the Midgar offensive begins.
+ev0700_e1102zj  The last time I saw action was back during the liberation of Edge, where my entire squad was wiped out by that bloodthirsty Crimson soldier.
+ev0700_e1103zj  The only reason I survived was because I fled from the area when I saw my companions fall. But...
+ev0700_e1104zj  Not this time!
+ev0700_e1105zj  I finally realized that there are some things in this world that are worth dying for.
+ev0700_e1201zk  Sir. I ain't no hero, sir.
+ev0700_e1202zk  I ain't got what it takes to save the world. Not like you did, sir.
+ev0700_e1203zk  But I'm ready to fight!
+ev0700_e1204zk  And I know that there's somebody out there who needs me to fight for them-- and their freedoms!
+ev0700_e1205zk  And that's why I don't mind taking second stage to the heroes of this story. Heroes like you!
+ev0700_e1206zk  I'll do all that I can, and I'll do my best! Sir!
+ev0700_e1301zl  Our enemy, the Deepground soldiers.
+ev0700_e1302zl  They were all once just like us. They all had families, friends, even feelings.
+ev0700_e1303zl  So why did it ever have to come to this?
+ev0700_e1304zl  What compelled Shinra to commit such hideous deeds?
+ev0700_e1305zl  Now these once normal people continue to kill because it is all they know.
+ev0700_e1306zl  Are they solely to blame for their actions?
+ev0700_e1307zl  No. I'm not condoning what they do.
+ev0700_e1308zl  I will never forgive them for the terror they have instilled in the hearts of my brothers.
+ev0700_e1309zl  They're our sworn enemy, and that will never, ever change.
+ev0700_e1310zl  But I'm not fighting simply to end their lives. I'm doing it to end the chaos that they started.
+ev0700_e1401zm  Haha! Before we get to Midgar, I'll have this baby purring like a kitten!
+ev0700_e1402zm  I hope I'm not petting her the wrong way.
+ev0700_e1501zn  Mr. Valentine!
+ev0700_e1502zn  Our troops are conducting their final preparations for the assault. I've been ordered to not let anyone pass, sir!
+ev0700_e1601zo  Midgar...
+ev0700_e1602zo  After meteor fall, the once bustling Metropolis was reduced to rubble. There have been attempts to rebuild, but deadly Mako radiation leaking from the damaged reactors still contaminates most of the area.
+ev0700_e1603zo  Now it's just a home for vagrants and the soldiers forgotten there after the calamity.
+ev0700_e1604zo  Most of us turned our eyes away from the problem. But someday we'll be forced to face it.
+ev0700_e1701zp  JP
+ev0700_e1702zp  JP
+ev0700_e1703zp  JP
+ev0700_e1704zp  JP
+ev0700_e1705zp  JP
+ev0700_e1801zq  When I was still a kid, I wanted to be in Soldier.
+ev0700_e1802zq  But those men and women in Deepground,
+ev0700_e1803zq  they're nothing like the guys in the poster I had on my bedroom wall.
+ev0700_e1804zq  But, you know, I wonder if they wanted to be in Soldier just like me.
+ev0700_e1805zq  Hey, I'm not going soft or anything! I'm ready for action!
+ev0700_e1901zr  Mr. Valentine, it's me!
+ev0700_e1902zr  Don't you remember? I was one of the Highwind crew!
+ev0700_e1903zr  That bird was a beauty! But this ship's just as sweet!
+ev0700_e1904zr  And you won't believe this, but she runs on some mysterious ancient power.
+ev0700_e1905zr  But you don't have to worry. You'll be safe in my hands.
+ev0700_e1906zr  Wait a minute. Where did this button come from?
+ev0700_e1907zr  Oh, no. You didn't hear anything!
+ev0700_e1908zr  Ahem. Approaching destination!
+ev0700_e2001zs  JP
+ev0700_e2101zt  You know that little girl? She's locked herself up in the sick bay since we boarded.
+ev0700_e2201zu  Sir! I've been spending time analyzing the data retrieved from the files of former Weapons Development Administrator Scarlet.
+ev0700_e2202zu  Deepground.
+ev0700_e2203zu  It used to be a medical facility for injured Soldier troops.
+ev0700_e2204zu  Military personnel would be sent there for care and rehabilitation.
+ev0700_e2205zu  However, over time, it evolved into a laboratory for madmen content on ignoring all laws of man and nature.
+ev0700_e2206zu  And supposedly, this evolution took place because the existence of one rogue Soldier.
+ev0700_e2207zu  A man known only as G.
+ev0700_e2208zu  However that was all we were able to retrieve.
+
+
+ev0720_70213lc  JP
+ev0720_70214lc  JP
+ev0720_70215lc  JP
+ev0720_70216lc  JP
+ev0720_70217lc  JP
+ev0720_70218lc  JP
+ev0720_70219lc  JP
+ev0730_70206yf  ...while we launch our attack from the air.
+ev0730_70207cd  Right.
+ev0730_70208cd  So Reeve, you ready?
+ev0730_70209rv  Yes.
+ev0730_70220lc  Omega is...
+ev0730_70221sk  the same type of life form as the Weapons we encountered three years ago.
+ev0730_70222sk  The planet gave birth to these creatures to protect itself
+ev0730_70223sk  just as the planet will ultimately give birth to the final Weapon, Omega, when the end of the world is imminent.
+ev0730_70224sk  In essence, Omega is an elaborate safety mechanism designed solely to maintain and protect the flow of life.
+ev0730_70225sk  Normally, Omega poses no threat to us. It only manifests when the planet has detected something that may cause her danger.
+ev0730_70226rv  However, Deepground is attempting to awaken the beast early.
+ev0730_70227rv  Thus the kidnappings.
+ev0730_70228w2  [screams]
+ev0730_70228wl  JP [screams]
+ev0730_70229c2  Good gracious me!
+ev0730_70233rv  By slaughtering thousands of innocent souls, they are creating a pure Lifestream in order to trick the planet into thinking the "end" is near.
+ev0730_70234cd  Why, those conniving...!
+ev0730_70235cd  I don't know what this Weiss character is tryin', but he's crazy if he thinks we're gonna let him get away with it.
+ev0730_70236rv  Right.
+ev0730_70237rv  Omega is being revived deep beneath Midgar in Mako Reactor 0.
+ev0730_70238rv  To increase the output of Reactor 0, all the other reactors have been tied into its mainframe.
+ev0730_70239rv  Our objective is to destroy 1 through 8 and slow the reanimation process.
+ev0730_70240rv  Mission details for each squad will be relayed separately.
+ev0730_70241cd  Alright. We've still got some time before the big show.
+ev0730_70242cd  You got anything needs tending to, do it.
+ev0730_70311cd  Vince, don't worry about the reactors. We'll take care of them.
+ev0730_70312cd  You work on those four wackos!
+ev0730_70313cd  I don't like letting you have all the fun,
+ev0730_70314cd  but you know I can't leave my baby here alone.
+ev0730_70315cd  Cloud and the others will be shutting down the power,
+ev0730_70316cd  and there's no way we're lettin' Yuffie go down there by herself.
+ev0730_70317cd  Sorry buddy. Looks like from here on out it's Vince versus the Tsviets.
+ev0730_70318cd  We're counting on you, old pal.
+ev0730_70319cd  Yeah, but just look at Cait... I mean, Reeve. When the hell did he become so important?
+ev0730_70320cd  All this you see around you--everything here--he put up the gil for it.
+ev0730_70321cd  'Course that's on the condition that I help him save the world.
+ev0730_70322cd  What I want to know is where he got that kind of cash.
+ev0730_70323cd  When all this is over, how about we grab a couple of cold ones. Just like the good ol' days, huh?
+ev0730_70324cd  Even Shera's been worried about you, and you know how she gets.
+ev0730_70325cd  Countin' on ya.
+ev0730_70326yf  [nausea]
+ev0730_70327yf  Did you hear? They attacked Wutai as well.
+ev0730_70328yf  Thanks to my dad and the Wusheng, things didn't turn out as bad as they could have, but...
+ev0730_70329yf  But I'm worried about my old man. He's not as young as he used to be.
+ev0730_70330yf  He's gonna have a heart attack one of these days, if not give me one!
+ev0730_70331yf  Now, if I was there, dad wouldn't even have to put down his mai tai.
+ev0730_70332yf  What? What?
+ev0730_70333yf  I could take out Deepground with one hand tied behind my back!
+ev0730_70334yf  [efforts, shadowboxing]
+ev0730_70335yf  [nausea]
+ev0730_70336vn  So, no costume today?
+ev0730_70337rv  Headquarters was pretty much destroyed by the deepground forces.
+ev0730_70338rv  But I was able to salvage a few things.
+ev0730_70339ct  Number 5 is alive!
+ev0730_70340ct  Number 6, ready for action!
+ev0730_70341ct  Number 7, nice to meet you!
+ev0730_70342vn  Tell me Reeve...
+ev0730_70343ct  Huh?
+ev0730_70344vn  Who's backing your operation?
+ev0730_70345ct  Oh! That!
+ev0730_70346rv  Actually, I'm not sure.
+ev0730_70348rv  I've only met with... a representative.
+ev0730_70349rv  However, the WRO is crucial for this planet's survival.
+ev0730_70350rv  I'm not concerned with the reasons this person has for helping us. As long as he continues writing the checks.
+ev0730_70351rv  Though I have a feeling it is probably someone who believes he is in debt to the planet.
+ev0730_70352ct  Vincent, you should probably think of getting some rest.
+ev0730_70353ct  Things are gonna get really nutty really soon!
+ev0730_70354vn  [pained effort]
+ev0730_70355kh  [chaos]
+ev0730_70356kh  [chaos]
+ev0730_70357lc  Vincent.
+ev0730_70359vn  What happening?
+ev0730_70360vn  JP
+ev0730_70361vn  A dream?
+ev0730_70362vn  [effort]
+ev0730_70363vn  [pained effort]
+ev0730_70364vn  Am I losing control?
+ev0730_70365v2  But are you worried about the assault?
+ev0730_70366v3  No way! We'll be okay! We always are, right?
+ev0730_70367v2  Did you ever find B Block?
+ev0730_70368v3  I don't know... I think so. I can't make heads or tails of this place.
+ev0730_70401cd  Okay dogs, it's time!
+ev0730_70402cd  All hands to battle stations!
+ev0730_70601cd  Listen up! 'Cuz I'm only gonna say this once!
+ev0730_70602cd  If any more of you are killed by those punks, I'll drag you back from hell and kill you again!
+ev0730_70603cd  You really wanna piss of those SOBs, then why not try stayin' alive?
+ev0730_70604cd  That's what this war's all about!
+ev0730_70605cd  If you live, everybody behind you lives! If you die, they die!
+ev0730_70606cd  You got that?! Now go kick some Deepground ass!
+ev0730_70607wl  [Cheers "YEAH!"]
+ev0730_70608yf  Yeah!
+ev0730_70701sk  Vincent Valentine.
+ev0730_70702vn  What's this?
+ev0730_70703sk  Your phone. I retrieved it in Kalm.
+ev0730_70704sk  I've modified it slightly. Just dial #VIN to contact my personal terminal directly.
+ev0730_70705sk  From this workstation, I can perform a synaptic net dive into almost any network system in Midgar. I may also be able to help guide you into Deepground.
+ev0730_70706sk  It's not what you think.
+ev0730_70707sk  By monitoring your movement, Dr. Crescent's data fragments are restored within me.
+ev0730_70708sk  I'm simply providing this service for my own benefit.
+ev0730_70709vn  I didn't say anything.
+ev0730_70710sk  I... Anyway... my resources here are limited. Do not expect too much.
+ev0730_70711vn  I'm counting on you, Shelke.
+ev0730_70712sk  [stammer]
+ev0730_70714sk  I... It's just I've never actually been "counted on" by anyone before.
+ev0730_70715sk  Never mind.
+ev0730_70716rv  Well then, can I "count on" you to keep an eye on the airship while we're away as well?
+ev0730_70717sk  Huh?
+ev0730_70718rv  I have already witnessed your strength and skill once.
+ev0730_70719rv  This is war, and we have to be ready for anything. Your assistance would be of great help.
+ev0730_70720sk  My assistance?
+ev0730_70721rv  Exactly.
+ev0730_70722wr  Commissioner!
+ev0730_70723rv  Excuse me. Vincent, I will see you again before deployment.
+ev0730_70724rv  And Shelke remember, I'm counting on you.
+ev0730_70725sk  [stammer]
+ev0730_70727sk  Fighting for...
+ev0730_70728sk  No, I have no one to fight for. No one at all.
+ev0730_70801cd  JP
+ev0730_70802cd  JP
+
+ev0740_70803yf  JP
+
+ev0750_70901sk  What do you think you're doing?
+ev0750_70902sk  You have landed several klicks off your target destination.
+ev0750_70903sk  However, considering the location of the enemy, this could work to your advantage.
+ev0750_70904sk  Head for the central complex and locate a means of reaching the top level.
+ev0750_70905sk  You will only be able to enter Deepground from the upper platform.
+ev0750_70906sk  I'll contact you again. Shelke out.
+ev0750_71201ww  [gasp]
+ev0750_71202ww  Mr. Valentine!
+ev0750_71203ww  We missed our landing point.
+ev0750_71204ww  This looks like the old sector 7 slums. The Train Graveyard.
+ev0750_71205vn  Yes it does.
+ev0750_71206ww  Sir, I've received a radio transmission reporting the remaining air squads have reached the upper level plates and joined the ground forces.
+ev0750_71207vn  Fine.
+ev0750_71208ww  Sir...
+ev0750_71209ww  Requesting permission to accompany you until we have reached the complex!
+ev0750_71210vn  Do as you wish.
+ev0750_71211ww  Sir! Thank you, sir!
+ev0750_71212h1  [effort]
+ev0750_71213h1  I was just taking a breather.
+ev0750_71214h1  Sir! Let me join you!
+ev0750_71215vn  Just don't get in my way.
+ev0750_71216ww  You know, I was born in Midgar.
+ev0750_71217ww  My brother and I used to play here all the time. My mom didn't approve, though.
+ev0750_71218ww  After she died, my brother joined a Shinra resistance group, but was killed when the plate fell and...
+ev0750_71219ww  I can't believe this place is still here.
+ev0750_71220i1  Lieutenant!
+ev0750_71221i1  Soldiers!
+ev0750_71223ww  Commander!
+ev0750_71224h1  Commander!
+ev0750_71224i1  Commander!
+ev0750_71224i2  Commander!
+ev0750_71225cp  Vincent Valentine! Thank you for your assistance!
+ev0750_71226cp  To reach the central complex, you must proceed through this maze of decommissioned train cars.
+ev0750_71227cp  However, I have received reports that beyond the graveyard are some of the enemy's most powerful defenses.
+ev0750_71228vn  Alright. I'll see what I can do.
+ev0750_71229cp  Wait! I can't let you go without backup!
+ev0750_71230vn  No.
+ev0750_71231vn  You heard what Cid said. Your job is to live.
+ev0750_71232vn  If you come with me, chances are you'll all die.
+ev0750_71233vn  If you come with me, chances are you won't make it.
+ev0750_71234cp  Understood. I'll remain here until the current situation has improved.
+ev0750_71235cp  Good luck, sir.
+ev0750_71236h1  Sir!
+ev0750_71236i1  Sir!
+ev0750_71236i2  Sir!
+ev0750_71236ww  Sir!
+ev0750_71237j1  Vincent Valentine.
+ev0750_71238vn  There's no way out of here?
+ev0750_71239j1  None. I looked all over, but I found nothing. It looks like we're both stuck in here.
+ev0750_71240h1  [scared effort]
+ev0750_d0401vn  Shelke.
+ev0750_d0402sk  JP (Vincent Valentine?)
+ev0750_d0403sk  The only way out of the graveyard is through a nearby underground passage.
+ev0750_d0404vn  Where?
+ev0750_d0405sk  I'm uploading the location now.
+ev0750_d0406sk  Also,
+ev0750_d0407sk  up ahead, Deepground has established a heavy line of defense.
+ev0750_d0408sk  You probably won't even break a sweat, but I thought I would let you know.
+ev0750_d0409sk  Vincent Valentine
+ev0750_d0410sk  You've reached the central complex.
+ev0750_d0411sk  Proceed up to reach the plate surface.
+ev0750_d0412sk  [gasp]
+ev0750_d0413vn  What's wrong?
+ev0750_d0414sk  The approaching Deepground squa--
+ev0750_d0415sk  No, it's nothing. I'll contact you agai--
+ev0750_d0416sk  Aerial troopers. Good luck, Vincent.
+ev0750_d0417sk  Vincent Valentine
+
+ev0760_71001rs  Still alive, I see. And you call yourself human?
+ev0760_71002vn  More human than you.
+ev0760_71003rs  More human than I?
+ev0760_71004rs  [laugh]
+ev0760_71005rs  Tell me something I don't already know, darling!
+ev0760_71006rs  I'm a Tsviet!
+ev0760_71007rs  I traded away my human weaknesses for power long ago.
+ev0760_71008rs  It is the path I've chosen.
+ev0760_71009rs  And the path I'll tread.
+ev0760_71010rs  Until I've sucked all life from this pitiful world!
+ev0760_71011rs  And I'm not going to let you get in the way.
+ev0760_71012rs  You've lived long enough, Vincent Valentine. And I'll make sure you don't come back this time...
+ev0760_71013rs  by slicing you into pieces!
+ev0760_71101rs  Do you know why they call me "the Crimson," darling?
+ev0760_71102rs  Let me show you!
+ev0760_71103rs  Someone stronger... than... than...
+ev0760_71104rs  Absurd...
+ev0760_71105rs  [struggle effort]
+ev0760_71106rs  Absurd!
+ev0760_71107rs  [breathy effort]
+ev0760_71108rs  Our time here together is done.
+ev0760_71109rs  But the mighty Azul awaits.
+ev0760_71110rs  I shall not grant you the pleasure of killing Rosso the Crimson.
+ev0760_71111rs  No one will ever stand above me!
+ev0760_71112rs  No one! No one! No one!
+ev0760_71113rs  [laughing]
+ev0760_71114rs  [pained effort]
+
+ev0770_70111sk  After the assault begins, the headquarter's facilities will no longer be available.
+ev0770_70112sk  And to think just a few days ago, I was the one who was in there.
+ev0770_70113sk  No, forget I said anything.
+ev0770_70114vn  What are you working on?
+ev0770_70115sk  I'm in the process of modifying this equipment so I can perform an SND: a synaptic net dive.
+ev0770_70116vn  Synaptic Net Dive?
+ev0770_70117sk  My specialty within the Tsviets.
+ev0770_70118sk  While retaining consciousness, I project an image of myself into a virtual reality called a network.
+ev0770_70119sk  I can also use this ability to negotiate with data on the subconscious planes of sentient life forms. However, this often involves a great risk to my own sanity.
+ev0770_70120sk  For Shinra the success of the SND project was crucial for their next step in...
+ev0770_70121sk  I'm sorry, I seem to have gotten off track.
+ev0770_70122sk  Simply put, I'm creating a personal network terminal within the airships main control console.
+ev0770_70123vn  [grunt]
+ev0770_70124sk  What?
+ev0770_70125vn  Nothing. You just remind me of your sister.
+ev0770_70127sk  If you don't mind I need to complete these modifications before the meeting.
+ev0770_70210ct  Alright! Take it away, Shelke!
+ev0770_70211sk  Very well.
+ev0770_70212sk  Data fragment link... successful. Commencing synaptic net dive in 3, 2, 1 ...
+ev0770_70301sk  So tired...
+ev0770_70302sk  Vincent Valentine.
+ev0770_70303vn  What?
+ev0770_70304sk  This feeling. Is this what you meant by doing something for someone you care about?
+ev0770_70305vn  It seems so.
+ev0770_70306sk  Dr. Crescent's data has begun defragmenting within my mind.
+ev0770_70307sk  I can see many different images.
+ev0770_70308sk  Images she experienced with you.
+ev0770_70309sk  Interference... Recovery...
+ev0770_70310sk  So... So tired...
+ev0770_80102sk  The ground squads have not been able to penetrate the Deepground defenses. The mako reactors are still operating at full capacity.
+ev0770_80122sk  You really don't know, do you?
+ev0770_80123sk  The Protomateria helped you control Chaos. Now that you've lost it your mental state has become extremely unstable.
+ev0770_80126lc  Chaos. While a part of you, the entity exists independently from the rest of your body.
+ev0770_80201sk  You must fight him. I don't want you to die...
+
+ev0780_70501az  A simultaneous attack from land and air. I think they may be serious this time.
+ev0780_70502rs  They had better be. I've been so bored lately.
+ev0780_70503nr  His awakening is near.
+ev0780_70504nr  Let tonight be the final chapter.
+
+ev0800_12202s1  JP
+ev0800_12203s1  JP
+ev0800_12204s1  JP
+ev0800_12205s1  JP
+ev0800_12206s1  JP
+ev0800_12207s1  JP
+ev0800_12208s2  JP
+ev0800_12209s2  JP
+ev0800_80101sk  Vincent Valentine.
+ev0800_80103vn  So it seems.
+ev0800_80104sk  What is your location?
+ev0800_80105vn  Shinra building...
+ev0800_80106vn  or what remains of it.
+ev0800_80107sk  The same as it was three years ago.
+ev0800_80108sk  Though, after Meteorfall, there wasn't much left of Midgar at all.
+ev0800_80109sk  With the exception of Deepground.
+ev0800_80111sk  The passage to Deepground should be located within Shinra building.
+ev0800_80112sk  Search for the president's personal entrance.
+ev0800_80113vn  Alright.
+ev0800_80114vn  [effort]
+ev0800_80115kh  [chaos]
+ev0800_80116sk  Is something wrong?
+ev0800_80117vn  [chaos, roar]
+ev0800_80118lc  Vincent!
+ev0800_80119sk  Vincent!
+ev0800_80120vn  What's going on?
+ev0800_80121vn  Why is Chaos...? Why now?
+ev0800_80124vn  Protmateria? Control Chaos?
+ev0800_80125sk  Yes. If you recall, you had it extracted from your chest by Rosso.
+ev0800_80127vn  Shelke?
+ev0800_80128sk  Chaos. The harbinger of anarchy.
+ev0800_80129vn  Lucrecia.
+ev0800_80130lc  Born before the planet dies, he shall gather together all life for Omega's journey to the sea of stars.
+ev0800_80131lc  That is Chaos. And he slumbers inside you.
+ev0800_80132sk  Born before the planet dies, he shall gather together all life for Omega's journey to the sea of stars.
+ev0800_80133sk  That is Chaos. And he slumbers inside you.
+ev0800_80135lc  I'm so sorry.
+ev0800_80136lc  You must fight him. I don't want you to die...
+ev0800_80137sk  I'm so sorry.
+ev0800_80138sk  You must fight him. I don't want you to die...
+ev0800_80139vn  Lucrecia!
+ev0800_80301tf  JP
+ev0800_80302vn  JP
+ev0800_80303ba  JP
+ev0800_80304ba  JP
+ev0800_80305tf  JP
+ev0800_80306ba  JP
+ev0800_80307tf  JP
+ev0800_80308cl  JP
+ev0800_80309vn  JP
+ev0800_80310vn  JP
+ev0800_80311cl  JP
+ev0800_80312cl  JP
+ev0800_80313vn  JP
+ev0800_80314cl  JP
+ev0800_80315tf  JP
+ev0800_80316ba  JP
+ev0800_80317vn  JP
+ev0800_80318cl  JP
+ev0800_80319vn  JP
+ev0800_80320cl  JP
+ev0800_80321cl  JP
+ev0800_80322tf  JP
+ev0800_80323tf  JP
+ev0800_80324tf  JP
+ev0800_80325tf  JP
+ev0800_80326ba  JP
+ev0800_80327tf  JP
+ev0800_80328cl  JP
+ev0800_80329wl  Hey, I got through! Tifa? Wha? You got through!? Yo! Vincent! You still alive!? Of course he is, we're talking to him, aren't we? And do you really have to shout right next to my ear? Sorry 'bout that, Tifa! I apologize, Vincent. Here's Cloud. Vincent? Cloud. It's been a while.
+ev0800_80330wl  Cid's airship? We lost contact about 15 minutes ago. I don't think we have to worry, though. Those two should be fine. Yeah. And what about you?
+ev0800_80331wl  What do you think? Right! You can count on us! When I'm through, there won't be a single sucka standing!
+ev0800_80332wl  Right. And as for you... Don't worry. Leave Deepground to me. Can you hold on a second?
+ev0800_80333wl  Tifa. Got it! Vincent, I'm sending you a map of the Shinra Building.
+ev0800_80334wl  Deepground is below the complex. Take an elevator as far down as you can. Good lu-- Give 'em hell, Vincent! Barret, I thought I told you to-- Don't go getting yourself killed, now.
+
+ev0820_80203cd  Hey! Engine room! What the hell's going on down there!?
+ev0820_80204cd  Engine room! Dammit!
+ev0820_80205sk  What is wrong?
+ev0820_80206cd  Don't have a damn clue. All of a sudden, engine levels began dropping like crazy.
+ev0820_80207cd  We haven't taken any direct hits, so everything should be running like clockwork.
+ev0820_80208sk  I will go have a look.
+ev0820_80209cd  Thanks. Counting on you.
+ev0820_80211sk  It can't be.
+ev0820_80212nr  Fancy meeting you here, Shelke.
+ev0820_80214sk  You.
+ev0820_80215nr  Quite unexpected.
+ev0820_80216sk  Why did you come here, Nero?
+ev0820_80217nr  Why? I was short a few souls, and came to collect.
+ev0820_80218sk  What did you do with the crew?
+ev0820_80219nr  Need you ask? Look around. My mission is complete.
+ev0820_80220sk  Oh...
+ev0820_80221sk  [sigh, gasp]
+ev0820_80222nr  And what do we think we are doing?
+ev0820_80223sk  I don't really know.
+ev0820_80224sk  However, since coming here I have realized one thing-- I don't want to let down anyone who's counting on me.
+ev0820_80225nr  Pure nonsense.
+ev0820_80226sk  Nonsense? Perhaps.
+ev0820_80227nr  [laughs]
+
+ev0850_80401az  So Rosso didn't survive.
+ev0850_80402az  Oh... Something inside you wants out.
+ev0850_80403az  Its stench is so very familiar.
+ev0850_80404az  [laugh]
+ev0850_80405az  Come, Vincent! Show me your rage!
+ev0850_80406az  Now, let the killing begin!
+ev0850_80502az  [laugh]
+ev0850_80503az  This is how a battle should be.
+ev0850_80504az  Don't you think so?
+ev0850_80505vn  [effort]
+ev0850_80506az  Now feel my true strength. Feel the wrath of Azul the Cerulean!
+ev0850_80507az  [roar]
+ev0850_80601az  [roar]
+ev0850_80602vn  [effort]
+ev0850_80603az  Stand! Stand! This isn't over yet.
+ev0850_80604az  Good. Now come and fight.
+ev0850_80605az  [effort]
+ev0850_80606az  Why you!
+ev0850_80607az  [breathing]
+ev0850_80608az  Chaos?
+ev0850_80609az  [pained effort]
+ev0850_80610az  [pained effort]
+ev0850_80611az  It looks like you were more a beast than I.
+ev0850_80612az  Very well. I'll see you again, Vincent... in hell!
+ev0850_80613kh  [Chaos]
+ev0850_80614az  Hail Weiss!
+ev0850_80615az  [Laugh]
+ev0850_80616kh  [Chaos]
+ev0850_80617nr  So that is Chaos. Intriguing.
+ev0850_80618nr  "Soul wrought of terra corrupt."
+ev0850_80619nr  Perhaps I should simply let him live out his destiny of destruction.
+ev0850_80620lc  I'm so sorry.
+ev0850_80621vn  Huh?
+ev0850_80622az  [Pained effort]
+ev0850_80801vn  Chaos. Lucrecia used me to... Lucrecia...
+ev0850_80802vn  So this pain is...
+ev0850_80803vn  Shelke?
+ev0850_80804vn  Deepground. Shinra's dark secret.
+
+ev0900_90101dg  Hail Weiss!
+
+ev0910_90201vn  Huh?
+ev0910_90202vn  [Pained effort, struggle]
+ev0910_90203kh  [Chaos]
+ev0910_90204sk  No. Don't let Chaos control you.
+ev0910_90205sk  You cannot be contained by his darkness because a part of you was born from it.
+ev0910_90206sk  Find yourself. Regain control.
+ev0910_90207vn  JP
+
+ev0920_90801nr  A pleasure to finally meet you, Vincent.
+ev0920_90802vn  Nero.
+ev0920_90803nr  At first, I thought you nothing more than a nuisance. However, it seems I can no longer let you run about unchained. I must protect my beloved brother.
+ev0920_90804vn  Your brother?
+ev0920_90805nr  Dear Weiss. Powerful Weiss. The only person who ever loved me. And the only person I will ever love.
+ev0920_90806nr  However...
+ev0920_90807nr  But that is all forgotten. In a matter of moments, everything will change.
+ev0920_90808vn  What did you do with Shelke?
+ev0920_90809nr  Shelke?
+ev0920_90810nr  Ah yes, what did I do with her? I do recall running into the lass when I journeyed to the airship. A feisty one, she is.
+ev0920_90811nr  The girl is inside me, lost like a little puppy.
+ev0920_90812nr  So you wish to dance?
+ev0920_90901nr  Impressive. Perhaps Azul and Rosso never stood a chance against the mighty Valentine.
+ev0920_90902nr  But enough. I have other matters to attend to.
+ev0920_91201nr  I see. Soul wrought of terra corrupt. My darkness would have no control over you, would it? So I must try a different dance.
+ev0920_91202nr  How about...
+ev0920_91203yf  Even in a world where fear and despair reign over the heavens,
+ev0920_91204yf  you must never forget--where there is shadow, there is always light!
+ev0920_91205yf  That's right! Bask in my rays, evildoers!
+ev0920_91206yf  Feel the radiance of Wutai Super Ninja, Yuffie Kisaragi! Back and ready for action!
+ev0920_91207nr  My brother calls.
+ev0920_91208vn  Are you alright?
+ev0920_91209sk  I...
+ev0920_91210sk  I don't know. Maybe... Maybe I was dreaming.
+ev0920_91211yf  Hey!
+ev0920_91212yf  Over here, guys!
+ev0920_91213yf  [panicking, falling]
+ev0920_91214yf  [effort]
+ev0920_91215vn  [sigh]
+ev0920_a0942hj  However, after completing this, I realized I still required a durable body. And that's when I remembered Deepground--home to the most powerful beings on this planet.
+
+ev0950_90301sk  As old as he is, and still acting like a helpless child.  I can see why Lucrecia had such a difficult time.
+ev0950_90302sk  I don't know why I'm doing this.  I will die when my magic runs out, anyway.
+ev0950_90303lc  Is this...?
+ev0950_90304sk  [gasp]
+ev0950_90420lc  Dr. Valentine!
+ev0950_90421gm  Tell my son that I'm sorry.
+ev0950_90422lc  Dr. Valentine! Dr. Valentine!
+ev0950_90423gm  My time has come to return to the Lifestream.
+ev0950_90424lc  No!
+ev0950_90425lc  No! Come back! Why did you have to fade away!? Why did you...
+ev0950_90426lc  [crying]
+ev0950_90427sk  It's alright. He simply returned to the planet.
+ev0950_90601sk  Shalua...
+ev0950_90602sa  Shelke.
+ev0950_90603sa  Is it alright for me to return to the planet?
+ev0950_90604sk  [gasp]
+ev0950_90605sk  No...
+ev0950_90606sa  Hm?
+ev0950_90607sk  Not yet. There's still so much I...
+ev0950_90608sa  Don't worry. We'll see each other again.
+ev0950_90609sk  A dream? No... Data... Data interference.
+ev0950_90610sk  [gasp]
+ev0950_90611sk  [gasp]
+ev0950_90612sk  I didn't think I had any tears left.
+ev0950_90613sk  [gasp]
+ev0950_91101sk  So this is the end.
+ev0950_91102sk  [gasp]
+ev0950_91103vn  I think you dropped this.
+ev0950_91104vn  Unless you find something appealing about this place, I suggest we leave.
+ev0950_91105vn  Let's go.
+ev0950_91106sk  [Sigh. Affirmation]
+ev0950_91107sk  [effort]
+
+ev0990_50311ct  [yelling, screaming, efforts]
+ev0990_a0101vn  Will you be alright?
+ev0990_a0102sk  Yes.
+ev0990_a0103sk  Thank you.
+ev0990_a0104yf  Okay!
+ev0990_a0105yf  Now, let me see if I've got this. You keep going, find Nero and Weiss, and smack 'em into next Tuesday.
+ev0990_a0106yf  And while you're cleaning house, I sneak into the reactor and shut her down.
+ev0990_a0107yf  Sounds like a plan!
+ev0990_a0108yf  So, see ya around, Vince!
+ev0990_a0109sk  Vincent Valentine.
+ev0990_a0301sk  Another dream?
+ev0990_a0302sk  Vincent Valentine.
+ev0990_a0303vn  Hm?
+ev0990_a0304sk  Why are you fighting this battle?
+ev0990_a0305vn  To destroy Deepground and stop Omega's return.
+ev0990_a0306vn  It's time that an end is put to this madness. Or at least, that is what I tell myself.
+ev0990_a0307vn  Though I'm not completely sure that's the reason.
+ev0990_a0308sk  Not sure. Neither am I.
+ev0990_a0309sk  But, Vincent...
+ev0990_a0311sk  I don't want to see the world end. I just don't want there to be any more pain.
+
+ev1000_a0501vn  Yuffie.
+ev1000_a0502yf  [effort]
+ev1000_a0503yf  You don't look too roughed up.
+ev1000_a0504vn  Neither do you.
+ev1000_a0505yf  In there, huh?
+ev1000_a0506vn  Yeah. Come on.
+ev1000_a0507yf  [effort]
+
+ev1010_a0601vn  [gasp]
+ev1010_a0602yf  [gasp]
+ev1010_a0603vn  This is Weiss?
+ev1010_a0604yf  It's--he's--it's dead?
+ev1010_a0605nr  But not for long.
+ev1010_a0606yf  Not for long?
+ev1010_a0607nr  A new life breathes inside him. Just as one does in you, Valentine.
+ev1010_a0609yf  Huh?
+ev1010_a0610vn  Huh...
+ev1010_a0611vn  That's what you're doing.
+ev1010_a0612yf  What's he doing? What's he doing? What's going on? I don't get it.
+ev1010_a0613nr  Soon, my dear brother will awaken.
+ev1010_a0614nr  It seems like an eternity since I was granted the knowledge of rebirth.
+ev1010_a0615vn  Granted?
+ev1010_a0616yf  By who?
+ev1010_a0617ws  [scream, roar]
+ev1010_a0618vn  What!?
+ev1010_a0619yf  Omega!?
+ev1010_a0620nr  Stay away from my brother!
+ev1010_a0621yf  [effort, gasp]
+ev1010_a0622yf  No! No!
+ev1010_a0623vn  You alright?
+ev1010_a0624yf  What the heck was that?
+ev1010_a0625nr  Oblivion perhaps. My darkness-- it can absorb as well as extract almost anything.
+ev1010_a0626nr  However, some things remain--
+ev1010_a0627nr  things as black as the heart of a daemon.
+ev1010_a0628nr  The essence of death. Its ululations are like a lullaby.
+ev1010_a0629yf  How can you...
+ev1010_a0630vn  Yuffie, stay here.
+ev1010_a0631nr  Ah yes, you were invulnerable to the darkness.
+ev1010_a0632nr  No one will take my brother away from me again.
+ev1010_a0636nr  [chuckle]
+ev1010_a0637vn  [gasp]
+ev1010_a0638yf  [gasp]
+ev1010_a0639yf  [gasp]
+ev1010_a0640yf  [yelling]
+ev1010_a0641yf  [gasp, breath]
+ev1010_a0650wl  [inhuman murmers]
+ev1010_a0651wl  [inhuman murmers]
+ev1010_a0652wl  [inhuman murmers, scream]
+ev1010_a0653wl  [inhuman murmers, scream]
+ev1010_a0701nr  Weiss.
+ev1010_a0702nr  [yell]
+ev1010_a0801yf  Sorry about that...
+ev1010_a0901nr  Weiss.
+ev1010_a0902nr  My beloved brother. It is time.
+ev1010_a0903ws  [laugh]
+ev1010_a0904nr  Together at last. I won't leave you again. Never... Weiss...
+ev1010_a0905nr  [pained effort]
+ev1010_a0906nr  Weiss?
+ev1010_a0907ws  I'm finished with you.
+ev1010_a0908ws  [laugh]
+ev1010_a0909ws  Your weapons are useless. My body is one with Omega. Just as yours is with Chaos.
+ev1010_a0910ws  The difference being, Chaos is nothing more than a pawn
+ev1010_a0911ws  whereas Omega is the ultimate Weapon that will lead this planet's soul to the stars.
+ev1010_a0912ws  There is nothing that can destroy me. Nothing.
+ev1010_a0913ws  Vincent Valentine. And so we meet again.
+ev1010_a0914vn  What?
+ev1010_a0915ws  Still in the dark?
+ev1010_a0917ws  Three years ago, while I was still running about looking for Sephiroth, I took it upon myself to distribute my data-- my mind, my knowledge, my inner being, across the worldwide network.
+ev1010_a0918ws  And even though my body had died, and the world had been left in ruin, I survived in a virtual reality. When the network was restored, the scattered data regrouped and I was reborn.
+ev1010_a0919ws  A neo-Reunion, you could say.
+ev1010_a0920vn  You... You..!
+ev1010_a0921ws  That's right, boy. It's me.
+ev1010_a0922ws  JP
+ev1010_a0923ws  Hello, Vincent. How long has it been? Three years?
+ev1010_a0924hj  That's right, boy. It's me.
+ev1010_a0925hj  JP
+ev1010_a0926hj  Hello, Vincent. How long has it been? Three years?
+ev1010_a0927hj  You know, when I first read it, I thought that woman's thesis was utter nonsense.
+ev1010_a0928hj  I couldn't believe some fabled beast from legend past had anything to do with your survival.
+ev1010_a0929hj  However, three years ago when you transformed into Chaos right before my eyes, I must say I was shocked.
+ev1010_a0930hj  Who would have thought her theory was actually valid?
+ev1010_a0931hj  And so I began thinking. If Chaos exists, then so too must Omega.
+ev1010_a0932hj  And if you could become one, then maybe I could become the other to traverse the cosmos in a blaze of glory!
+ev1010_a0933hj  It was the chance of a lifetime.
+ev1010_a0934hj  But there was a problem. Only a strong shell could hold back Omega's might.
+ev1010_a0935hj  And it could not be just anyone.
+ev1010_a0936hj  You see boy, the reason you were able to play such a perfect host for Chaos was because my experiments had endowed you with a nearly indestructible body.
+ev1010_a0937hj  Thanks to me, you are standing here today.
+ev1010_a0938hj  Now, where was I?
+ev1010_a0939hj  Ah yes! I attempted to perfect my body for Omega by injecting myself with Jenova's cells. However, that didn't go as I had planned.
+ev1010_a0940hj  I failed to consider the fact that the cells might try to take over my mind and eat away at my soul.
+ev1010_a0941hj  And so, as a safety measure, I came up with a brilliant plan to transmit my neurodata across the worldwide network.
+ev1010_a0943hj  I even found a willing assistant in the lad Nero here to help carry out my so-called rebirth.
+ev1010_a0944hj  Though never did he expect I would take control of his "beloved" brother's mind.
+ev1010_a0945hj  [laugh]
+ev1010_a0946hj  And thus, with a new body, I began my final experiment.
+ev1010_a0947hj  If the Chaos within you was born of a tainted Lifestream,
+ev1010_a0948hj  then the almighty Omega would be born of a pure one.
+ev1010_a0951hj  Only a scientist of my caliber is worthy to become one with Omega and leave this planet for the stars!
+ev1010_a0952vn  Hojo, I've heard enough.
+ev1010_a0953hj  Huh?
+ev1010_a0954ws  [scoff]
+ev1010_a0955vn  [effort]
+ev1010_a0956hj  You're getting old, Vincent Valentine.
+ev1010_a0957ws  [laugh]
+ev1010_a0958hj  [laugh]
+ev1010_a0959hj  You just can't leave me alone, can you? Now, sit right there. I want you to see this.
+ev1010_a0960ws  And once I have absorbed the Lifestream...
+ev1010_a0961vn  Wait!
+ev1010_a0962hj  Ah?
+ev1010_a0963nr  [pained effort]
+ev1010_a0963vn  This isn't over.
+ev1010_a0964hj  So eager to die, are we?
+ev1010_a0964ws  [laugh]
+ev1010_a0965hj  Very well. I wanted to test out this body before I began my journey, anyway.
+ev1010_a0966ws  [grunt]
+ev1010_a0967ws  Hojo!
+ev1010_a0968ws  I'm sorry. I'm sorry. Let us do this right.
+ev1010_a1201ws  That wasn't much of a test.
+ev1010_a1202vn  [effort]
+ev1010_a1203vn  [roar]
+ev1010_a1204ws  Chaos.
+ev1010_a1205ws  [chuckle]
+ev1010_a1206ws  You already tried that, Vincent.
+ev1010_a1207ws  [chuckle]
+ev1010_a1401ws  Huh?
+ev1010_a1402hj  Huh?
+ev1010_a1403lc  Vincent. You cannot defeat this enemy by simply trying to overpower him.
+ev1010_a1404lc  Take control. Don't let Chaos rule you. You must rule Chaos. You can do it!
+ev1010_a1405sk  Vincent. You cannot defeat this enemy by simply trying to overpower him.
+ev1010_a1406sk  Take control. Don't let Chaos rule you. You must rule Chaos. You can do it!
+ev1010_a1407ws  Ha! Enough of this charade!
+ev1010_a1408hj  Ha! Enough of this charade!
+ev1010_a1409lc  Please, Vincent.
+ev1010_a1410sk  Please, Vincent.
+ev1010_a1411hj  Aha. It looks like our Dr. Crescent has a friend.
+ev1010_a1412ws  But she won't help you now, Vincent Valentine!
+ev1010_a1413hj  But she won't help you now, Vincent Valentine!
+ev1010_a1414hj  [yell, gasp]
+ev1010_a1415hj  Why you!
+ev1010_a1416ws  Utilizing the Protomateria to draw forth Chaos while maintaining your human form!?
+ev1010_a1417hj  Utilizing the Protomateria to draw forth Chaos while maintaining your human form!?
+ev1010_a1418ws  Interesting. Let's see what you are capable of.
+ev1010_a1419ws  But even with the power of Chaos, you won't be able to stop me--stop Omega.
+ev1010_a1420vn  Hojo.
+ev1010_a1421hj  Huh?
+ev1010_a1422vn  I said I've heard enough.
+ev1010_a1423hj  What!?
+ev1010_a1424vn  It's time to end this. Right here. Right now.
+ev1010_a1425ws  You-- You insignificant fool!
+ev1010_a1426hj  You-- You insignificant fool!
+ev1010_a1501hj  Why!? Why is Omega's power fading? Why?
+ev1010_a1502nr  Weiss.
+ev1010_a1503hj  What is going on?
+ev1010_a1504nr  Weiss.
+ev1010_a1505hj  Impossible!
+ev1010_a1506hj  Get out of me!
+ev1010_a1507hj  Omega's host must be pure!
+ev1010_a1508hj  Why do you think I had you create mako untainted by Jenova!? If a filthy being like you infected it...
+ev1010_a1510nr  Silence.
+ev1010_a1511hj  What?
+ev1010_a1512nr  Silence! I'm speaking with my brother.
+ev1010_a1513hj  You're what?
+ev1010_a1514nr  Dear Weiss...
+ev1010_a1515ws  Nero.
+ev1010_a1516hj  No!
+ev1010_a1517nr  Brother, let us become one. Let us come together, so that none may ever tear us apart.
+ev1010_a1518ws  Yes. Let us...
+ev1010_a1519nr  Weiss...
+ev1010_a1520ws  Nero...
+ev1010_a1521hj  No! Stop it! You can't! This is my body now!
+ev1010_a1522ws  Let us go join him.
+ev1010_a1523hj  No!
+ev1060_b0101yf  Vincent!
+ev1060_b0102yf  We did it!
+ev1060_b0103yf  [effort]
+ev1060_b0104yf  Vincent!
+ev1060_b0105yf  [effort]
+ev1100_a1301sk  Vincent!
+ev1100_b0201sk  Omega has awoken.
+ev1100_b0202sk  And Chaos has been drawn out of the shadows to serve as a counterbalance.
+ev1100_b0203sk  Or so it would seem.
+ev1100_b0301sk  JP
+ev1100_b0302sk  However...
+ev1100_b0303sk  In theory, the souls that exist inside Omega should act as a type of virtual network.
+ev1100_b0304sk  It wouldn't be impossible, but maybe I could...
+ev1100_b0305sk  [sigh]
+ev1100_b0306sk  Vincent, be grateful that I not only uploaded Lucrecia's thoughts, but her wishes and dreams as well.
+ev1100_b0307sk  Uplink successful. Now commencing SND.
+ev1110_b0308sk  JP
+ev1110_b0309lc  JP
+ev1110_b0310kh  [Chaos]
+
+ev1120_b0401lc  No. It's still not enough. I have to hurry or the tissue will continue to decay.
+ev1120_b0402lc  [effort]
+ev1120_b0403hj  I see. Another experiment?
+ev1120_b0404lc  [effort]
+ev1120_b0405hj  You're using this fine specimen to...
+ev1120_b0406lc  No!
+ev1120_b0407lc  You're wrong! You're wrong! You're wrong!
+ev1120_b0408lc  I...!
+ev1120_b0410lc  Experiment?
+ev1120_b0412lc  I found it.
+ev1120_b0413lc  With him.
+ev1120_b0414lc  That's why...
+ev1120_b0415lc  Proof?
+ev1120_b0416lc  I.. I couldn't save him.
+ev1120_b0417lc  Never again...
+ev1120_b0418hj  [Laughing]
+ev1120_b0419lc  [gasp, effort]
+ev1120_b0420lc  Hojo. What have you...?
+ev1120_b0422vn  Lu...cre...cia.
+ev1120_b0423lc  [gasp, effort]
+ev1120_b0424lc  You had his eyes.
+ev1120_b0425lc  I didn't...
+ev1120_b0426lc  I didn't want to remember.
+ev1120_b0427lc  I didn't want to see it through...
+ev1120_b0428lc  I pushed you away, but...
+ev1120_b0429lc  Now I realize...
+ev1120_b0430lc  I never wanted to lose you.
+ev1120_b0431lc  Not again. Not today.
+ev1120_b0432lc  Vincent, did you know
+ev1120_b0433lc  that your eyes are exactly like your father's?
+ev1120_b0434lc  I've done it.
+ev1120_b0435lc  Born of the Lifestream.
+ev1120_b0436lc  Bringing all together.
+ev1120_b0437lc  Stopping the imminent decay of tissue.
+ev1120_b0438lc  But instead...
+ev1120_b0439kh  [Chaos]
+ev1120_b0440lc  born was...
+ev1120_b0441lc  the chaos that took him...
+ev1120_b0442lc  away from me.
+ev1120_b0443kh  [Chaos]
+ev1120_b0444lc  Stop...
+ev1120_b0445lc  Stop!
+ev1120_b0446lc  This...
+ev1120_b0447lc  The materia...
+ev1120_b0448lc  We found together.
+ev1120_b0449lc  I found...
+ev1120_b0450lc  No!
+ev1120_b0451lc  What am I doing?
+ev1120_b0452lc  [sigh]
+ev1120_b0453lc  Give him back!
+ev1120_b0454lc  Give my son back!
+ev1120_b0455hj  And how is your experiment proceeding?
+ev1120_b0456lc  I don't know!... I don't know! I don't care!
+ev1120_b0457lc  Let me see him! Just once!
+ev1120_b0458lc  I'm so sorry. I can't...
+ev1120_b0459lc  I'm sorry.
+ev1120_b0460lc  I can't take it anymore.
+ev1120_b0461lc  My body... My mind...
+ev1120_b0462lc  Before I go...
+ev1120_b0463lc  Must leave...
+ev1120_b0464lc  Record...
+ev1120_b0465lc  For him...
+ev1120_b0466lc  Wait...
+ev1120_b0467lc  For... who...?
+ev1120_b0469lc  Vincent...
+ev1120_b0470lc  I love...
+ev1120_b0471lc  It was wrong...
+ev1120_b0472lc  ...so sorry...
+ev1120_b0473lc  ...but I...
+ev1120_b0474lc  Survive...
+ev1120_b0475lc  Hope...
+ev1120_b0476lc  Jenova's cells...
+ev1120_b0477lc  Stored as data...
+ev1120_b0478lc  Thought...
+ev1120_b0479lc  Memory copy...
+ev1120_b0480lc  Disperse...
+ev1120_b0481lc  Apply...
+ev1120_b0482lc  Fragment...
+ev1160_b0516sk  You're late.
+ev1160_b0517vn  Sorry about that.
+ev1160_b0518sk  Not that I mind, though.
+ev1160_b0519vn  She...
+ev1160_b0520vn  She was always like that.
+ev1160_b0521vn  Only believing what she wanted to.
+ev1160_b0522sk  So Vincent, why don't you try telling her that yourself?
+ev1160_b0523vn  Maybe I will.
+ev1160_b0524vn  But before that, I have a story to end.
+ev1200_50301ct  This has got to be the place!
+ev1200_50302wl  [crowd yelling struggle]
+ev1200_50303ct  What?!
+ev1200_50304ct  Good gracious me!
+ev1200_50305ct  What... What in the blazes is growing down there?
+ev1200_50306nr  Usher of souls.
+ev1200_50308nr  My brother.
+ev1200_50309nr  Omega.
+ev1200_50310ct  It's Nero the Sable. Oh dear...
+ev1200_50312ct  I can't let anybody find me!
+ev1200_50313ct  I could probably make it in there!
+ev1200_50314ct  JP
+ev1200_50315ct  JP
+ev1200_50316ct  Hm... maybe I can...
+ev1200_50317ct  Oh! That's the same container I saw in Kalm!
+ev1200_50318wl  [crowd screaming struggle]
+ev1200_a0949hj  So I had my minions gather up the "uncontaminated" to create a stream of refined mako, thus awakening Omega inside me.
+ev1200_a0950hj  Genius, I tell you. Pure genius. Pure genius.
+
+ev1300_10101vn  JP
+ev1300_10102vn  JP
+ev1300_10103vn  JP
+ev1300_10104lc  JP
+ev1300_40101vn  Lucrecia.
+ev1300_40102lc  I'm so sorry.
+ev1300_40103vn  Why?
+ev1300_40104lc  Awake--
+ev1300_40105vn  Awake?
+ev1300_40106lc  I'm so sorry.
+ev1300_60101vn  I... I saw you again. It was the place... in the place we first met.
+ev1300_60102vn  But you were...
+ev1300_60103vn  No. I'm the one to blame.  I couldn't stop you that day.
+ev1300_60104lc  I...found... I gave... you...
+ev1300_60106vn  Lucrecia?
+ev1300_60107lc  I'm so sorry.
+ev1300_90401lc  Is this the place you spoke of?
+ev1300_90402gm  Yes. Deep within this grotto is where Chaos is destined to awake.
+ev1300_90403lc  [laugh]
+ev1300_90404gm  Wait!
+ev1300_90405lc  Come on, Dr. Valentine!
+ev1300_90406gm  Ha!
+ev1300_90407gm  The fountain isn't going anywhere.
+ev1300_b0491lc  Hello Vincent.
+ev1300_b0492lc  Something's wrong...
+ev1300_b0493lc  You see, this is me, but only in a sense.
+ev1300_b0494lc  It is merely a reflection created with my remaining data.
+ev1300_b0495lc  The real me crumbled away long ago.
+ev1300_b0496lc  Vincent. Do you remember our place? Under that tree?
+
+ev1400_60901lc  ...ent...
+ev1400_60902lc  Vincent...
+ev1400_60903lc  Vincent...
+ev1400_60904lc  Fall asleep here, and you might catch a cold.
+ev1400_60905vn  [gasp, breath]
+ev1400_60906lc  [breath]
+ev1400_60907lc  Why are you so surprised? Is my face that hideous?
+ev1400_60908vn  No. I didn't... I'm sorry.
+ev1400_60909lc  And how are you supposed to be my bodyguard if you're up here sleeping?
+ev1400_60910vn  The warm breeze... I was only going to rest my eyes for a minute.
+ev1400_60911lc  Hm?
+ev1400_60912lc  Well, I have to admit, the breeze is quite comfortable.
+ev1400_60913lc  However...
+ev1400_60914lc  I think you're in my seat.
+ev1400_60915vn  Huh?
+ev1400_60916lc  Care to join me?
+ev1400_90501sk  [crying]
+ev1400_90502sa  Stop crying, Shelke.
+ev1400_90503sk  But... But...
+ev1400_90504sa  It's alright. Mom just returned to the planet. We'll see her again.
+ev1400_90505sk  We will?
+ev1400_90506sk  (Is this...?)
+ev1400_90507sa  Of course we will. Mom said everything in this world flows around in a circle. That means she'll come back someday.
+ev1400_90508sk  (No... Shalua?)
+ev1400_90509sk  [cry, effort]
+ev1400_90510sa  Mom wouldn't lie to us, right?
+ev1400_90511sk  Right.
+ev1400_90512sa  Right.
+ev1400_b0497lc  The warm breeze on our skin...
+ev1400_b0498lc  I know that it no longer exists.
+ev1400_b0499lc  Things fade with time, as do many things in this world.
+ev1400_b0500lc  But there are some things that we cannot let disappear.
+ev1400_b0501lc  I finally...
+ev1400_b0502lc  I finally realized my true feelings.
+ev1400_b0503lc  Even if you may never understand them.
+ev1400_b0504lc  Not that I mind, though.
+ev1400_b0505lc  [giggle]
+ev1400_b0506lc  But...
+ev1400_b0507lc  This isn't how it was supposed to be.
+ev1400_b0508lc  I... I've made too many mistakes.
+ev1400_b0509lc  And I've hurt you so, so much.
+ev1400_b0510lc  Why did I do what I did?
+ev1400_b0512lc  I'm so sorry.
+ev1400_b0514lc  But I'm so happy you survived.
+ev1400_b0515vn  Lucrecia!!!
+
+ev1710_b0601ws  [scoff]
+ev1710_b0602ws  [pained effort]
+ev1710_b0603ws  [scoff]
+ev1710_b0604ws  [chuckle]
+ev1710_b0605ws  [chuckle, laugh]
+ev1710_b0606ws  [pained effort]
+ev1710_b0607ws  [pained effort]
+
+ev2030_00101tu  Verifying data...
+ev2030_00102tu  Access number GAI012.
+ev2030_00103tu  Good morning, Mr. Valentine.
+ev2030_00104tu  Good day, Mr. Valentine.
+ev2030_00105tu  Good evening, Mr. Valentine.
+ev2030_00106tu  Shinra Manufacturing Tactical Training Facility.
+ev2030_00107tu  Now Loading Turks Administrative Research Department simulation program.
+ev2030_00108tu  Session one.
+ev2030_00109tu  This exercise will involve the collecting of items as well as simple combat with virtual targets.
+ev2030_00110tu  Proceed to the TTT terminal to receive a formal briefing on your objectives.
+ev2030_00111tu  Please be aware that Shinra Manufacturing is not responsible for any injuries or loss of life caused by the simulation program.
+ev2030_00112tu  If you have any questions during the session, information can be accessed from the TTT terminal.
+ev2030_00113tu  Access number GAI112.
+ev2030_00114tu  Mr. Valentine.
+ev2030_00115tu  You have not yet completed this session's objective. Please refer to the TTT terminal for details on your mission.
+ev2030_00116tu  Congratulations.
+ev2030_00117tu  Session one, complete.
+ev2030_00118tu  Session two.
+ev2030_00119tu  This exercise will focus on basic features of the handgun.
+ev2030_00120tu  Congratulations.
+ev2030_00121tu  Session two, complete.
+ev2030_00122tu  Session three.
+ev2030_00123tu  This exercise will focus on basic features of the rifle.
+ev2030_00124tu  Congratulations.
+ev2030_00125tu  Session three, complete.
+ev2030_00126tu  Session four.
+ev2030_00127tu  This exercise will focus on basic features of the machine gun.
+ev2030_00128tu  Proceed to the TTT terminal to receive a briefing on your objectives.
+ev2030_00129tu  Congratulations.
+ev2030_00130tu  Session four, complete.
+ev2030_00131tu  Session five.
+ev2030_00132tu  This exercise will focus on Materia.
+ev2030_00133tu  Congratulations.
+ev2030_00134tu  Session five, complete.
+ev2030_00135tu  Session six.
+ev2030_00136tu  This exercise will focus on limit breaks.
+ev2030_00137tu  Congratulations.
+ev2030_00138tu  Session six, complete.
+ev2030_00139tu  Proceed through the door and take the stairs to the top floor.
+ev2030_00140tu  Session seven.
+ev2030_00141tu  This exercise will focus on the gun turret.
+ev2030_00142tu  Congratulations.
+ev2030_00143tu  Session seven, complete.
+ev2030_00144tu  Warning. Warning. System failure imminent.
+ev2030_00145tu  Systems back online.
+ev2030_00146tu  This concludes the Turks Administrative Research Department simulation program.
+ev2030_00147tu  You may return to your station.
+ev2030_00148tu  You will be issued the following weapon based on your score.
+ev2030_00149tu  Shinra Manufacturing salutes you on a job well done.
+test.wav
