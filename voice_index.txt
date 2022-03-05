@@ -222,7 +222,7 @@ event/scene/ev0200/sound/20138rv.at2   What was that?
 event/scene/ev0200/sound/20139rv.at2   [grunt]
 event/scene/ev0200/sound/20140rv.at2   Guard hounds!
 event/scene/ev0200/sound/20141vn.at2   I'll take care of your pet problem. Just keep driving.
-event/scene/ev0200/sound/20142rv.at2   JP
+event/scene/ev0200/sound/20142rv.at2   は、はい、お願いします！​(Y-yes, please do!​)
 event/scene/ev0200/sound/20201vn.at2   Are you alright?
 event/scene/ev0200/sound/20202rv.at2   I'll be fine. But that's more than I can say for the engine.
 event/scene/ev0200/sound/20203rv.at2   Vincent. If possible, I want you to continue on to Edge.
@@ -233,11 +233,11 @@ event/scene/ev0200/sound/20207vn.at2   I guess I have no choice.
 event/scene/ev0200/sound/20301rv.at2   Vincent! Use this!
 event/scene/ev0200/sound/20302rv.at2   [confused, pain effort]
 event/scene/ev0200/sound/20303rv.at2   Vincent!
-event/scene/ev0200/sound/20304rv.at2   JP
+event/scene/ev0200/sound/20304rv.at2   ヴィ、ヴィンセント！う、うわぁーーーーーーーー！
 event/scene/ev0200/sound/d0101rv.at2   Vincent! Use this!
 event/scene/ev0200/sound/d0102rv.at2   [confused, pain effort]
 event/scene/ev0200/sound/d0103rv.at2   Vincent!
-event/scene/ev0200/sound/d0104rv.at2   JP
+event/scene/ev0200/sound/d0104rv.at2   ヴィ、ヴィンセント！う、うわぁーーーーーーーー！
 
 event/scene/ev0300: EDGE
 event/scene/ev0300/sound/30201rs.at2   [Laughs]
@@ -254,13 +254,13 @@ event/scene/ev0300/sound/30211vn.at2   A kid?
 event/scene/ev0300/sound/30212bo.at2   The warehouse.
 event/scene/ev0300/sound/30213bo.at2   I know how to get there.
 event/scene/ev0300/sound/30214bo.at2   It's through that gate.
-event/scene/ev0300/sound/30215bo.at2   JP
+event/scene/ev0300/sound/30215bo.at2   カードキー……​
 event/scene/ev0300/sound/30216bo.at2   You have the cardkey?
 event/scene/ev0300/sound/30217bo.at2   Come on.
 event/scene/ev0300/sound/30218bo.at2   I know someone who does.
-event/scene/ev0300/sound/30219vn.at2   JP
+event/scene/ev0300/sound/30219vn.at2   中に入るのか？​
 event/scene/ev0300/sound/30220bo.at2   [effort]
-event/scene/ev0300/sound/30221bo.at2   JP
+event/scene/ev0300/sound/30221bo.at2   階からなら……​
 event/scene/ev0300/sound/30222bo.at2   Follow me.
 event/scene/ev0300/sound/30223bo.at2   [effort]
 event/scene/ev0300/sound/30224bo.at2   [pained effort]
@@ -313,7 +313,7 @@ event/scene/ev0300/sound/30610rs.at2   [Fighting, grunts, efforts]
 event/scene/ev0300/sound/30611rs.at2   [effort]
 event/scene/ev0300/sound/30701vn.at2   [pained effort]
 event/scene/ev0300/sound/30702vn.at2   [pained effort]
-event/scene/ev0300/sound/30703rs.at2   JP
+event/scene/ev0300/sound/30703rs.at2   ！？まさかもう！？​
 event/scene/ev0300/sound/30704vn.at2   [pained effort]
 event/scene/ev0300/sound/30705vn.at2   [pained effort]
 event/scene/ev0300/sound/30706kh.at2   [Chaos roar]
@@ -424,26 +424,26 @@ event/scene/ev0460/sound/40610sa.at2   All seem to be connected to Dr. Crescent 
 event/scene/ev0460/sound/40612sa.at2   I think we'll need to gather more data on her to get anywhere.
 event/scene/ev0460/sound/40613rv.at2   What now?
 event/scene/ev0460/sound/40614sa.at2   Damn!
-event/scene/ev0460/sound/40615rv.at2   JP
-event/scene/ev0460/sound/40616sa.at2   JP
-event/scene/ev0460/sound/40617rv.at2   JP
-event/scene/ev0460/sound/40618rv.at2   JP
-event/scene/ev0460/sound/40619rv.at2   JP
-event/scene/ev0460/sound/40620rv.at2   JP
-event/scene/ev0460/sound/40621rv.at2   JP
-event/scene/ev0460/sound/40622vn.at2   JP
-event/scene/ev0460/sound/40623rv.at2   JP
-event/scene/ev0460/sound/40624rv.at2   JP
-event/scene/ev0460/sound/40701sa.at2   JP
-event/scene/ev0460/sound/40702sa.at2   JP
-event/scene/ev0460/sound/40703sa.at2   JP
-event/scene/ev0460/sound/40704sa.at2   JP
-event/scene/ev0460/sound/40705sa.at2   JP
-event/scene/ev0460/sound/40706rv.at2   JP
-event/scene/ev0460/sound/40707rv.at2   JP
-event/scene/ev0460/sound/40708rv.at2   JP
-event/scene/ev0460/sound/40709rv.at2   JP
-event/scene/ev0460/sound/40710rv.at2   JP
+event/scene/ev0460/sound/40615rv.at2   扉はどれぐらいいますと思いますか？​(How long do you think the gate will hold them?​)
+event/scene/ev0460/sound/40616sa.at2   もって十五分といったところだのな。​(We've got about 15 minutes at most.​)
+event/scene/ev0460/sound/40617rv.at2   待って下さい！​(Hold on a moment!​)
+event/scene/ev0460/sound/40618rv.at2   シャルアさん、侵入制ようのトラップを解除して下さい。(Shalua, please disarm the intrusion system traps.​)
+event/scene/ev0460/sound/40619rv.at2   基地のいくつかの場所に侵入制のようのトラップがあります。(There are intrusion system traps at several areas in the base.​)
+event/scene/ev0460/sound/40620rv.at2   打ち壊すことによって爆発するようになっています。​ (They're designed to explode when they're destroyed.​)
+event/scene/ev0460/sound/40621rv.at2   うまく使ってください。​ (Please use them to your advantage.​)
+event/scene/ev0460/sound/40622vn.at2   「おぁ……」​ [Grunt of assent]
+event/scene/ev0460/sound/40623rv.at2   それと、私の方で倉庫の前に"とびっきり"のを仕掛けます​  (Also, I will set up a "superb(＊big thing)" in front of the warehouse.​)
+event/scene/ev0460/sound/40624rv.at2   もしもの時は誘い込んで下さい。​ (If you get in a bind, lure [enemies into them].​)
+event/scene/ev0460/sound/40701sa.at2   すまないが後にしてくれ。​ (Sorry, it'll have to wait.​)
+event/scene/ev0460/sound/40702sa.at2   なんだ？​ (What is it?​)
+event/scene/ev0460/sound/40703sa.at2   休むのなら、向こうの調整槽を使い。​ (If you want to take a rest, use the conditioning tank over there.​)
+event/scene/ev0460/sound/40704sa.at2   ほぉ……​   [Sound of interest/surprise]​
+event/scene/ev0460/sound/40705sa.at2   ほ……​  [Sound of interest/surprise]​
+event/scene/ev0460/sound/40706rv.at2   頼みましたよ。​  (Please do me this favor.​)
+event/scene/ev0460/sound/40707rv.at2   まだ侵入はさらていません。今のうちに基地の構造を覚えておいてください。 (They still haven't broken in yet. Please take this opportunity to familiarize yourself with the structure of the base.​)
+event/scene/ev0460/sound/40708rv.at2   隊員たちには貴方に協力するよう指示を出しておきました…よろしくお願いします。​  (I have instructed the members to cooperate with you ... please do.​)
+event/scene/ev0460/sound/40709rv.at2   すみません、後にしてください。​  (I'm sorry, but it'll have to wait till later.​)
+event/scene/ev0460/sound/40710rv.at2   まだ敵の多くは残っています。頼みましたよ。​  (Many enemies still remain. Please take care of them.​)
 event/scene/ev0460/sound/40801ww.at2   [gasp, effort]
 event/scene/ev0460/sound/40802ww.at2   Mr. Valentine!
 event/scene/ev0460/sound/40803ww.at2   A sizable enemy unit is headed straight for the command center. Please, sir, you have to help the commissioner!
@@ -463,9 +463,9 @@ event/scene/ev0460/sound/41009az.at2   [yell, effort]
 event/scene/ev0460/sound/41102vn.at2   [effort]
 event/scene/ev0460/sound/41103az.at2   [effort]
 event/scene/ev0460/sound/41104az.at2   [effort]
-event/scene/ev0460/sound/41110sa.at2   JP
-event/scene/ev0460/sound/41111sa.at2   JP
-event/scene/ev0460/sound/41112sa.at2   JP
+event/scene/ev0460/sound/41110sa.at2   ん、ああ、すまん、局長なら指令室へ向かった​  (Hmm, oh, I'm sorry, the director went to the command room.​)
+event/scene/ev0460/sound/41111sa.at2   私もここは外す。​  (I also remove it here.) [Confusing, contextual line]
+event/scene/ev0460/sound/41112sa.at2   探し物...... 見つけたかも知れぬだな。​ (The thing I was looking for... I think I may have found it.​)
 event/scene/ev0460/sound/41201sa.at2   Don't move.
 event/scene/ev0460/sound/41202sk.at2   Very perceptive of you.
 event/scene/ev0460/sound/41203sa.at2   I knew it.
@@ -511,12 +511,12 @@ event/scene/ev0460/sound/41244sk.at2   [effort]
 event/scene/ev0460/sound/41245sk.at2   [effort]
 event/scene/ev0460/sound/41246sa.at2   Shelke!
 event/scene/ev0460/sound/41248rv.at2   [effort]
-event/scene/ev0460/sound/41249az.at2   JP
+event/scene/ev0460/sound/41249az.at2   さあ……続けるどうしよう？ ​(Now... where were we?​)
 event/scene/ev0460/sound/41250rv.at2   Vincent! Over here!
 event/scene/ev0460/sound/41251sa.at2   [crying]
 event/scene/ev0460/sound/41252rv.at2   Vincent!
-event/scene/ev0460/sound/41253rv.at2   JP
-event/scene/ev0460/sound/41301rv.at2   JP
+event/scene/ev0460/sound/41253rv.at2   これを……!​  (That...!)
+event/scene/ev0460/sound/41301rv.at2   飛び込んでください！！​  (Please take cover!​)
 event/scene/ev0460/sound/41302vn.at2   You shouldn't leave those things lying around.
 event/scene/ev0460/sound/41303rv.at2   [laughing]
 event/scene/ev0460/sound/41304az.at2   Ha!
@@ -614,11 +614,11 @@ event/scene/ev0500/sound/50613rs.at2   If you manage to survive that wound, I'll
 event/scene/ev0500/sound/50614rs.at2   But no matter.
 event/scene/ev0500/sound/50615rs.at2   The end is upon us.
 event/scene/ev0500/sound/50616rs.at2   [jump effort]
-event/scene/ev0500/sound/d0301vn.at2   JP
-event/scene/ev0500/sound/d0303vn.at2   JP
-event/scene/ev0500/sound/d0304vn.at2   JP
-event/scene/ev0500/sound/d0305vn.at2   JP
-event/scene/ev0500/sound/d0306vn.at2   JP
+event/scene/ev0500/sound/d0301vn.at2   ふん、リーブの言う通りか​  (Hmm, as Reeve said.​)
+event/scene/ev0500/sound/d0303vn.at2   は……ここは変わらない​  (Hah... this place never changes.​)
+event/scene/ev0500/sound/d0304vn.at2   私よりも執拗の者がいるようだ。​  (It seems you're more stubborn than I am.​)
+event/scene/ev0500/sound/d0305vn.at2   これは確か……​  (This must be...​)
+event/scene/ev0500/sound/d0306vn.at2   ここは……​  (This is...​)
 
 event/scene/ev0520: CRESCENT CAVE
 event/scene/ev0520/sound/50406lc.at2   Soul wrought of terra corrupt, quelling impurity, purging the stream to beckon forth an ultimate fate. Behold mighty Chaos, Omega's squire to the lofty heavens.
@@ -976,11 +976,11 @@ event/scene/ev0700/sound/e1601zo.at2   Midgar...
 event/scene/ev0700/sound/e1602zo.at2   After meteor fall, the once bustling Metropolis was reduced to rubble. There have been attempts to rebuild, but deadly Mako radiation leaking from the damaged reactors still contaminates most of the area.
 event/scene/ev0700/sound/e1603zo.at2   Now it's just a home for vagrants and the soldiers forgotten there after the calamity.
 event/scene/ev0700/sound/e1604zo.at2   Most of us turned our eyes away from the problem. But someday we'll be forced to face it.
-event/scene/ev0700/sound/e1701zp.at2   JP
-event/scene/ev0700/sound/e1702zp.at2   JP
-event/scene/ev0700/sound/e1703zp.at2   JP
-event/scene/ev0700/sound/e1704zp.at2   JP
-event/scene/ev0700/sound/e1705zp.at2   JP
+event/scene/ev0700/sound/e1701zp.at2   これ、なんだと思います？​  (What do you think this is?​)
+event/scene/ev0700/sound/e1702zp.at2   実は降下ようのボードなんですよ。​  (It's actually a descent board.​)
+event/scene/ev0700/sound/e1703zp.at2   これを足につけて事情まで飛び降りるんです。​  (You attach it to your feet and jump down into the fray.​)
+event/scene/ev0700/sound/e1704zp.at2   かっこいいでしょう！​  (Pretty cool, huh!​)
+event/scene/ev0700/sound/e1705zp.at2   んん……足のベルトが緩い気がするな。​  (Hmm... I think the belt around my feet may be loose.​)
 event/scene/ev0700/sound/e1801zq.at2   When I was still a kid, I wanted to be in Soldier.
 event/scene/ev0700/sound/e1802zq.at2   But those men and women in Deepground,
 event/scene/ev0700/sound/e1803zq.at2   they're nothing like the guys in the poster I had on my bedroom wall.
@@ -994,7 +994,7 @@ event/scene/ev0700/sound/e1905zr.at2   But you don't have to worry. You'll be sa
 event/scene/ev0700/sound/e1906zr.at2   Wait a minute. Where did this button come from?
 event/scene/ev0700/sound/e1907zr.at2   Oh, no. You didn't hear anything!
 event/scene/ev0700/sound/e1908zr.at2   Ahem. Approaching destination!
-event/scene/ev0700/sound/e2001zs.at2   JP
+event/scene/ev0700/sound/e2001zs.at2   船内じゃあ…体が鈍っちまうからな…走らないと​  (Being on board makes you soft. I've gotta run to keep in shape.​)
 event/scene/ev0700/sound/e2101zt.at2   You know that little girl? She's locked herself up in the sick bay since we boarded.
 event/scene/ev0700/sound/e2201zu.at2   Sir! I've been spending time analyzing the data retrieved from the files of former Weapons Development Administrator Scarlet.
 event/scene/ev0700/sound/e2202zu.at2   Deepground.
@@ -1130,10 +1130,10 @@ event/scene/ev0730/sound/70724rv.at2   And Shelke remember, I'm counting on you.
 event/scene/ev0730/sound/70725sk.at2   [stammer]
 event/scene/ev0730/sound/70727sk.at2   Fighting for...
 event/scene/ev0730/sound/70728sk.at2   No, I have no one to fight for. No one at all.
-event/scene/ev0730/sound/70801cd.at2   JP
-event/scene/ev0730/sound/70802cd.at2   JP
+event/scene/ev0730/sound/70801cd.at2   んじゃあ  (Well then...)
+event/scene/ev0730/sound/70802cd.at2   行くぞ！！​  (Let's go!)
 
-event/scene/ev0740/sound/70803yf.at2   JP
+event/scene/ev0740/sound/70803yf.at2   おっさきぃー！​  "Ossaki!​"
 
 event/scene/ev0750/sound/70901sk.at2   What do you think you're doing?
 event/scene/ev0750/sound/70902sk.at2   You have landed several klicks off your target destination.
@@ -1271,14 +1271,14 @@ event/scene/ev0780/sound/70502rs.at2   They had better be. I've been so bored la
 event/scene/ev0780/sound/70503nr.at2   His awakening is near.
 event/scene/ev0780/sound/70504nr.at2   Let tonight be the final chapter.
 
-event/scene/ev0800/sound/12202s1.at2   JP
-event/scene/ev0800/sound/12203s1.at2   JP
-event/scene/ev0800/sound/12204s1.at2   JP
-event/scene/ev0800/sound/12205s1.at2   JP
-event/scene/ev0800/sound/12206s1.at2   JP
-event/scene/ev0800/sound/12207s1.at2   JP
-event/scene/ev0800/sound/12208s2.at2   JP
-event/scene/ev0800/sound/12209s2.at2   JP
+event/scene/ev0800/sound/12202s1.at2   ドラム缶を狙え​  (Aim for the drums​)
+event/scene/ev0800/sound/12203s1.at2   いたぞ！​  (There he is!​)
+event/scene/ev0800/sound/12204s1.at2   中だ！​  (Inside!​)
+event/scene/ev0800/sound/12205s1.at2   フロア確保！​  (Floor secured!​)
+event/scene/ev0800/sound/12206s1.at2   ぞうえんようせい  (Request reinforcements​)
+event/scene/ev0800/sound/12207s1.at2   はしいったいをそうさく  (Search the area around the bridge​)
+event/scene/ev0800/sound/12208s2.at2   キャリアヴィンセント・ヴァレンタインはを確認。​  (Phone user Vincent Valentine confirmed.​)
+event/scene/ev0800/sound/12209s2.at2   封鎖開始。​  (Blockade commenced.​)
 event/scene/ev0800/sound/80101sk.at2   Vincent Valentine.
 event/scene/ev0800/sound/80103vn.at2   So it seems.
 event/scene/ev0800/sound/80104sk.at2   What is your location?
