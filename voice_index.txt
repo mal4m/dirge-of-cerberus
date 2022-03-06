@@ -2,8 +2,8 @@ event/scene/ev0001_se_0001
 event/scene/ev0001_se_0002
 
 event/scene/ev0100: KALM
-event/scene/ev0100/sound/10105vn.at2   JP
-event/scene/ev0100/sound/10106vn.at2   JP
+event/scene/ev0100/sound/10105vn.at2   なぜ (Why?)
+event/scene/ev0100/sound/10106vn.at2   謝るな私だ  (Don't apologize.)
 event/scene/ev0100/sound/10109v2.at2   What's going on?
 event/scene/ev0100/sound/10109vn.at2   Huh?
 event/scene/ev0100/sound/10110sk.at2   Found you.
@@ -80,13 +80,13 @@ event/scene/ev0100/sound/11101l3.at2   [scream]
 event/scene/ev0100/sound/11102l3.at2   Help me!
 event/scene/ev0100/sound/11103vn.at2   You should be alright.
 event/scene/ev0100/sound/11104l3.at2   Thank you, sir!
-event/scene/ev0100/sound/11201l4.at2   JP
+event/scene/ev0100/sound/11201l4.at2   こちら  (Here!)
 event/scene/ev0100/sound/11202l5.at2   Find him!
-event/scene/ev0100/sound/11203l4.at2   JP
-event/scene/ev0100/sound/11204l5.at2   JP
+event/scene/ev0100/sound/11203l4.at2   目標捕捉 (Target aquired!)
+event/scene/ev0100/sound/11204l5.at2   だめだ汚染されている。 必要ない。
 event/scene/ev0100/sound/11205l6.at2   [scream]
 event/scene/ev0100/sound/11206l7.at2   [scream]
-event/scene/ev0100/sound/11301l4.at2   JP
+event/scene/ev0100/sound/11301l4.at2   最優先対象8.0  (Top priority 8.0)
 event/scene/ev0100/sound/11302l5.at2   Target wanted, dead or alive! Fire at will!
 event/scene/ev0100/sound/11303l4.at2   JP
 event/scene/ev0100/sound/11401l4.at2   Vincent Valentine?!
@@ -106,7 +106,7 @@ event/scene/ev0100/sound/11605m4.at2   No!
 event/scene/ev0100/sound/11606m4.at2   [scream]
 event/scene/ev0100/sound/11607m4.at2   [death effort]
 event/scene/ev0100/sound/11608m4.at2   Thank you so much!
-event/scene/ev0100/sound/11609m5.at2   [yelling, panting, effort]
+event/scene/ev0100/sound/11609m5.at2   [yelling, panting, effort]s
 event/scene/ev0100/sound/11610m5.at2   [death effort]
 event/scene/ev0100/sound/11611m5.at2   You don't know how grateful I am!
 event/scene/ev0100/sound/11701n1.at2   JP
